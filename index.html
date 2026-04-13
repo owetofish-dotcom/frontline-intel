@@ -6,7 +6,7 @@
 <title>Frontline Intel — Codzienny Przegląd Analityczny</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700;1,800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 /* ═══════════════════════════════════════════════════
    TOKENS — Foreign Affairs palette
@@ -25,7 +25,7 @@
   --border2:    #c4cad2;
   --nav-text:   #1a1a1a;
   --serif:      'Libre Baskerville', Georgia, serif;
-  --wordmark:   'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --wordmark:   'Playfair Display', Georgia, 'Times New Roman', serif;
   --sans:       'Inter', system-ui, sans-serif;
   --ease:       cubic-bezier(.22,.68,0,1.2);
 }
@@ -75,8 +75,8 @@ body {
 .masthead-wordmark {
   font-family: var(--wordmark);
   font-weight: 800;
-  font-size: clamp(2rem, 5.5vw, 3.6rem);
-  letter-spacing: .16em;
+  font-size: clamp(2rem, 5.5vw, 3.4rem);
+  letter-spacing: .06em;
   text-transform: uppercase;
   line-height: 1;
   color: var(--text);
@@ -86,6 +86,16 @@ body {
   color: var(--accent);
   font-style: italic;
   font-weight: 700;
+}
+.masthead-author {
+  font-family: var(--sans);
+  font-size: .58rem;
+  font-weight: 500;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 4px;
+  margin-bottom: 0;
 }
 .masthead-rule {
   display: flex;
@@ -113,7 +123,7 @@ body {
 }
 
 /* ═══════════════════════════════════════════════════
-   STICKY NAV  — white, small caps, minimal
+   STICKY NAV  — minimal, burger left
 ═══════════════════════════════════════════════════ */
 #nav {
   position: sticky;
@@ -123,26 +133,33 @@ body {
   border-bottom: 1px solid var(--border);
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 9px 20px;
+  gap: 10px;
+  padding: 8px 20px;
   box-shadow: 0 1px 4px rgba(0,0,0,.07);
 }
-.nav-title {
-  font-family: var(--wordmark);
-  font-size: .8rem;
-  font-weight: 800;
-  letter-spacing: .18em;
-  text-transform: uppercase;
-  color: var(--nav-text);
-  flex: 1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+#btn-toc {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  transition: background .15s;
 }
-.nav-title .nav-intel {
-  color: var(--accent);
-  font-style: italic;
+#btn-toc:hover { background: rgba(0,0,0,.05); }
+#btn-toc span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 1px;
+  transition: background .15s;
 }
+#btn-toc.active span { background: var(--accent); }
+#nav-spacer { flex: 1; }
 #read-counter {
   font-family: var(--sans);
   font-size: .58rem;
@@ -187,6 +204,109 @@ body {
 }
 #btn-reset:hover { border-color: var(--accent); color: var(--accent); }
 .nav-btn, #counter, #progress { display: none !important; }
+
+/* ═══════════════════════════════════════════════════
+   TOC DRAWER
+═══════════════════════════════════════════════════ */
+#toc-drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 360px;
+  max-width: 92vw;
+  height: 100vh;
+  background: #fff;
+  z-index: 500;
+  box-shadow: 4px 0 24px rgba(0,0,0,.18);
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-105%);
+  transition: transform .32s cubic-bezier(.22,.68,0,1.2);
+  overflow: hidden;
+}
+#toc-drawer.open { transform: translateX(0); }
+#toc-drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.35);
+  z-index: 499;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .28s ease;
+}
+#toc-drawer-overlay.visible { opacity: 1; pointer-events: all; }
+#toc-drawer-header {
+  background: #111;
+  padding: 18px 20px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  border-bottom: 3px solid var(--accent);
+}
+.toc-drawer-title {
+  font-family: var(--wordmark);
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.toc-drawer-title em { color: var(--accent); font-style: italic; }
+#btn-toc-close {
+  background: none;
+  border: none;
+  color: rgba(255,255,255,.6);
+  font-size: 1.3rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 2px 6px;
+  border-radius: 3px;
+  transition: color .15s, background .15s;
+}
+#btn-toc-close:hover { color: #fff; background: rgba(255,255,255,.12); }
+#toc-drawer-body {
+  overflow-y: auto;
+  flex: 1;
+  padding: 8px 0 24px;
+}
+.toc-drawer-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 18px;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: background .14s;
+  text-decoration: none;
+}
+.toc-drawer-item:hover { background: #f0f4f8; }
+.toc-drawer-item:hover .tdi-title { color: var(--accent); }
+.tdi-num {
+  font-family: var(--sans);
+  font-size: .52rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: .04em;
+  flex-shrink: 0;
+  margin-top: 3px;
+  min-width: 24px;
+}
+.tdi-body { flex: 1; }
+.tdi-date {
+  font-family: var(--sans);
+  font-size: .52rem;
+  color: var(--muted);
+  letter-spacing: .04em;
+  margin-bottom: 2px;
+}
+.tdi-title {
+  font-family: var(--serif);
+  font-size: .88rem;
+  line-height: 1.38;
+  color: var(--text);
+  transition: color .14s;
+}
 
 /* ═══════════════════════════════════════════════════
    BOOKMARKS PANEL
@@ -357,15 +477,37 @@ body {
 }
 
 /* ═══════════════════════════════════════════════════
-   SOURCE URL
+   SOURCE URL  — prominent, clickable
 ═══════════════════════════════════════════════════ */
 .slide-url {
   font-family: var(--sans);
-  font-size: .58rem;
-  color: var(--muted);
+  font-size: .62rem;
 }
-.slide-url a { color: var(--accent); text-decoration: none; transition: color .15s; }
-.slide-url a:hover { color: var(--accent-dk); text-decoration: underline; }
+.slide-url a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: .02em;
+  padding: 4px 10px 4px 8px;
+  border: 1.5px solid rgba(204,0,0,.25);
+  border-radius: 3px;
+  background: rgba(204,0,0,.04);
+  transition: background .18s, border-color .18s, color .18s, transform .15s;
+}
+.slide-url a::before {
+  content: '↗';
+  font-size: .75rem;
+  opacity: .7;
+}
+.slide-url a:hover {
+  background: rgba(204,0,0,.09);
+  border-color: var(--accent);
+  color: var(--accent-dk);
+  transform: translateY(-1px);
+}
 
 /* ═══════════════════════════════════════════════════
    BULLETS  — editorial pull-quote style
@@ -534,16 +676,28 @@ body {
 <header id="masthead">
   <div class="masthead-eyebrow">Przegląd Analityczny · Technologia · Doktryna · Konflikt</div>
   <div class="masthead-wordmark">
-    <span class="word-front">FRONTLINE</span>&thinsp;<span class="word-intel">Intel</span>
+    <span class="word-front">Frontline</span>&thinsp;<span class="word-intel">Intel</span>
   </div>
   <div class="masthead-rule">
     <hr><span class="ornament">✦</span><hr>
   </div>
-  <div class="masthead-sub">@DarmolinskiT · @RALee85 · @sternenko · @wartranslated &nbsp;🇺🇦&nbsp; 2026</div>
+  <div class="masthead-sub">@DarmolinskiT · @RALee85 · @sternenko &nbsp;🇺🇦&nbsp; 2026</div>
+  <div class="masthead-author">Opracował: Dominik H.</div>
 </header>
 
+<div id="toc-drawer-overlay" onclick="closeTocDrawer()"></div>
+<div id="toc-drawer">
+  <div id="toc-drawer-header">
+    <span class="toc-drawer-title">Frontline <em>Intel</em></span>
+    <button id="btn-toc-close" onclick="closeTocDrawer()" title="Zamknij">✕</button>
+  </div>
+  <div id="toc-drawer-body"></div>
+</div>
 <nav id="nav">
-  <span class="nav-title">FRONTLINE&thinsp;<span class="nav-intel">Intel</span></span>
+  <button id="btn-toc" onclick="toggleTocDrawer()" title="Spis treści" aria-label="Otwórz spis treści">
+    <span></span><span></span><span></span>
+  </button>
+  <span id="nav-spacer"></span>
   <span id="read-counter">0/0 PRZECZYT.</span>
   <button class="nav-btn" id="btn-prev" onclick="go(-1)" title="Poprzedni (←)">&#8592;</button>
   <span id="counter">1/42</span>
@@ -571,8 +725,7 @@ body {
   <div class="toc-label">SPIS TREŚCI</div>
   <div class="toc-list" id="toc-list">
 <div class="toc-item" id="toc-1" onclick="goToSlide(1)"><span class="toc-date">2026-04-11</span><span class="toc-title">[@RALee85] Sky Sentinel C-UAS na wieżach: pokrycie lasów jako luka obrony powietrznej</span><span class="toc-status" id="tocs-1">[ ]</span></div>
-<div class="toc-item" id="toc-2" onclick="goToSlide(2)"><span class="toc-date">2026-04-11</span><span class="toc-title">[@wartranslated] Pożar KnAAZ: hala kompozytów Su-57 zniszczona – zagrożenie produkcji seryjnej</span><span class="toc-status" id="tocs-2">[ ]</span></div>
-<div class="toc-item" id="toc-3" onclick="goToSlide(3)"><span class="toc-date">2026-04-11</span><span class="toc-title">[@wartranslated] Rozejm wielkanocny na froncie: analiza aktywności Oko Gora</span><span class="toc-status" id="tocs-3">[ ]</span></div>
+
 <div class="toc-item" id="toc-4" onclick="goToSlide(4)"><span class="toc-date">2026-04-10</span><span class="toc-title">[@RALee85] Lasar&#x27;s Group: bombowiec UAS + Palantin EW zniszczony – S-300V wyeliminowany</span><span class="toc-status" id="tocs-4">[ ]</span></div>
 <div class="toc-item" id="toc-5" onclick="goToSlide(5)"><span class="toc-date">2026-04-10</span><span class="toc-title">[@DarmolinskiT] Wyposażenie ukraińskiego żołnierza okiem Rosjan: szturmowiec = obrońca</span><span class="toc-status" id="tocs-5">[ ]</span></div>
 <div class="toc-item" id="toc-6" onclick="goToSlide(6)"><span class="toc-date">2026-04-09</span><span class="toc-title">[@DarmolinskiT] „Linia Dronów&quot;: od wsparcia do głównego narzędzia rażenia</span><span class="toc-status" id="tocs-6">[ ]</span></div>
@@ -647,8 +800,7 @@ body {
 <div class="toc-item" id="toc-16" onclick="goToSlide(16)"><span class="toc-date">2026-02-05</span><span class="toc-title">[@RALee85] Rosja używa Gerbera UAS jako platformy-matki i przekaźnika dla FPV</span><span class="toc-status" id="tocs-16">[ ]</span></div>
 
 <div class="toc-item" id="toc-17" onclick="goToSlide(17)"><span class="toc-date">2026-04-11</span><span class="toc-title">[@RALee85] Sky Sentinel C-UAS na wieżach: pokrycie lasów jako luka obrony powietrznej</span><span class="toc-status" id="tocs-17">[ ]</span></div>
-<div class="toc-item" id="toc-18" onclick="goToSlide(18)"><span class="toc-date">2026-04-11</span><span class="toc-title">[@wartranslated] Pożar KnAAZ: hala kompozytów Su-57 zniszczona – zagrożenie produkcji seryjnej</span><span class="toc-status" id="tocs-18">[ ]</span></div>
-<div class="toc-item" id="toc-19" onclick="goToSlide(19)"><span class="toc-date">2026-04-11</span><span class="toc-title">[@wartranslated] Rozejm wielkanocny na froncie: analiza aktywności Oko Gora</span><span class="toc-status" id="tocs-19">[ ]</span></div>
+
 <div class="toc-item" id="toc-20" onclick="goToSlide(20)"><span class="toc-date">2026-04-10</span><span class="toc-title">Wyposażenie ukraińskiego żołnierza okiem Rosjan: szturmowiec = obrońca</span><span class="toc-status" id="tocs-20">[ ]</span></div>
 <div class="toc-item" id="toc-21" onclick="goToSlide(21)"><span class="toc-date">2026-04-09</span><span class="toc-title">„Linia Dronów": od wsparcia do głównego narzędzia rażenia</span><span class="toc-status" id="tocs-21">[ ]</span></div>
 <div class="toc-item" id="toc-22" onclick="goToSlide(22)"><span class="toc-date">2026-04-03</span><span class="toc-title">1500 dni: mechanizm pozornych zdolności – lekcje dla Polski</span><span class="toc-status" id="tocs-22">[ ]</span></div>
@@ -709,40 +861,7 @@ body {
     </ul>
   </div>
 </div>
-<div class="slide entry-slide" data-index="2">
-  <div class="slide-inner">
-    <div class="slide-header"><div class="slide-logo" onclick="goToSlide(0)" title="Powrót do spisu treści"><div class="logo-emblem"><span>BSP</span></div><div class="logo-text">INTEL<small>← SPIS</small></div></div>
-      <div class="slide-date">2026-04-11</div>
-      <div class="slide-num-badge">2/59</div>
-      <button class="read-btn" onclick="toggleRead(2,event)" title="R">[ PRZECZYTANE ]</button>
-    </div>
-    <h2 class="slide-title">[@wartranslated] Pożar KnAAZ: hala kompozytów Su-57 zniszczona – zagrożenie produkcji seryjnej</h2>
-    <div class="slide-url"><a href="https://x.com/wartranslated/status/2043006460649435375" target="_blank">x.com/wartranslated/…/2043006460649435375</a></div>
-    <ul class="bullets">
-    <li>Pożar w Zakładach Lotniczych im. Gagarina (KnAAZ) w Komsomolsku nad Amurem – wstępne raporty wskazują na zajęty warsztat wytwarzający podzespoły krytyczne dla produkcji seryjnej.</li>
-    <li>Analitycy OSINT CyberBoroshno precyzują: pożar objął Halę nr 46, produkującą części kompozytowe do Su-57 – jedynego rosyjskiego myśliwca 5. generacji w produkcji seryjnej.</li>
-    <li>Zniszczenie Hali nr 46 może bezpośrednio wstrzymać lub spowolnić produkcję Su-57 – platforma wytwarzana w bardzo małej skali, każde zakłócenie łańcucha dostaw ma nieproporcjonalnie duży efekt.</li>
-    <li>Incydent wpisuje się w serię uderzeń i zdarzeń w rosyjskim przemyśle lotniczym – strategiczne znaczenie zdarzenia przekracza skalę lokalnego pożaru ze względu na krytyczną rolę KnAAZ.</li>
-    </ul>
-  </div>
-</div>
-<div class="slide entry-slide" data-index="3">
-  <div class="slide-inner">
-    <div class="slide-header"><div class="slide-logo" onclick="goToSlide(0)" title="Powrót do spisu treści"><div class="logo-emblem"><span>BSP</span></div><div class="logo-text">INTEL<small>← SPIS</small></div></div>
-      <div class="slide-date">2026-04-11</div>
-      <div class="slide-num-badge">3/59</div>
-      <button class="read-btn" onclick="toggleRead(3,event)" title="R">[ PRZECZYTANE ]</button>
-    </div>
-    <h2 class="slide-title">[@wartranslated] Rozejm wielkanocny na froncie: analiza aktywności Oko Gora</h2>
-    <div class="slide-url"><a href="https://x.com/wartranslated/status/2043045867234496612" target="_blank">x.com/wartranslated/…/2043045867234496612</a></div>
-    <ul class="bullets">
-    <li>Analitycy Oko Gora: rozejm wielkanocny ograniczył aktywność na spokojniejszych odcinkach niemal do zera, ale walka na aktywnych frontach trwa – brak pełnego przestrzegania po stronie rosyjskiej.</li>
-    <li>Kontynuowane pomimo rozejmu: ograniczone szturmy piechoty, loty FPV, użycie Lanzetów i Molniów oraz artyleria na aktywnych odcinkach frontu.</li>
-    <li>Pełna cisza tylko w segmencie masowych ataków: brak Shahedów, brak KABów, brak startów balistycznych, MLRS w większości zamilkł – zawieszono scentralizowane uderzenia.</li>
-    <li>Wzorzec selektywnego rozejmu: scentralizowane masowe uderzenia zatrzymane, lokalne działania taktyczne na inicjatywę jednostek frontowych kontynuowane – cenne dane dla analizy zdolności decyzyjnych RU.</li>
-    </ul>
-  </div>
-</div>
+
 <div class="slide entry-slide" data-index="4">
   <div class="slide-inner">
     <div class="slide-header"><div class="slide-logo" onclick="goToSlide(0)" title="Powrót do spisu treści"><div class="logo-emblem"><span>BSP</span></div><div class="logo-text">INTEL<small>← SPIS</small></div></div>
@@ -1720,14 +1839,9 @@ body {
   var entrySlides = document.querySelectorAll('.entry-slide');
   var entryData = [];
 
-  /* ── NAV: title + bookmarks button ── */
+  /* ── NAV: bookmarks button ── */
   var nav = document.getElementById('nav');
   if(nav){
-    var t = document.createElement('span');
-    t.className = 'nav-title';
-    t.textContent = 'FRONTLINE INTEL';
-    nav.insertBefore(t, nav.firstChild);
-
     var btnBm = document.createElement('button');
     btnBm.id = 'btn-bookmarks';
     btnBm.textContent = '\u2605 ZAKŁADKI (0)';
@@ -1874,6 +1988,73 @@ body {
     var bb = document.getElementById('btn-bookmarks');
     if(bb) bb.classList.toggle('active');
   }
+
+  /* ── TOC DRAWER ── */
+  (function(){
+    var drawer  = document.getElementById('toc-drawer');
+    var overlay = document.getElementById('toc-drawer-overlay');
+    var body    = document.getElementById('toc-drawer-body');
+    var btnToc  = document.getElementById('btn-toc');
+
+    /* Build drawer list once */
+    var slides = document.querySelectorAll('.entry-slide');
+    var num = 0;
+    slides.forEach(function(s){
+      var idx     = parseInt(s.getAttribute('data-index'));
+      var titleEl = s.querySelector('.slide-title');
+      var dateEl  = s.querySelector('.slide-date');
+      if(!titleEl) return;
+      num++;
+
+      var item = document.createElement('div');
+      item.className = 'toc-drawer-item';
+
+      var numSpan = document.createElement('div');
+      numSpan.className = 'tdi-num';
+      numSpan.textContent = num;
+
+      var bdy = document.createElement('div');
+      bdy.className = 'tdi-body';
+
+      var dateDiv = document.createElement('div');
+      dateDiv.className = 'tdi-date';
+      dateDiv.textContent = dateEl ? dateEl.textContent : '';
+
+      var titleDiv = document.createElement('div');
+      titleDiv.className = 'tdi-title';
+      titleDiv.textContent = titleEl.textContent || '';
+
+      bdy.appendChild(dateDiv);
+      bdy.appendChild(titleDiv);
+      item.appendChild(numSpan);
+      item.appendChild(bdy);
+
+      item.onclick = function(){
+        closeTocDrawer();
+        setTimeout(function(){
+          s.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 260);
+      };
+
+      body.appendChild(item);
+    });
+
+    window.toggleTocDrawer = function(){
+      var open = drawer.classList.toggle('open');
+      overlay.classList.toggle('visible', open);
+      if(btnToc) btnToc.classList.toggle('active', open);
+      document.body.style.overflow = open ? 'hidden' : '';
+    };
+    window.closeTocDrawer = function(){
+      drawer.classList.remove('open');
+      overlay.classList.remove('visible');
+      if(btnToc) btnToc.classList.remove('active');
+      document.body.style.overflow = '';
+    };
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape') window.closeTocDrawer();
+    });
+  })();
 
   /* ── PUBLIC API ── */
   window.toggleRead = function(idx){
