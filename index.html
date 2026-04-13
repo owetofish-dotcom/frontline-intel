@@ -5,178 +5,224 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Frontline Intel</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#F2E8CE;
-  --bg2:#EAD9B0;
-  --bg3:#E0CFA0;
-  --accent:#8B1A00;
-  --stamp:#B22222;
-  --olive:#4A5C2A;
-  --text:#1A0A00;
-  --muted:#6B4C2A;
-  --card:#E8D8A8;
-  --border:#C4A05A;
-  --border2:#8B6914;
+  --bg:#f9f8f5;
+  --bg2:#f2f1ec;
+  --bg-nav:#1a2744;
+  --text:#1a1a1a;
+  --text2:#3a3a3a;
+  --muted:#757575;
+  --accent:#c41e3a;
+  --gold:#8b6914;
+  --border:#dddad2;
+  --border2:#bbb8b0;
+  --card:#ffffff;
 }
 html,body{
   width:100%;min-height:100%;
   background:var(--bg);color:var(--text);
-  font-family:'Special Elite','Courier New',Courier,monospace;
+  font-family:Georgia,'Times New Roman',Times,serif;
   overflow-x:hidden;overflow-y:auto;
+  font-size:16px;
 }
-body::before{content:'';position:fixed;inset:0;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
-  pointer-events:none;z-index:0;opacity:.5}
-
-/* ── STICKY HEADER ── */
+/* NAV */
 #nav{
   position:sticky;top:0;z-index:100;
-  background:var(--bg3);
-  border-bottom:2px solid var(--border2);
-  display:flex;align-items:center;gap:10px;
-  padding:10px 14px;
+  background:var(--bg-nav);
+  border-bottom:3px solid var(--accent);
+  display:flex;align-items:center;gap:8px;
+  padding:11px 16px;
 }
 .nav-title{
-  font-size:.85rem;letter-spacing:.2em;text-transform:uppercase;
-  color:var(--accent);font-weight:700;flex:1;
+  font-size:.67rem;letter-spacing:.22em;text-transform:uppercase;
+  color:#fff;font-family:Georgia,serif;font-weight:700;flex:1;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
 }
-#read-counter{font-size:.7rem;color:var(--muted);letter-spacing:.04em;flex-shrink:0;white-space:nowrap}
-#read-counter.all-done{color:var(--olive);font-weight:700}
-#btn-reset{
-  background:none;border:1.5px solid var(--border);color:var(--muted);
-  font-size:.58rem;padding:5px 9px;cursor:pointer;
-  font-family:inherit;letter-spacing:.08em;text-transform:uppercase;flex-shrink:0;
+#read-counter{
+  font-size:.62rem;color:#9db3cc;letter-spacing:.05em;
+  flex-shrink:0;white-space:nowrap;
 }
-#btn-reset:active{border-color:var(--accent);color:var(--accent)}
+#read-counter.all-done{color:#7fdc7f;font-weight:700}
+#btn-bookmarks{
+  background:none;border:1px solid #5a7090;color:#c9a84c;
+  font-size:.57rem;padding:5px 10px;cursor:pointer;
+  font-family:Georgia,serif;letter-spacing:.1em;text-transform:uppercase;
+  flex-shrink:0;transition:all .2s;white-space:nowrap;
+}
+#btn-bookmarks:hover,#btn-bookmarks.active{
+  border-color:#c9a84c;background:rgba(201,168,76,.12);
+}
+#btn-reset{
+  background:none;border:1px solid #4a6080;color:#9db3cc;
+  font-size:.57rem;padding:5px 10px;cursor:pointer;
+  font-family:Georgia,serif;letter-spacing:.1em;text-transform:uppercase;
+  flex-shrink:0;transition:all .2s;
+}
+#btn-reset:hover{border-color:var(--accent);color:#fff}
 .nav-btn,#counter,#progress{display:none!important}
 
-/* ── FEED CONTAINER ── */
+/* BOOKMARKS PANEL */
+#bookmarks-panel{
+  display:none;
+  background:var(--card);
+  border-bottom:2px solid var(--gold);
+  padding:14px 18px 12px;
+  max-height:55vh;overflow-y:auto;
+  max-width:780px;margin:0 auto;
+}
+#bookmarks-panel.visible{display:block}
+#bookmarks-panel h3{
+  font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:10px;
+  border-bottom:1px solid var(--border);padding-bottom:7px;
+}
+.bm-empty{font-size:.85rem;color:var(--muted);font-style:italic;padding:6px 0}
+.bm-item{
+  padding:9px 0;border-bottom:1px solid var(--border);
+  cursor:pointer;display:flex;gap:10px;align-items:flex-start;
+}
+.bm-item:last-child{border-bottom:none}
+.bm-item:hover .bm-title{color:var(--accent)}
+.bm-star{color:var(--gold);font-size:.85rem;flex-shrink:0;margin-top:2px}
+.bm-date{font-size:.6rem;color:var(--muted);flex-shrink:0;margin-top:3px;letter-spacing:.04em;white-space:nowrap}
+.bm-title{font-size:.87rem;line-height:1.4;color:var(--text)}
+
+/* FEED WRAPPER */
 #slideshow{
   display:flex!important;flex-direction:column;
-  padding:0 0 60px;
-  position:static!important;
-  overflow:visible!important;
+  padding:0 0 80px;
+  position:static!important;overflow:visible!important;
   width:100%;height:auto!important;
+  max-width:780px;margin:0 auto;
 }
 .title-slide{display:none!important}
 
-/* ── ENTRY CARD ── */
+/* ENTRY CARD */
 .slide.entry-slide{
-  display:block!important;
-  position:static!important;
-  opacity:1!important;
-  pointer-events:all!important;
-  padding:0;
-  border-bottom:1px solid var(--border);
-  background:var(--bg);
-  transition:opacity .2s;
+  display:block!important;position:static!important;
+  opacity:1!important;pointer-events:all!important;
+  padding:0;border-bottom:1px solid var(--border);
+  background:var(--card);transition:opacity .25s;
 }
 .slide.entry-slide:nth-child(even){background:var(--bg2)}
 
 .slide-inner{
-  padding:14px 14px 12px;
-  display:flex!important;flex-direction:column;gap:9px;
+  padding:20px 18px 14px;
+  display:flex!important;flex-direction:column;gap:10px;
   position:static!important;height:auto!important;
 }
 .slide-inner::before,.slide-inner::after{display:none!important}
 
-/* Header row */
+/* HEADER ROW */
 .slide-header{
-  display:flex;align-items:center;gap:7px;
-  border-bottom:none;padding-bottom:0;margin-bottom:0;flex-wrap:nowrap;
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;
 }
 .slide-logo{display:none!important}
 .slide-num-badge{display:none!important}
-
+/* hide the old in-header read button */
+.slide-header .read-btn{display:none!important}
 .slide-date{
-  font-size:.67rem;color:var(--muted);
-  letter-spacing:.03em;flex-shrink:0;order:2;
+  font-size:.62rem;color:var(--muted);letter-spacing:.05em;text-transform:uppercase;flex-shrink:0;
 }
-.slide-date::before{content:''}
 
-/* Source badge (injected by JS) */
+/* SOURCE BADGES */
 .src-badge{
-  font-size:.58rem;font-weight:700;letter-spacing:.07em;
-  padding:2px 7px;border-radius:2px;flex-shrink:0;
-  text-transform:uppercase;order:1;white-space:nowrap;
+  font-size:.57rem;font-weight:700;letter-spacing:.08em;
+  padding:2px 8px;border-radius:2px;flex-shrink:0;
+  text-transform:uppercase;
 }
-.src-badge.src-ral{background:#dde8f5;color:#1a3d6b;border:1px solid #9bb8db}
-.src-badge.src-darm{background:#dff0d8;color:#2d4a0f;border:1px solid #8aad6a}
-.src-badge.src-stern{background:#fff3cc;color:#5a3a00;border:1px solid #d4a017}
-.src-badge.src-other{background:var(--card);color:var(--muted);border:1px solid var(--border)}
+.src-badge.src-ral{background:#1a2744;color:#fff}
+.src-badge.src-darm{background:#2d5a1b;color:#fff}
+.src-badge.src-stern{background:#7a1515;color:#fff}
+.src-badge.src-other{background:#4a4a4a;color:#fff}
 
-/* Read button */
-.read-btn{
-  margin-left:auto;flex-shrink:0;order:3;
-  background:none;border:1.5px solid var(--border);
-  color:var(--muted);font-size:.56rem;
-  padding:0 10px;height:34px;line-height:34px;
-  cursor:pointer;font-family:inherit;
-  letter-spacing:.1em;text-transform:uppercase;
-  -webkit-tap-highlight-color:transparent;
-  transition:border-color .15s,color .15s;
-  white-space:nowrap;
-}
-.read-btn:active{border-color:var(--stamp);color:var(--stamp)}
-
-/* Title */
+/* TITLE */
 .slide-title{
-  font-size:1rem;font-weight:400;line-height:1.45;
-  color:var(--text);text-transform:none;
-  letter-spacing:.01em;
-  text-decoration:none!important;
-  -webkit-text-decoration:none!important;
+  font-size:1.07rem;font-weight:700;line-height:1.38;
+  color:var(--text);letter-spacing:.01em;
+}
+.slide.is-bookmarked-slide .slide-title::before{
+  content:'★ ';color:var(--gold);font-size:.85em;
 }
 
-/* Source URL */
-.slide-url{font-size:.65rem;color:var(--muted);font-style:italic}
-.slide-url a{color:var(--muted);text-decoration:underline}
-.slide-url::before{content:''}
+/* SOURCE URL */
+.slide-url{font-size:.64rem;color:var(--muted);font-style:italic}
+.slide-url a{color:var(--accent);text-decoration:none}
+.slide-url a:hover{text-decoration:underline}
 
-/* Bullets */
-.bullets{list-style:none;display:flex!important;flex-direction:column;gap:6px;overflow:visible!important}
+/* BULLETS */
+.bullets{list-style:none;display:flex!important;flex-direction:column;gap:7px;overflow:visible!important}
 .bullets li{
-  font-size:.9rem;line-height:1.6;color:var(--text);
-  padding:8px 10px 8px 14px;
-  border-left:3px solid var(--olive);
-  background:rgba(0,0,0,.025);
+  font-size:.92rem;line-height:1.68;color:var(--text2);
+  padding:8px 12px 8px 14px;
+  border-left:3px solid var(--accent);
+  background:rgba(196,30,58,.028);
 }
 .bullets li::before,.bullets li::after{display:none!important}
 
-/* READ STATE */
-.slide.is-read{opacity:.45}
-.slide.is-read .slide-title{text-decoration:line-through!important;opacity:.7}
-.slide.is-read .read-btn{border-color:var(--stamp);color:var(--stamp);font-weight:700}
-.slide.is-read .bullets{opacity:.6}
+/* ARTICLE ACTIONS — bottom of each card */
+.article-actions{
+  display:flex;gap:8px;flex-wrap:wrap;
+  padding-top:10px;border-top:1px solid var(--border);
+  margin-top:2px;
+}
+.read-btn{
+  background:none;border:1.5px solid var(--border2);
+  color:var(--muted);font-size:.6rem;
+  padding:7px 14px;cursor:pointer;
+  letter-spacing:.1em;text-transform:uppercase;
+  -webkit-tap-highlight-color:transparent;transition:all .15s;
+}
+.read-btn:hover{border-color:var(--accent);color:var(--accent)}
+.bookmark-btn{
+  background:none;border:1.5px solid var(--border2);
+  color:var(--muted);font-size:.6rem;
+  padding:7px 14px;cursor:pointer;
+  letter-spacing:.1em;text-transform:uppercase;
+  -webkit-tap-highlight-color:transparent;transition:all .15s;
+}
+.bookmark-btn:hover{border-color:var(--gold);color:var(--gold)}
+.bookmark-btn.is-bookmarked{
+  border-color:var(--gold);color:var(--gold);
+  background:rgba(139,105,20,.07);
+}
 
-/* ── FINAL CARD ── */
+/* READ STATE */
+.slide.is-read{opacity:.46}
+.slide.is-read .slide-title{
+  text-decoration:line-through!important;
+  text-decoration-color:var(--muted)!important;
+}
+.slide.is-read .read-btn{border-color:var(--accent);color:var(--accent);font-weight:700}
+
+/* FINAL CARD */
 .slide.final-slide{
-  display:block!important;
-  position:static!important;
-  opacity:1!important;
-  background:var(--bg2);
-  border-top:3px double var(--border2);
-  padding:20px 14px 32px;
-  flex-direction:column!important;text-align:left!important;
+  display:block!important;position:static!important;
+  opacity:1!important;background:var(--bg2);
+  border-top:3px solid var(--accent);
+  padding:24px 18px 40px;
 }
 .final-content{max-width:100%;border:none;padding:0;background:transparent}
 .final-slide h1{
-  font-size:1.05rem;text-transform:uppercase;letter-spacing:.12em;
-  margin-bottom:10px;font-weight:400;color:var(--accent)
+  font-size:.95rem;text-transform:uppercase;letter-spacing:.15em;
+  margin-bottom:12px;font-weight:700;color:var(--accent);
 }
-.title-label{font-size:.6rem;letter-spacing:.25em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
-.final-bullets{list-style:none;display:flex;flex-direction:column;gap:7px;margin-bottom:14px}
+.title-label{font-size:.6rem;letter-spacing:.25em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+.final-bullets{list-style:none;display:flex;flex-direction:column;gap:7px;margin-bottom:16px}
 .final-bullets li{
-  font-size:.88rem;line-height:1.6;color:var(--text);
-  padding:7px 10px 7px 14px;
+  font-size:.9rem;line-height:1.65;color:var(--text2);
+  padding:8px 12px 8px 14px;
   border-left:3px solid var(--accent);
-  background:rgba(139,26,0,.04);
+  background:rgba(196,30,58,.04);
 }
-.accent{color:var(--olive);font-weight:700}
-.final-footer{font-size:.63rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;border-top:1px dashed var(--border);padding-top:8px;margin-top:6px}
+.accent{color:var(--accent);font-weight:700}
+.final-footer{
+  font-size:.62rem;color:var(--muted);letter-spacing:.1em;
+  text-transform:uppercase;border-top:1px solid var(--border);
+  padding-top:10px;margin-top:8px;
+}
+
 </style>
 </head>
 <body>
@@ -188,6 +234,7 @@ body::before{content:'';position:fixed;inset:0;
   <button class="nav-btn" id="btn-next" onclick="go(1)" title="Następny (→)">&#8594;</button>
   <button id="btn-reset" onclick="resetRead()" title="Resetuj postęp">RESET</button>
 </nav>
+<div id="bookmarks-panel"></div>
 <div id="slideshow">
 <div class="slide title-slide" data-index="0">
 <div class="title-left">
@@ -1292,79 +1339,187 @@ body::before{content:'';position:fixed;inset:0;
 
 <script>
 (function(){
-  var STORAGE_KEY = 'darmolinski_read_v2';
-  var readSet = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY)||'[]'));
+  var READ_KEY = 'darmolinski_read_v2';
+  var BM_KEY   = 'darmolinski_bookmarks_v1';
+  var readSet  = new Set(JSON.parse(localStorage.getItem(READ_KEY)||'[]'));
+  var bmSet    = new Set(JSON.parse(localStorage.getItem(BM_KEY)||'[]'));
   var entrySlides = document.querySelectorAll('.entry-slide');
+  var entryData = [];
 
-  // Add title to sticky nav
+  /* ── NAV: title + bookmarks button ── */
   var nav = document.getElementById('nav');
   if(nav){
     var t = document.createElement('span');
     t.className = 'nav-title';
     t.textContent = 'FRONTLINE INTEL';
     nav.insertBefore(t, nav.firstChild);
+
+    var btnBm = document.createElement('button');
+    btnBm.id = 'btn-bookmarks';
+    btnBm.textContent = '\u2605 ZAKŁADKI (0)';
+    btnBm.onclick = toggleBmPanel;
+    var btnReset = document.getElementById('btn-reset');
+    if(btnReset) nav.insertBefore(btnBm, btnReset);
+    else nav.appendChild(btnBm);
   }
 
-  // Add source badge + clean title text for each card
+  /* ── PROCESS EACH ENTRY SLIDE ── */
   entrySlides.forEach(function(s){
+    var idx     = parseInt(s.getAttribute('data-index'));
     var titleEl = s.querySelector('.slide-title');
+    var dateEl  = s.querySelector('.slide-date');
     if(!titleEl) return;
-    var txt = titleEl.textContent || '';
-    var m = txt.match(/\[@([^\]]+)\]/);
-    var src = m ? m[1] : '';
-    var hdr = s.querySelector('.slide-header');
+
+    /* source badge */
+    var txt  = titleEl.textContent || '';
+    var m    = txt.match(/\[@([^\]]+)\]/);
+    var src  = m ? m[1] : '';
+    var hdr  = s.querySelector('.slide-header');
     if(hdr && src){
       var badge = document.createElement('span');
       badge.className = 'src-badge';
       badge.textContent = '@' + src;
-      if(/RALee/i.test(src)) badge.classList.add('src-ral');
+      if(/RALee/i.test(src))   badge.classList.add('src-ral');
       else if(/Darmol/i.test(src)) badge.classList.add('src-darm');
-      else if(/stern/i.test(src)) badge.classList.add('src-stern');
-      else badge.classList.add('src-other');
+      else if(/stern/i.test(src))  badge.classList.add('src-stern');
+      else                          badge.classList.add('src-other');
       hdr.insertBefore(badge, hdr.firstChild);
     }
-    // Strip [@...] prefix from title
-    if(m) titleEl.textContent = txt.replace(/\[@[^\]]+\]\s*/, '').trim();
+    if(m) titleEl.textContent = txt.replace(/\[@[^\]]+\]\s*/,'').trim();
+
+    /* remove old in-header read button (hidden by CSS, but clean up) */
+    var oldBtn = s.querySelector('.slide-header .read-btn');
+    if(oldBtn) oldBtn.remove();
+
+    /* article actions div at bottom of .slide-inner */
+    var inner = s.querySelector('.slide-inner');
+    if(inner){
+      var actions = document.createElement('div');
+      actions.className = 'article-actions';
+
+      var rBtn = document.createElement('button');
+      rBtn.className = 'read-btn';
+      rBtn.setAttribute('data-idx', idx);
+      rBtn.textContent = '[ PRZECZYTANE ]';
+      rBtn.onclick = function(e){ e.stopPropagation(); window.toggleRead(idx); };
+
+      var bBtn = document.createElement('button');
+      bBtn.className = 'bookmark-btn';
+      bBtn.setAttribute('data-idx', idx);
+      bBtn.textContent = '[ \u2605 ZAPISZ ]';
+      bBtn.onclick = function(e){ e.stopPropagation(); window.toggleBookmark(idx); };
+
+      actions.appendChild(rBtn);
+      actions.appendChild(bBtn);
+      inner.appendChild(actions);
+    }
+
+    entryData.push({
+      idx:   idx,
+      title: titleEl.textContent,
+      date:  dateEl ? dateEl.textContent.trim() : '',
+      slide: s
+    });
   });
 
-  function saveRead(){
-    localStorage.setItem(STORAGE_KEY, JSON.stringify([...readSet]));
-  }
+  /* ── PERSIST ── */
+  function saveRead(){ localStorage.setItem(READ_KEY, JSON.stringify([...readSet])); }
+  function saveBm(){   localStorage.setItem(BM_KEY,   JSON.stringify([...bmSet])); }
 
+  /* ── APPLY STATES ── */
   function applyReadState(){
-    var readCount = 0;
+    var count = 0;
     entrySlides.forEach(function(s){
-      var idx = parseInt(s.getAttribute('data-index'));
-      if(readSet.has(idx)){ s.classList.add('is-read'); readCount++; }
-      else s.classList.remove('is-read');
+      var i = parseInt(s.getAttribute('data-index'));
+      var b = s.querySelector('.read-btn');
+      if(readSet.has(i)){
+        s.classList.add('is-read'); count++;
+        if(b) b.textContent = '[ \u2713 PRZECZYTANE ]';
+      } else {
+        s.classList.remove('is-read');
+        if(b) b.textContent = '[ PRZECZYTANE ]';
+      }
     });
     var rc = document.getElementById('read-counter');
     if(rc){
-      rc.textContent = readCount + '/' + entrySlides.length + ' PRZECZYT.';
-      rc.className = (readCount === entrySlides.length) ? 'all-done' : '';
+      rc.textContent = count+'/'+entrySlides.length+' PRZECZYT.';
+      rc.className = (count === entrySlides.length) ? 'all-done' : '';
     }
   }
 
-  window.toggleRead = function(idx, e){
-    if(e && e.stopPropagation) e.stopPropagation();
-    if(readSet.has(idx)) readSet.delete(idx);
-    else readSet.add(idx);
-    saveRead();
-    applyReadState();
-  };
+  function applyBmState(){
+    var count = 0;
+    entrySlides.forEach(function(s){
+      var i = parseInt(s.getAttribute('data-index'));
+      var b = s.querySelector('.bookmark-btn');
+      if(bmSet.has(i)){
+        s.classList.add('is-bookmarked-slide'); count++;
+        if(b){ b.classList.add('is-bookmarked'); b.textContent = '[ \u2605 ZAPISANO ]'; }
+      } else {
+        s.classList.remove('is-bookmarked-slide');
+        if(b){ b.classList.remove('is-bookmarked'); b.textContent = '[ \u2605 ZAPISZ ]'; }
+      }
+    });
+    var bb = document.getElementById('btn-bookmarks');
+    if(bb) bb.textContent = '\u2605 ZAKŁADKI (' + count + ')';
+    updateBmPanel();
+  }
 
+  /* ── BOOKMARKS PANEL ── */
+  var panel = document.getElementById('bookmarks-panel');
+
+  function updateBmPanel(){
+    if(!panel) return;
+    panel.innerHTML = '<h3>Zapisane artykuły</h3>';
+    var items = entryData.filter(function(d){ return bmSet.has(d.idx); });
+    if(!items.length){
+      var e = document.createElement('div');
+      e.className = 'bm-empty';
+      e.textContent = 'Brak zapisanych artykułów.';
+      panel.appendChild(e);
+    } else {
+      items.forEach(function(d){
+        var row = document.createElement('div');
+        row.className = 'bm-item';
+        row.innerHTML =
+          '<span class="bm-star">\u2605</span>' +
+          '<span class="bm-date">'+d.date+'</span>' +
+          '<span class="bm-title">'+d.title+'</span>';
+        row.onclick = function(){
+          d.slide.scrollIntoView({behavior:'smooth', block:'start'});
+          if(panel.classList.contains('visible')) toggleBmPanel();
+        };
+        panel.appendChild(row);
+      });
+    }
+  }
+
+  function toggleBmPanel(){
+    if(!panel) return;
+    panel.classList.toggle('visible');
+    var bb = document.getElementById('btn-bookmarks');
+    if(bb) bb.classList.toggle('active');
+  }
+
+  /* ── PUBLIC API ── */
+  window.toggleRead = function(idx){
+    if(readSet.has(idx)) readSet.delete(idx); else readSet.add(idx);
+    saveRead(); applyReadState();
+  };
+  window.toggleBookmark = function(idx){
+    if(bmSet.has(idx)) bmSet.delete(idx); else bmSet.add(idx);
+    saveBm(); applyBmState();
+  };
   window.resetRead = function(){
-    readSet.clear();
-    localStorage.removeItem(STORAGE_KEY);
-    applyReadState();
+    readSet.clear(); localStorage.removeItem(READ_KEY); applyReadState();
   };
-
-  // stubs — no more slideshow navigation
   window.go = function(){};
   window.goToSlide = function(){};
 
   applyReadState();
+  applyBmState();
 })();
+
 </script>
 </body>
 </html>
