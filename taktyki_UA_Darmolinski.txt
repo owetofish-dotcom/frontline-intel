@@ -1,23 +1,53 @@
+[2026-04-14] - [@DarmolinskiT] Ukraina: pętla wdrożeniowa technologii bojowych vs polska Decyzja 123/MON
+URL: https://x.com/DarmolinskiT/status/2043887919107072428
+• Ukraiński MON buduje realną pętlę: szybki zakup → test w boju → ocena → poprawki → wdrożenie → skalowanie — model oparty na tempie adaptacji, nie biurokratycznej procedurze.
+• Polska Decyzja Nr 123/MON porządkuje testy, ale nie tworzy sprawnej pętli przejścia od testu do wdrożenia — nadal bardziej procedura oceny niż silnik adopcji.
+• Zasadnicza różnica: ukraiński model zakłada iteracyjne sprawdź–popraw–wdrażaj–skaluj; polski tkwi w formalnym procesie certyfikacji bez szybkiej pętli zwrotnej z frontu.
+
+[2026-04-14] - [@DarmolinskiT] Ukraina UGV: ponad 22 tys. misji w 3 miesiące — szybkie dojrzewanie modelu robotyzacji
+URL: https://x.com/DarmolinskiT/status/2043881411816403013
+• Łącznie od początku 2026 roku: blisko 24,5 tys. misji UGV — ponad 9 tys. w samym marcu, wobec 2,9 tys. w listopadzie 2025 — wzrost 3× w ciągu czterech miesięcy.
+• Liczba jednostek używających UGV wzrosła z 67 (listopad 2025) do 167 (marzec 2026) — szybkie dojrzewanie modelu operacyjnego, nie incydent medialny.
+• Robotyzacja pola walki przestaje być dodatkiem do działań — staje się normalnym modelem ograniczania strat przez przenoszenie ryzykownych zadań na systemy bezzałogowe.
+
+[2026-04-14] - [LinkedIn/@dmitrynedov] C-UAS Standards: interoperabilność jako rzeczywisty mnożnik siły bojowej
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7449701766356652032/
+• Kluczowe standardy C-UAS: ASTERIX Cat.048/062 (deterministyczna fuzja wielosensorowa), STANAG 4607/4703 (łącza danych NATO dla UAV/C-UAS), ASTM F3411 / U-space (dekonfliktacja przestrzeni powietrznej), Open C2 APIs (zwersjonowane, schematyzowane interfejsy).
+• Koszt ignorowania standardów: 2–6 miesięcy integracji na sensor, silosy danych, paraliż aktualizacji sprzętu, rosnące TCO z proprietary SDKs i kontraktów support.
+• Architektura otwarta, modularna i agnostyczna protokołowo — jedyna ścieżka do skalowalnej i przyszłościowej obrony C-UAS; zamknięte ekosystemy = dług integracyjny nie do spłacenia.
+
+[2026-04-14] - [LinkedIn/@drchrisflaherty] Taktyczne użycie eVTOL do dostarczania naziemnych dronów bojowych za linię kontaktu
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7449597598887321602/
+• Koncepcja: użycie dużego drona-taksówki (eVTOL / air-taxi) do dostarczenia drona naziemnego uzbrojonego w karabin maszynowy na pozycję flankującą lub głęboko za linię kontaktu wroga.
+• PoŁączenie technologii pionowego transportu autonomicznego z naziemnymi systemami uderzeniowymi otwiera nowy wektor ataku bez angaŸowania piechoty w ryzykowne przemieszczenia terenowe.
+• Ukraiński 13. Brygada Khartiia stosowała kombinowane ataki dronów naziemnych i powietrznych jako zintegrowany system broni — koncepcja eVTOL-delivery to kolejny krok tej ewolucji.
+
+[2026-04-14] - [LinkedIn/@drchrisflaherty] Pierwszy bojowy atak przezęcia pozycji wroga wyłącznie przez systemy robotyczne — bez piechoty
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7449719655608287232/
+• Po raz pierwszy ukraińskie siły obronne przezęły pozycję wroga wyłącznie przy uŸyciu naziemnych systemów robotycznych i dronów — bez udziału piechoty; Ÿołnierze rosyjscy skapitulowali.
+• Precedensy koncepcji: 13. Brygada Khartiia stosowała kombinowane ataki drone-ground + drone-air w 2024–2025 jako zintegrowany system broni — dzisiejsze zdarzenie to operacyjny milestone.
+• Zdarzenie potwierdza dojrzałość koncepcji "zero infantry exposure" w szturmie — pełne przeniesienie ryzyka ataku na systemy bezzałogowe staje się realną taktyką, nie teorią.
+
 # Źródło: @DarmolinskiT / @RALee85 / @sternenko
 # Codzienny przegląd analityczny — Frontline Intel
 
 [2026-04-13] - [@sternenko] Ivan Franko Group: FPV niszczy rosyjską ciężarowę w rejonie Doniecka
 URL: https://x.com/sternenko/status/2043685211917939094
-• Operatorzy Ivan Franko Group zniszczyli rosyjską ciężarowę na obwodnicy Doniecka przy użyciu specjalistycznego drona FPV — nagranie przebiło się szeroko na rosyjskie kanały wojskowe.
+• Operatorzy Ivan Franko Group zniszczyli rosyjską ciężarowę na obwodnicy Doniecka przy uŸyciu specjalistycznego drona FPV — przebiło się szeroko na rosyjskie kanały wojskowe.
 • Drony FPV ewoluują niezwykle szybko i dysponują jeszcze niezrealizowanym potencjałem bojowym — akcja dokumentuje rosnące zdolności precyzyjnego uderzenia w logistykę wroga.
 • Operacja potwierdza zdolność Ukrainy do interdykcji rosyjskich linii zaopatrzenia w teatrze donieckim.
 • Sternenko apeluje o wsparcie programu Rusoriz dostarczającego zaawansowane drony FPV jednostkom frontowym.
 
 [2026-04-13] - [@sternenko] Wild Hornets: interceptor dronowy zestrzeliwuje Shaheda nad Morzem Czarnym
 URL: https://x.com/sternenko/status/2043627828814467169
-• Ukraińskie siły zestrze liły drona Shahed nad Morzem Czarnym przed dotarciem do wybrzeża przy użyciu interceptora Wild Hornets sterowanego zdalnie z odległości wielu kilometrów.
-• Operator znajdował się daleko od miejsca przechwycenia — demonstracja zdolności C-UAS drone-vs-drone z dużym dystansem operacyjnym.
+• Ukraińskie siły zestrze liły drona Shahed nad Morzem Czarnym przed dotarciem do wybrzeża przy uŸyciu interceptora Wild Hornets sterowanego zdalnie z odległości wielu kilometrów.
+• Operator snajdował się daleko od miejsca przechwycenia — demonstracja zdolności C-UAS drone-vs-drone z duŸym dystansem operacyjnym.
 • Ukraina skaluje technologie zdalnie sterowanych interceptorów jako element wielowarstwowej OPL przeciwko rosyjskim rojom Shahedów.
-• Technologia ShahedCutter: przechwycenie kinetyczne bez angażowania załogi w strefie zagrożenia.
+• Technologia ShahedCutter: przechwycenie kinetyczne bez angażowania załogi w strefie zagroŸenia.
 
 [2026-04-12] - [@RALee85] Zaktualizowana mapa: rosyjskie postępy przez granicę w obwodzie sumskim
 URL: https://x.com/RALee85/status/2043778199402824024
 • Ryan Lee opublikował zaktualizowaną mapę via DeepStateMap dokumentującą bieżące rosyjskie postępy terytorialne przez granicę ukraińską w obwodzie sumskim.
 • Rosyjska presja przygraniczna w Sumy stanowi front drugorzędny względem głównych walk na osi Doniecka, ale sygnalizuje celowe rozciąganie ukraińskiej obrony.
-• Mapa rejestruje aktywność rosyjską w regionie wcześniej stabilnym — sygnał poszerzenia rosyjskiego skupienia operacyjnego poza Donbas.
+• Mapa rejestruje aktywność rosyjską w regionie wcześniej stabilnym — sygnał pozzerzenia rosyjskiego skupienia operacyjnego poza Donbas.
 
