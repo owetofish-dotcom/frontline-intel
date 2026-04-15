@@ -1,3 +1,15 @@
+[2026-04-15] - [LinkedIn/@drchrisflaherty] Ukraiński Korpus Dronów osiąga cel: dzienna rekrutacja Rosji równa dziennym stratom
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7449945466978570241/
+• Dzienna rekrutacja rosyjska w 2026 r. zrównała się z dziennymi stratami bojowymi — osiągnięto strategiczny cel Korpusu Dronów: zużycie sił ludzkich w tempie przekraczającym możliwości bieżącego uzupełnienia.
+• Model predykcyjny z września 2022 r. trafnie opisał asymetrię: strona rosyjska absorbuje masowe straty ludzkie zamiast inwestować w skok technologiczny; Ukraina realizuje ścieżkę „Up-Tech" — dominacja BSP jako narzędzie strategicznego wyniszczenia kadry przeciwnika.
+• Paradoks 600 tys. żołnierzy rosyjskich rozlokowanych w strefie okupacji: nie są angażowani w masowe operacje przełamania — otwarte pytanie strategiczne o zdolność i wolę skupienia sił pozostaje bez odpowiedzi.
+
+[2026-04-14] - [LinkedIn/@dmitrynedov] AI w C-UAS: 3 mity rujnujące realne wdrożenia systemów przeciwdronowych
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7449335570528559104/
+• Mit 1 — AI autonomicznie neutralizuje zagrożenia: w środowisku miejskim i przy zakłóceniach EW false positive rate przekracza progi akceptowalne dla akcji kinetycznej; AI to klasyfikator działający <30ms, nie decydent w pętli ogniowej — decyzja o zaangażowaniu zawsze pozostaje przy operatorze.
+• Mit 2 — Więcej danych = lepszy model: liczy się jakość sygnału, nie wolumen; realne profile RCS, sygnatury mikro-Dopplera śmigieł i przekroje termiczne są niezbędne — dane syntetyczne bez fizycznej walidacji prowadzą do halucynacji w warunkach operacyjnych.
+• Mit 3 — Pre-trenowane modele działają od ręki: wagi COCO/ImageNet zawodzą wobec celów 0,001 m² w szumie RF/optycznym; C-UAS wymaga dziedzinowego fine-tuningu z uwzględnieniem fizyki sensorów, kinetyki zagrożeń i ograniczeń brzegowych (INT8, <15W, latencja <100ms).
+
 [2026-04-14] - [@DarmolinskiT] Ukraina: pętla wdrożeniowa technologii bojowych vs polska Decyzja 123/MON
 URL: https://x.com/DarmolinskiT/status/2043887919107072428
 • Ukraiński MON buduje realną pętlę: szybki zakup → test w boju → ocena → poprawki → wdrożenie → skalowanie — model oparty na tempie adaptacji, nie biurokratycznej procedurze.
