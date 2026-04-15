@@ -1,3 +1,15 @@
+[2026-04-15] - [LinkedIn/@drchrisflaherty] Ukraiński Korpus Dronów osiąga cel: dzienna rekrutacja Rosji równa dziennym stratom
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7449945466978570241/
+• Dzienna rekrutacja rosyjska w 2026 r. zrównała się z dziennymi stratami bojowymi — osiągnięto strategiczny cel Korpusu Dronów: zużycie sił ludzkich w tempie przekraczającym możliwości bieżącego uzupełnienia.
+• Model predykcyjny z września 2022 r. trafnie opisał asymetrię: strona rosyjska absorbuje masowe straty ludzkie zamiast inwestować w skok technologiczny; Ukraina realizuje ścieżkę „Up-Tech" — dominacja BSP jako narzędzie strategicznego wyniszczenia kadry przeciwnika.
+• Paradoks 600 tys. żołnierzy rosyjskich rozlokowanych w strefie okupacji: nie są angażowani w masowe operacje przełamania — otwarte pytanie strategiczne o zdolność i wolę skupienia sił pozostaje bez odpowiedzi.
+
+[2026-04-14] - [LinkedIn/@dmitrynedov] AI w C-UAS: 3 mity rujnujące realne wdrożenia systemów przeciwdronowych
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7449335570528559104/
+• Mit 1 — AI autonomicznie neutralizuje zagrożenia: w środowisku miejskim i przy zakłóceniach EW false positive rate przekracza progi akceptowalne dla akcji kinetycznej; AI to klasyfikator działający <30ms, nie decydent w pętli ogniowej — decyzja o zaangażowaniu zawsze pozostaje przy operatorze.
+• Mit 2 — Więcej danych = lepszy model: liczy się jakość sygnału, nie wolumen; realne profile RCS, sygnatury mikro-Dopplera śmigieł i przekroje termiczne są niezbędne — dane syntetyczne bez fizycznej walidacji prowadzą do halucynacji w warunkach operacyjnych.
+• Mit 3 — Pre-trenowane modele działają od ręki: wagi COCO/ImageNet zawodzą wobec celów 0,001 m² w szumie RF/optycznym; C-UAS wymaga dziedzinowego fine-tuningu z uwzględnieniem fizyki sensorów, kinetyki zagrożeń i ograniczeń brzegowych (INT8, <15W, latencja <100ms).
+
 [2026-04-14] - [@DarmolinskiT] Ukraina: pętla wdrożeniowa technologii bojowych vs polska Decyzja 123/MON
 URL: https://x.com/DarmolinskiT/status/2043887919107072428
 • Ukraiński MON buduje realną pętlę: szybki zakup → test w boju → ocena → poprawki → wdrożenie → skalowanie — model oparty na tempie adaptacji, nie biurokratycznej procedurze.
@@ -19,12 +31,12 @@ URL: https://www.linkedin.com/feed/update/urn:li:activity:7449701766356652032/
 [2026-04-14] - [LinkedIn/@drchrisflaherty] Taktyczne użycie eVTOL do dostarczania naziemnych dronów bojowych za linię kontaktu
 URL: https://www.linkedin.com/feed/update/urn:li:activity:7449597598887321602/
 • Koncepcja: użycie dużego drona-taksówki (eVTOL / air-taxi) do dostarczenia drona naziemnego uzbrojonego w karabin maszynowy na pozycję flankującą lub głęboko za linię kontaktu wroga.
-• Połączenie technologii pionowego transportu autonomicznego z naziemnymi systemami uderzeniowymi otwiera nowy wektor ataku bez angażowania piechoty w ryzykowne przemieszczenia terenowe.
+• PoŁączenie technologii pionowego transportu autonomicznego z naziemnymi systemami uderzeniowymi otwiera nowy wektor ataku bez angaŸowania piechoty w ryzykowne przemieszczenia terenowe.
 • Ukraiński 13. Brygada Khartiia stosowała kombinowane ataki dronów naziemnych i powietrznych jako zintegrowany system broni — koncepcja eVTOL-delivery to kolejny krok tej ewolucji.
 
-[2026-04-14] - [LinkedIn/@drchrisflaherty] Pierwszy bojowy atak przejęcia pozycji wroga wyłącznie przez systemy robotyczne — bez piechoty
+[2026-04-14] - [LinkedIn/@drchrisflaherty] Pierwszy bojowy atak przezęcia pozycji wroga wyłącznie przez systemy robotyczne — bez piechoty
 URL: https://www.linkedin.com/feed/update/urn:li:activity:7449719655608287232/
-• Po raz pierwszy ukraińskie siły obronne przejęły pozycję wroga wyłącznie przy użyciu naziemnych systemów robotycznych i dronów — bez udziału piechoty; żołnierze rosyjscy skapitulowali.
+• Po raz pierwszy ukraińskie siły obronne przezęły pozycję wroga wyłącznie przy uŸyciu naziemnych systemów robotycznych i dronów — bez udziału piechoty; Ÿołnierze rosyjscy skapitulowali.
 • Precedensy koncepcji: 13. Brygada Khartiia stosowała kombinowane ataki drone-ground + drone-air w 2024–2025 jako zintegrowany system broni — dzisiejsze zdarzenie to operacyjny milestone.
 • Zdarzenie potwierdza dojrzałość koncepcji "zero infantry exposure" w szturmie — pełne przeniesienie ryzyka ataku na systemy bezzałogowe staje się realną taktyką, nie teorią.
 
@@ -33,21 +45,21 @@ URL: https://www.linkedin.com/feed/update/urn:li:activity:7449719655608287232/
 
 [2026-04-13] - [@sternenko] Ivan Franko Group: FPV niszczy rosyjską ciężarowę w rejonie Doniecka
 URL: https://x.com/sternenko/status/2043685211917939094
-• Operatorzy Ivan Franko Group zniszczyli rosyjską ciężarowę na obwodnicy Doniecka przy użyciu specjalistycznego drona FPV — nagranie przebiło się szeroko na rosyjskie kanały wojskowe.
+• Operatorzy Ivan Franko Group zniszczyli rosyjską ciężarowę na obwodnicy Doniecka przy uŸyciu specjalistycznego drona FPV — przebiło się szeroko na rosyjskie kanały wojskowe.
 • Drony FPV ewoluują niezwykle szybko i dysponują jeszcze niezrealizowanym potencjałem bojowym — akcja dokumentuje rosnące zdolności precyzyjnego uderzenia w logistykę wroga.
 • Operacja potwierdza zdolność Ukrainy do interdykcji rosyjskich linii zaopatrzenia w teatrze donieckim.
 • Sternenko apeluje o wsparcie programu Rusoriz dostarczającego zaawansowane drony FPV jednostkom frontowym.
 
 [2026-04-13] - [@sternenko] Wild Hornets: interceptor dronowy zestrzeliwuje Shaheda nad Morzem Czarnym
 URL: https://x.com/sternenko/status/2043627828814467169
-• Ukraińskie siły zestrze liły drona Shahed nad Morzem Czarnym przed dotarciem do wybrzeża przy użyciu interceptora Wild Hornets sterowanego zdalnie z odległości wielu kilometrów.
-• Operator znajdował się daleko od miejsca przechwycenia — demonstracja zdolności C-UAS drone-vs-drone z dużym dystansem operacyjnym.
+• Ukraińskie siły zestrze liły drona Shahed nad Morzem Czarnym przed dotarciem do wybrzeża przy uŸyciu interceptora Wild Hornets sterowanego zdalnie z odległości wielu kilometrów.
+• Operator snajdował się daleko od miejsca przechwycenia — demonstracja zdolności C-UAS drone-vs-drone z duŸym dystansem operacyjnym.
 • Ukraina skaluje technologie zdalnie sterowanych interceptorów jako element wielowarstwowej OPL przeciwko rosyjskim rojom Shahedów.
-• Technologia ShahedCutter: przechwycenie kinetyczne bez angażowania załogi w strefie zagrożenia.
+• Technologia ShahedCutter: przechwycenie kinetyczne bez angażowania załogi w strefie zagroŸenia.
 
 [2026-04-12] - [@RALee85] Zaktualizowana mapa: rosyjskie postępy przez granicę w obwodzie sumskim
 URL: https://x.com/RALee85/status/2043778199402824024
 • Ryan Lee opublikował zaktualizowaną mapę via DeepStateMap dokumentującą bieżące rosyjskie postępy terytorialne przez granicę ukraińską w obwodzie sumskim.
 • Rosyjska presja przygraniczna w Sumy stanowi front drugorzędny względem głównych walk na osi Doniecka, ale sygnalizuje celowe rozciąganie ukraińskiej obrony.
-• Mapa rejestruje aktywność rosyjską w regionie wcześniej stabilnym — sygnał poszerzenia rosyjskiego skupienia operacyjnego poza Donbas.
+• Mapa rejestruje aktywność rosyjską w regionie wcześniej stabilnym — sygnał pozzerzenia rosyjskiego skupienia operacyjnego poza Donbas.
 
