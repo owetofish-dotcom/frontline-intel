@@ -1,3 +1,39 @@
+[2026-04-17] - [LinkedIn/@drchrisflaherty] Drony saturacyjne i głęboka powierzchnia ataku — model odwrócenia pola walki
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7450708538508713984/
+• Masowe użycie małych dronów na poziomie saturacji i ciągłego uzupełniania strukturalnie zmienia pole walki w głęboką powierzchnię ataku — obie strony radykalnie rozpraszają front i odwracają tradycyjny model bitwy.
+• Zarówno Ukraina jak i Rosja wdrożyły ten model walki, ale każda strona podeszła do tego w odmienny sposób — wynik: całkowite odwrócenie logiki frontu.
+• Odwrócenie bitwy (battle inversion) to nowy paradygmat: ciągłe uzupełnianie nasycenia dronowego wymusza rozproszenie i głębokość operacyjną zamiast koncentracji sił.
+
+[2026-04-17] - [LinkedIn/@drchrisflaherty] Architektura łączności jako fundament walki robotycznej — nowe wyzwania rozmieszczenia sił
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7450664303445168128/
+• Walka robotyczna jest fundamentalnie uwarunkowana architekturą łączności — same drony nie wystarczą; siły wdrażające wojnę dronową nie rozumieją, jak radykalnie zmienia się rozmieszczenie ludzi.
+• Typowy zespół dronów kompanii może operować 5–20 km od własnej jednostki, kontrolując drony walczące 20–50 km dalej na froncie — wymaga to nowych rozwiązań koordynacji i sieci łączności.
+• Ukraina rozmieszcza 8 000–10 000 dronów dziennie w boju (bez rozpoznania) — skala ta wymaga planowania łączności o zupełnie innym rzędzie wielkości niż tradycyjne systemy dowodzenia.
+
+[2026-04-16] - [LinkedIn/@drchrisflaherty] Czy rosyjska armia okupacyjna wejdzie do walki? — paradoks 700 tys. żołnierzy
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7450351083232870401/
+• Kluczowe pytanie strategiczne 2026: dlaczego ~700 tys. rosyjskich żołnierzy w strefie okupacji nie jest angażowanych w masowe operacje przełamania — tak jak to miało miejsce 50 lat temu.
+• Siły te były dotąd zachowane w wyniku równowagi straty/uzupełnienie; jeśli ta równowaga zostanie zachwiana przez skuteczność ukraińskich systemów bezzałogowych — pytanie o ich zaangażowanie staje się krytyczne dla obu stron.
+• Ryzyko zjawiska „ghost divisions" wzorem irackiej armii Fedayeen: fikcyjne jednostki istniejące tylko w dokumentach kadrowych — realna liczebność bojowa może być znacznie niższa niż zakładana.
+
+[2026-04-16] - [LinkedIn/@dmitrynedov] Wojskowy Kill Switch BSP: architektura wielopoziomowa chroniąca dane misji i technologię
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7450056603036426240/
+• Wojskowy Kill Switch to nie przycisk zatrzymania silników: to warstwowy, sprzętowo izolowany obwód bezpieczeństwa działający w warunkach WRE, cyberataków i fizycznego przejęcia — cel: ochrona danych misji i technologii, nie tylko zatrzymanie lotu.
+• Cztery poziomy architektury: L0 — fizyczne odcięcie silników (niezależne od OS); L1 — chip TEE/HSM natychmiastowo niszczący klucze kryptograficzne; L2 — szyfrowany link z frequency hoppingiem i jednorazowymi tokenami; L3 — deterministyczna logika sprzętowa z priorytetem nad AI i autopilotem.
+• Watchdog sprzętowy ma bezwzględny priorytet nad jakąkolwiek siecią neuronową — zasada kluczowa: utrata zaufania = kontrolowane lądowanie lub bezpieczne usunięcie danych, bez „domysłów" systemu.
+
+[2026-04-16] - [@RALee85] FPV i tanie BSP: lekceważone zagrożenie dla sił NATO w świetle walk w Libanie
+URL: https://x.com/RALee85/status/2044829593895330009
+• W niektórych zachodnich kręgach obronnych nadal bagatelizuje się zagrożenie, jakie FPV i tanie BSP stanowią dla sił NATO — podczas gdy operatorzy rosyjscy i ukraińscy są znacznie bardziej doświadczeni niż Hezbollah.
+• Hezbollah mimo niższego poziomu zaawansowania i tak poważnie zagraża IDF — co powinno być czytelnym sygnałem ostrzegawczym dla planistów NATO szacujących ryzyko ukraińsko-rosyjskich zdolności UAS.
+• Wniosek: lekceważenie zagrożenia FPV/cheap UAS przez zachodnie doktryny obronne jest błędem strategicznym — doświadczenia z frontu UA/RU i Libanu dowodzą realności tej luki.
+
+[2026-04-16] - [@sternenko] Luka balistyczna vs 90%+ skuteczność Shahed-cuttera — raport z masowego ataku
+URL: https://x.com/sternenko/status/2044664315106484450
+• Ukraina nie dysponuje wystarczającymi środkami przechwytywania rakiet balistycznych — to krytyczne wyzwanie operacyjne, które skutkuje stratami wśród cywilów i zniszczeniami infrastruktury.
+• Masowy atak dronami Shahed: ponad 600 sztuk — ukraińskie siły przechwytały ponad 90% dzięki umiejętnościom operatorów i projektowi zdalnych interceptorów Shahed-cutter działających z dużym dystansem od strefy zagrożenia.
+• Projekt Shahed-cutter nabiera tempa i znacząco podnosi skuteczność każdej załogi — model zdalnego przechwytywania (operator bezpieczny, daleko od zagrożenia) potwierdza kierunek rozwoju ukraińskiego sektora dronowego.
+
 [2026-04-15] - [LinkedIn/@drchrisflaherty] Ukraiński Korpus Dronów osiąga cel: dzienna rekrutacja Rosji równa dziennym stratom
 URL: https://www.linkedin.com/feed/update/urn:li:activity:7449945466978570241/
 • Dzienna rekrutacja rosyjska w 2026 r. zrównała się z dziennymi stratami bojowymi — osiągnięto strategiczny cel Korpusu Dronów: zużycie sił ludzkich w tempie przekraczającym możliwości bieżącego uzupełnienia.
