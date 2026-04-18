@@ -1,3 +1,15 @@
+[2026-04-18] - [LinkedIn/@drchrisflaherty] Rój vs stado — fundamentalne nieporozumienie w taktyce robotycznej i dronowej
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7451070049336901632/
+• Zachodnie doktryny mylą zachowanie stadne (formacje identycznie działających robotów) z prawdziwym rójowaniem (samodzielne zaangażowanie na wielu wektorach, konwergencja na cel) — to błąd taktyczny na poziomie koncepcji operacyjnej.
+• Chiński Robot Wolf jako przykład: poruszanie się w formacji to walka 2D — realna przewaga to potajemne rozmieszczenie jednostek wokół przeciwnika i jednoczesny atak ze wszystkich wektorów.
+• Prawdziwy rój = każda jednostka angażuje indywidualnie, część konwerguje na cel, część szuka celów okazjonalnych — analogia biologiczna (owady) wyjaśnia różnicę operacyjną między stadem a rojem.
+
+[2026-04-17] - [LinkedIn/@drchrisflaherty] Czy rozpoczęło się oblężenie Doniecka? — 1. Korpus Azow uderza w rosyjskie linie zaopatrzenia
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7450726875473137664/
+• 1. Korpus Azow Gwardii Narodowej Ukrainy systematycznie uderza w rosyjskie linie zaopatrzenia wokół i wewnątrz Doniecka — drony FPV atakują ciężarówki, konwoje amunicyjne i cysterny paliwowe na drogach w Zuhres, Andriivka, Starobesheve, Horliwka, Lisiczańsk i obwodnicy Doniecka.
+• Sygnał kluczowego punktu przełomowego: masowe głębokie uderzenia w główne miasta okupowane — wcześniejsza analiza wskazywała Tokmak jako logiczny cel militarny z powodu sieci ufortyfikowanych węzłów logistycznych, obiektów szkolenia pilotów dronów i składów paliwa.
+• Koncepcja odwróconej bitwy: tyły rosyjskich sił stają się „nową linią frontu" — atak logistyczny na zaplecze wymusza nową logikę obrony stref zaplecza, które dotąd były poza zasięgiem ukraińskich systemów bezzałogowych.
+
 [2026-04-17] - [LinkedIn/@drchrisflaherty] Drony saturacyjne i głęboka powierzchnia ataku — model odwrócenia pola walki
 URL: https://www.linkedin.com/feed/update/urn:li:activity:7450708538508713984/
 • Masowe użycie małych dronów na poziomie saturacji i ciągłego uzupełniania strukturalnie zmienia pole walki w głęboką powierzchnię ataku — obie strony radykalnie rozpraszają front i odwracają tradycyjny model bitwy.
