@@ -1,3 +1,15 @@
+[2026-04-19] - [LinkedIn/@jorge-rivero-defense] Rosyjska instrukcja Rosgvardii 2024 — C-UAS w bazach wojskowych: analiza adaptacji taktycznej
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7451261740060663808/
+• Podręcznik operacyjny Departamentu Służby Wojskowej i Bezpieczeństwa Rosgvardii z 2024 r. klasyfikuje drony wroga (DJI copters, Bayraktar TB2, Switchblade, FPV kamikazes) i definiuje procedury zaangażowania: od rozmieszczenia posterunków obserwacji lotniczej, przez protokoły zestrzelenia, po EOD po przechwyceniu — bezpośredni wynik doświadczeń bojowych z Ukrainy.
+• Kluczowe przyznanie: działa antydronowe są w dużej mierze nieskuteczne wobec dronów FPV operujących na niestandardowych częstotliwościach — istotna koncesja z uwagi na dominację systemów FPV na polu walki; dokument zawiera karty identyfikacji sylwetek i zakresy detekcji akustycznej ukraińskich i zachodnich UAV.
+• Dokument ujawnia skalę adaptacji taktycznej Rosji na poziomie jednostki — szczegółowość opisu systemów bezzałogowych nieprzyjaciela świadczy o traktowaniu zagrożenia dronowego jako priorytetu doktrynalnego; materiał kluczowy dla analizy ewolucji C-UAS w warunkach realnego konfliktu.
+
+[2026-04-19] - [LinkedIn/@louis-saillans] Drony LTE/4G/5G — martwy kąt 99% systemów C-UAS
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7451239893579501568/
+• Drony sterowane przez sieci komórkowe LTE/4G/5G omijają tradycyjne metody detekcji RF i zagłuszania stosowane przez większość systemów C-UAS — 99% firm C-UAS nie jest zdolnych do neutralizacji tego zagrożenia.
+• Luka wynika z zależności systemów C-UAS od detekcji sygnałów radiowych w pasmach charakterystycznych dla sterowania BSP — ruch sieciowy 4G/5G jest nieodróżnialny od ruchu komercyjnego i nie aktywuje standardowych algorytmów detekcji.
+• Implikacja operacyjna: operator posiadający dostęp do infrastruktury telekomunikacyjnej (lub działający bez własnego nadajnika sterującego) może prowadzić BSP praktycznie niewidocznie dla konwencjonalnych systemów C-UAS — krytyczna luka w architekturze obrony przeciwdronowej.
+
 [2026-04-18] - [LinkedIn/@drchrisflaherty] Rój vs stado — fundamentalne nieporozumienie w taktyce robotycznej i dronowej
 URL: https://www.linkedin.com/feed/update/urn:li:activity:7451070049336901632/
 • Zachodnie doktryny mylą zachowanie stadne (formacje identycznie działających robotów) z prawdziwym rójowaniem (samodzielne zaangażowanie na wielu wektorach, konwergencja na cel) — to błąd taktyczny na poziomie koncepcji operacyjnej.
