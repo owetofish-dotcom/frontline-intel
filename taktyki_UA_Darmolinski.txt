@@ -1,3 +1,51 @@
+[2026-04-20] - [LinkedIn/@drchrisflaherty] Strategia Anakonda wobec Krymu — drony morskie i izolacja logistyczna półwyspu
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7451773757406224384/
+• Zniszczenie promu kolejowego Slavyanin (6 kwietnia) i ataki na okręty desantowe Jamal i Azow ograniczają rosyjską logistykę wojskową na Krymie wyłącznie do Mostu Kerczeńskiego i lądowej drogi Tavrida-2 — strukturalna izolacja półwyspu jako efekt ukraińskiej strategii długofalowej.
+• Ukraińska flotylla dronów morskich skutecznie projektuje siłę w głąb lądu do 20 km od wybrzeża, niszcząc systemy OPL, radary i samoloty — BSP nawodne jako platforma projekcji siły lądowej w nowym paradygmacie operacyjnym.
+• Ataki na rosyjskie platformy naftowo-gazowe na Morzu Czarnym eliminują system wczesnego ostrzegania i ISR — degradacja rosyjskiego A2/AD na morzu jako warunek skuteczności dalszych uderzeń w logistykę Krymu.
+
+[2026-04-19] - [LinkedIn/@louis-saillans] Drony 4G — ślepa plamka ochrony infrastruktury krytycznej
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7451551009929060352/
+• Drony sterowane przez sieci 4G stanowią największe zagrożenie dla infrastruktury krytycznej — wyłącznie rządy mają zdolność zagłuszania lub skanowania sieci komórkowych, co czyni je praktycznie niewidocznymi dla komercyjnych systemów C-UAS.
+• Prywatne podmioty zarządzające infrastrukturą krytyczną (energetyka, transport, woda) są strukturalnie niezdolne do wykrycia ani neutralizacji ataków dronów LTE bez bezpośredniego wsparcia rządowego systemu C-UAS — systemowa luka w architekturze bezpieczeństwa.
+• Kontynuacja analizy blind spot 4G/LTE: kluczowy wektor ataku na infrastrukturę krytyczną jest de facto poza zasięgiem sektora prywatnego — bezpośrednia implikacja dla krajowych polityk bezpieczeństwa i regulacji dostępu do sieci komórkowych.
+
+[2026-04-19] - [LinkedIn/@drchrisflaherty] Atak na Jamal i Azow — strategiczny punkt zwrotny w fazie terminalnej
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7451461622155612160/
+• Ataki na okręty desantowe Jamal, Azow i niezidentyfikowany okręt (18 kwietnia) sygnalizują przejście do „trybu szybkiego rozstrzygnięcia" w fazie terminalnej — obie strony odchodzą od logiki attrition w kierunku operacji decyzywnej.
+• Ukraińska strategia 2026: wywołanie potencjalnego załamania rosyjskiej potęgi morskiej na Morzu Czarnym, Azowskim i Kaspijskim — jako warunek wstępny trwałej zmiany równowagi sił lądowych i zdolności obrony Krymu od strony lądu.
+• Rosyjskie okręty rakietowe uwięzione w Noworosyjsku stają się łatwymi celami — paradoks floty zablokowanej w porcie jako efekt ukraińskiej dominacji w domenach BSP i nawodnych systemów bezzałogowych.
+
+[2026-04-19] - [@RALee85] Nemesis Brigade: interceptor UAS wystrzelony z drona morskiego zestrzelił Gerana
+URL: https://x.com/RALee85/status/2045788767349313717
+• Ukraiński Batalion Nemesis przechwycił drona Geran przy użyciu interceptora UAS wystrzelonego z drona morskiego — nowa doktryna łącząca bojowe BSP nawodne z powietrzną zdolnością przechwytywania (drone-launched drone interception).
+• Dron morski jako mobilna platforma startowa dla interceptora powietrznego tworzy zdolność C-UAS operującą poza zasięgiem naziemnych systemów EW i radiolokacji — rozszerzenie głębokości defensywnej bez stałej infrastruktury naziemnej.
+• Potencjał operacyjny: rozproszony system C-UAS oparty na flotylli nawodnych dronów działających wzdłuż wybrzeża i na morzu — model projekcji zdolności przeciwdronowej w obszarach, gdzie naziemny C-UAS jest niemożliwy lub zbyt ryzykowny.
+
+[2026-04-19] - [LinkedIn/@jorge-rivero-defense] Rosyjska instrukcja Rosgvardii 2024 — C-UAS w bazach wojskowych: analiza adaptacji taktycznej
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7451261740060663808/
+• Podręcznik operacyjny Departamentu Służby Wojskowej i Bezpieczeństwa Rosgvardii z 2024 r. klasyfikuje drony wroga (DJI copters, Bayraktar TB2, Switchblade, FPV kamikazes) i definiuje procedury zaangażowania: od rozmieszczenia posterunków obserwacji lotniczej, przez protokoły zestrzelenia, po EOD po przechwyceniu — bezpośredni wynik doświadczeń bojowych z Ukrainy.
+• Kluczowe przyznanie: działa antydronowe są w dużej mierze nieskuteczne wobec dronów FPV operujących na niestandardowych częstotliwościach — istotna koncesja z uwagi na dominację systemów FPV na polu walki; dokument zawiera karty identyfikacji sylwetek i zakresy detekcji akustycznej ukraińskich i zachodnich UAV.
+• Dokument ujawnia skalę adaptacji taktycznej Rosji na poziomie jednostki — szczegółowość opisu systemów bezzałogowych nieprzyjaciela świadczy o traktowaniu zagrożenia dronowego jako priorytetu doktrynalnego; materiał kluczowy dla analizy ewolucji C-UAS w warunkach realnego konfliktu.
+
+[2026-04-19] - [LinkedIn/@louis-saillans] Drony LTE/4G/5G — martwy kąt 99% systemów C-UAS
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7451239893579501568/
+• Drony sterowane przez sieci komórkowe LTE/4G/5G omijają tradycyjne metody detekcji RF i zagłuszania stosowane przez większość systemów C-UAS — 99% firm C-UAS nie jest zdolnych do neutralizacji tego zagrożenia.
+• Luka wynika z zależności systemów C-UAS od detekcji sygnałów radiowych w pasmach charakterystycznych dla sterowania BSP — ruch sieciowy 4G/5G jest nieodróżnialny od ruchu komercyjnego i nie aktywuje standardowych algorytmów detekcji.
+• Implikacja operacyjna: operator posiadający dostęp do infrastruktury telekomunikacyjnej (lub działający bez własnego nadajnika sterującego) może prowadzić BSP praktycznie niewidocznie dla konwencjonalnych systemów C-UAS — krytyczna luka w architekturze obrony przeciwdronowej.
+
+[2026-04-18] - [LinkedIn/@drchrisflaherty] Rój vs stado — fundamentalne nieporozumienie w taktyce robotycznej i dronowej
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7451070049336901632/
+• Zachodnie doktryny mylą zachowanie stadne (formacje identycznie działających robotów) z prawdziwym rójowaniem (samodzielne zaangażowanie na wielu wektorach, konwergencja na cel) — to błąd taktyczny na poziomie koncepcji operacyjnej.
+• Chiński Robot Wolf jako przykład: poruszanie się w formacji to walka 2D — realna przewaga to potajemne rozmieszczenie jednostek wokół przeciwnika i jednoczesny atak ze wszystkich wektorów.
+• Prawdziwy rój = każda jednostka angażuje indywidualnie, część konwerguje na cel, część szuka celów okazjonalnych — analogia biologiczna (owady) wyjaśnia różnicę operacyjną między stadem a rojem.
+
+[2026-04-17] - [LinkedIn/@drchrisflaherty] Czy rozpoczęło się oblężenie Doniecka? — 1. Korpus Azow uderza w rosyjskie linie zaopatrzenia
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7450726875473137664/
+• 1. Korpus Azow Gwardii Narodowej Ukrainy systematycznie uderza w rosyjskie linie zaopatrzenia wokół i wewnątrz Doniecka — drony FPV atakują ciężarówki, konwoje amunicyjne i cysterny paliwowe na drogach w Zuhres, Andriivka, Starobesheve, Horliwka, Lisiczańsk i obwodnicy Doniecka.
+• Sygnał kluczowego punktu przełomowego: masowe głębokie uderzenia w główne miasta okupowane — wcześniejsza analiza wskazywała Tokmak jako logiczny cel militarny z powodu sieci ufortyfikowanych węzłów logistycznych, obiektów szkolenia pilotów dronów i składów paliwa.
+• Koncepcja odwróconej bitwy: tyły rosyjskich sił stają się „nową linią frontu" — atak logistyczny na zaplecze wymusza nową logikę obrony stref zaplecza, które dotąd były poza zasięgiem ukraińskich systemów bezzałogowych.
+
 [2026-04-17] - [LinkedIn/@drchrisflaherty] Drony saturacyjne i głęboka powierzchnia ataku — model odwrócenia pola walki
 URL: https://www.linkedin.com/feed/update/urn:li:activity:7450708538508713984/
 • Masowe użycie małych dronów na poziomie saturacji i ciągłego uzupełniania strukturalnie zmienia pole walki w głęboką powierzchnię ataku — obie strony radykalnie rozpraszają front i odwracają tradycyjny model bitwy.
