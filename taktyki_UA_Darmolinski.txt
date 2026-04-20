@@ -1,3 +1,27 @@
+[2026-04-20] - [LinkedIn/@drchrisflaherty] Strategia Anakonda wobec Krymu — drony morskie i izolacja logistyczna półwyspu
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7451773757406224384/
+• Zniszczenie promu kolejowego Slavyanin (6 kwietnia) i ataki na okręty desantowe Jamal i Azow ograniczają rosyjską logistykę wojskową na Krymie wyłącznie do Mostu Kerczeńskiego i lądowej drogi Tavrida-2 — strukturalna izolacja półwyspu jako efekt ukraińskiej strategii długofalowej.
+• Ukraińska flotylla dronów morskich skutecznie projektuje siłę w głąb lądu do 20 km od wybrzeża, niszcząc systemy OPL, radary i samoloty — BSP nawodne jako platforma projekcji siły lądowej w nowym paradygmacie operacyjnym.
+• Ataki na rosyjskie platformy naftowo-gazowe na Morzu Czarnym eliminują system wczesnego ostrzegania i ISR — degradacja rosyjskiego A2/AD na morzu jako warunek skuteczności dalszych uderzeń w logistykę Krymu.
+
+[2026-04-19] - [LinkedIn/@louis-saillans] Drony 4G — ślepa plamka ochrony infrastruktury krytycznej
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7451551009929060352/
+• Drony sterowane przez sieci 4G stanowią największe zagrożenie dla infrastruktury krytycznej — wyłącznie rządy mają zdolność zagłuszania lub skanowania sieci komórkowych, co czyni je praktycznie niewidocznymi dla komercyjnych systemów C-UAS.
+• Prywatne podmioty zarządzające infrastrukturą krytyczną (energetyka, transport, woda) są strukturalnie niezdolne do wykrycia ani neutralizacji ataków dronów LTE bez bezpośredniego wsparcia rządowego systemu C-UAS — systemowa luka w architekturze bezpieczeństwa.
+• Kontynuacja analizy blind spot 4G/LTE: kluczowy wektor ataku na infrastrukturę krytyczną jest de facto poza zasięgiem sektora prywatnego — bezpośrednia implikacja dla krajowych polityk bezpieczeństwa i regulacji dostępu do sieci komórkowych.
+
+[2026-04-19] - [LinkedIn/@drchrisflaherty] Atak na Jamal i Azow — strategiczny punkt zwrotny w fazie terminalnej
+URL: https://www.linkedin.com/feed/update/urn:li:activity:7451461622155612160/
+• Ataki na okręty desantowe Jamal, Azow i niezidentyfikowany okręt (18 kwietnia) sygnalizują przejście do „trybu szybkiego rozstrzygnięcia" w fazie terminalnej — obie strony odchodzą od logiki attrition w kierunku operacji decyzywnej.
+• Ukraińska strategia 2026: wywołanie potencjalnego załamania rosyjskiej potęgi morskiej na Morzu Czarnym, Azowskim i Kaspijskim — jako warunek wstępny trwałej zmiany równowagi sił lądowych i zdolności obrony Krymu od strony lądu.
+• Rosyjskie okręty rakietowe uwięzione w Noworosyjsku stają się łatwymi celami — paradoks floty zablokowanej w porcie jako efekt ukraińskiej dominacji w domenach BSP i nawodnych systemów bezzałogowych.
+
+[2026-04-19] - [@RALee85] Nemesis Brigade: interceptor UAS wystrzelony z drona morskiego zestrzelił Gerana
+URL: https://x.com/RALee85/status/2045788767349313717
+• Ukraiński Batalion Nemesis przechwycił drona Geran przy użyciu interceptora UAS wystrzelonego z drona morskiego — nowa doktryna łącząca bojowe BSP nawodne z powietrzną zdolnością przechwytywania (drone-launched drone interception).
+• Dron morski jako mobilna platforma startowa dla interceptora powietrznego tworzy zdolność C-UAS operującą poza zasięgiem naziemnych systemów EW i radiolokacji — rozszerzenie głębokości defensywnej bez stałej infrastruktury naziemnej.
+• Potencjał operacyjny: rozproszony system C-UAS oparty na flotylli nawodnych dronów działających wzdłuż wybrzeża i na morzu — model projekcji zdolności przeciwdronowej w obszarach, gdzie naziemny C-UAS jest niemożliwy lub zbyt ryzykowny.
+
 [2026-04-19] - [LinkedIn/@jorge-rivero-defense] Rosyjska instrukcja Rosgvardii 2024 — C-UAS w bazach wojskowych: analiza adaptacji taktycznej
 URL: https://www.linkedin.com/feed/update/urn:li:activity:7451261740060663808/
 • Podręcznik operacyjny Departamentu Służby Wojskowej i Bezpieczeństwa Rosgvardii z 2024 r. klasyfikuje drony wroga (DJI copters, Bayraktar TB2, Switchblade, FPV kamikazes) i definiuje procedury zaangażowania: od rozmieszczenia posterunków obserwacji lotniczej, przez protokoły zestrzelenia, po EOD po przechwyceniu — bezpośredni wynik doświadczeń bojowych z Ukrainy.
