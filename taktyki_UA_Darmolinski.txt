@@ -1,3 +1,19 @@
+[2026-04-23] - [LinkedIn/@dmitrynedov] UAV Datalinks Under Fire — inżynieria łączności UAV w środowisku EW
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/shares/
+• Link budget przy 1–2 W TX, margines <10 dB pod jamming szerokopasmowy → adaptacyjne MCS (BPSK↔QPSK↔16QAM) + LDPC + dynamiczna kontrola EIRP utrzymują próg SNR.
+• MAVLink 2/UDP: RTT 50–100 ms lokalnie, 300–800 ms przez LEO — przy profilach FPV/kinetycznych wymagane deterministyczne pętle sterowania na edge + graceful fallback gdy link degraduje.
+• Anti-jam stack: FHSS >1k skoków/s + DSSS (10–30 dB processing gain) + kognitywny spectrum sensing + ML-driven blanking subcarrierów OFDM pod reaktywnym EW.
+• Topologia: MANET (IEEE 802.11s, TDMA proprietary) — routing zdecentralizowany, node-to-node relay, self-healing; interop przez STANAG 4586/4591 + MAVLink over DDS/ROS 2 dla swarmu.
+• Security: AES-256-GCM (payload) + ECC P-384 (auth komend) + nonce session keys + RF fingerprinting jako PHY-layer anti-spoofing.
+• Hybrid RF/FSO: laser 1550 nm (100+ Mbps, low probability of intercept) jako kovert short-range telemetria + RF fallback.
+
+[2026-04-22] - [LinkedIn/@dmitrynedov] Why AI Won't Replace Classical Guidance Laws — architektura hybrydowa C-UAS
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/shares/
+• Klasyczna Proportional Navigation: matematycznie udowodniona, certyfikowalna, deterministyczna — ale zakłada przewidywalny ruch celu i czyste dane sensoryczne (nierealne w EW).
+• AI/ML uzupełnia tam gdzie PN zawodzi: rozpoznawanie wzorców w zaszumionych danych, predykcja adaptacyjna dla nielinearnych celów (FPV), fuzja sensorów pod niepewnością.
+• Architektura hybrydowa SpearX: mid-course = PN (stabilna, tania), terminal phase = AI tracking (obsługa manewrów eratycznych FPV), safety layer = runtime assurance z fallback do PN gdy AI lags.
+• Kluczowy wniosek: AI nie zastępuje prawa naprowadzania — poprawia warstwę percepcji zasilającą PN. Classical backbone = certyfikowalność; AI perception layer = adaptacyjność na edge cases.
+
 [2026-04-20] - [LinkedIn/@drchrisflaherty] Strategia Anakonda wobec Krymu — drony morskie i izolacja logistyczna półwyspu
 URL: https://www.linkedin.com/feed/update/urn:li:activity:7451773757406224384/
 • Zniszczenie promu kolejowego Slavyanin (6 kwietnia) i ataki na okręty desantowe Jamal i Azow ograniczają rosyjską logistykę wojskową na Krymie wyłącznie do Mostu Kerczeńskiego i lądowej drogi Tavrida-2 — strukturalna izolacja półwyspu jako efekt ukraińskiej strategii długofalowej.
