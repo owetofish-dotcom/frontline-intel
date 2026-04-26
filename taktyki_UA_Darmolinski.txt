@@ -1,3 +1,25 @@
+[2026-04-25] - [Drony ukraińskie dotarły do Uralu — rekordowy zasięg] [@sternenko]
+URL: https://x.com/sternenko/status/2047930748691259492
+• Ukraińskie drony osiągnęły Urał po raz pierwszy — zasięg ponad 1800 km z Ukrainy.
+• W Jekaterynburgu rosyjskie systemy EW skierowały drona na budynek mieszkalny — sześciu rosyjskich żołnierzy rannych.
+• Rozszczepienia również słychać w Czełabińsku. Propagandziści skarżą się, że przez ponad 10 godzin lotu drony nie spotkały się z pracą systemów obrony powietrznej.
+• Przełomowy moment w zdolności projekcji siły ukraińskiej — zasięg poza dotychczasową maksymalną odległością operacyjną.
+
+[2026-04-25] - [Rosyjski atak nocny: 47 pocisków i 619 dronów OWA] [@RALee85]
+URL: https://x.com/RALee85/status/2047999601395868052
+• Rosja wystrzelała 47 pocisków i 619 bezzałogowych systemów atakujących (Shahed, Gerbera, Italmas i inne).
+• Rozbicie: 12 Iskander-M/S-400 (R-48), 29 Kh-101, 1 Iskander-K, 5 Kalibr — żaden pocisk balistyczny nie został przechwycony.
+• Masowy atak dronów towarzyszący uderzeeniu balistycznym — taktyka przeładowania systemów obrony powietrznej.
+• Intensywność ataków wskazuje na rosyjskie dążenie do wyczerpania ukraińskich zasobów obronnych.
+
+[2026-04-24] - [Manipulacja statystykami — Shahed vs F-15E] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2047628076658336082
+• Analiza manipulacji: porównywanie masy ładunku Shaheda do masy bomby zrzucanej z F-15E jest analitycznie błędne.
+• Shahed to „tani nośnik presji" — nie musi wygrywać pojedynku kinetycznego, zmusza obronę do zużywania zasobów, radarów i efektorów.
+• Efekt systemowy: jeśli państwo musi wypalać drogie pociski przeciwlotnicze na tanie drony, operacyjnie przegrywa.
+• Wojna = konkurs na efekt systemowy, nie na tonaż materiału wybuchowego. Shahedy masowo wyczerpują zdolności obrony przeciwlotniczej.
+• Ukraińskie doświadczenie z Shahedami jest cenne dla państw Zatoki — taktyka układu wieloelementowego (ISR, trasy, EW, mobilne grupy, interceptory).
+
 [2026-04-23] - [LinkedIn/@dmitrynedov] UAV Datalinks Under Fire — inżynieria łączności UAV w środowisku EW
 URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/shares/
 • Link budget przy 1–2 W TX, margines <10 dB pod jamming szerokopasmowy → adaptacyjne MCS (BPSK↔QPSK↔16QAM) + LDPC + dynamiczna kontrola EIRP utrzymują próg SNR.
