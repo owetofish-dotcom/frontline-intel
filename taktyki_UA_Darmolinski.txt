@@ -1,4 +1,28 @@
-[2026-04-25] - [Drony ukraińskie dotarły do Uralu — rekordowy zasięg] [@sternenko]
+[2026-04-27] - [Drony sterowane przez 4G — zagrożenie dla infrastruktury krytycznej] [LinkedIn/@louis-saillans]
+URL: https://www.linkedin.com/in/louis-saillans/recent-activity/all/
+• Drony sterowane przez sieci 4G stanowią największe zagrożenie dla infrastruktury krytycznej — wyłącznie rządy mają zdolność zagłuszania lub skanowania sieci komórkowych.
+• Prywatne podmioty zarządzające infrastrukturą krytyczną są strukturalnie niezdolne do wykrycia ani neutralizacji ataków dronów LTE bez bezpośredniego wsparcia rządowego.
+• Systemowa luka w architekturze bezpieczeństwa — kluczowy wektor ataku jest poza zasięgiem sektora prywatnego.
+• Bezpośrednia implikacja dla krajowych polityk bezpieczeństwa i regulacji dostępu do sieci komórkowych.
+
+[2026-04-27] - [Szybkość jako zagrożenie — Rafale i przełomy technologiczne] [LinkedIn/@louis-saillans]
+URL: https://www.linkedin.com/in/louis-saillans/recent-activity/all/
+• Rafale — najszybszy single-barrel cannon kiedykolwiek zbudowany przez ludzi.
+• Dyskusja o przełomach technicznych i ich implikacjach operacyjnych.
+
+[2026-04-26] - [Rosgvardiya - Recommendations for Unmanned Systems — analiza rosyjska C-UAS] [LinkedIn/@jorge-rivero-defense]
+URL: https://www.linkedin.com/in/jorge-rivero-defense/recent-activity/all/
+• Analiza pierwotnego rosyjskiego dokumentu Rosgvardiya — 2024 National Guard manual o neutralizacji UAV na instalacjach wojskowych.
+• Opublikowany przez Rosguardiya's Department of Troop — oficjalny rosyjski podręcznik taktyki C-UAS.
+• Dostarczająca krytyczne dane o rosyjskich zdolnościach do detecji i neutralizacji systemów bezzałogowych.
+
+[2026-04-26] - [2026 Intelligence & National Security Summit — uczestnictwo Jorge Rivero] [LinkedIn/@jorge-rivero-defense]
+URL: https://www.linkedin.com/in/jorge-rivero-defense/recent-activity/all/
+• Jorge R. będzie uczestniczyć w 2026 Intelligence and National Security Summit 26-27 sierpnia.
+• Dyskusja dot. Ukrainy, dronów bezzałogowych oraz przyszłości systemów bezzałogowych.
+• Szansa na wymianę doświadczeń z czołowymi analitykami bezpieczeństwa globalnego.
+
+[2026-04-25] - [Drony ukraińskie dotarły do Urału — rekordowy zasięg] [@sternenko]
 URL: https://x.com/sternenko/status/2047930748691259492
 • Ukraińskie drony osiągnęły Urał po raz pierwszy — zasięg ponad 1800 km z Ukrainy.
 • W Jekaterynburgu rosyjskie systemy EW skierowały drona na budynek mieszkalny — sześciu rosyjskich żołnierzy rannych.
