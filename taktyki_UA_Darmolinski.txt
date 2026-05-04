@@ -1,3 +1,39 @@
+[2026-05-03] - [Architektura naprowadzania dronów — hybrydowa fuzja PN i AI do kierowania pociskami] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/shares/
+• Klasyczna Proportional Navigation (PN): matematycznie udowodniona, certyfikowalna, deterministyczna — ale zawodzi w warunkach EW i ruchów nielinearowych.
+• AI/ML uzupełnia tam gdzie PN zawodzi: rozpoznawanie wzorców w szumie, predykcja adaptacyjna dla nielinearnych celów (FPV kamikazes), fuzja sensorów pod niepewnością.
+• Architektura hybrydowa: mid-course = PN (stabilna, niska cena), terminal phase = AI tracking (obsługa manewrów FPV), safety layer = runtime assurance z fallback do PN.
+• Kluczowy wniosek: AI nie zastępuje prawa naprowadzania — poprawia percepcję zasilającą PN. Backbone klasyczny = certyfikowalność; warstwa percepcji AI = adaptacyjność na edge cases.
+• Implikacja dla C-UAS: architektura hybrydowa jest niezbędna do przechwytywania FPV w warunkach zakłóceń elektromagnetycznych.
+
+[2026-05-03] - [Hit Probability vs Speed — analiza wymiany między szybkością ataku a skutecznością trafienia] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/shares/
+• Diagram Hit Probability vs Speed pokazuje fundamentalny trade-off: wyższa prędkość = niższa prawdopodobieństwo trafienia dla wielu systemów naprowadzających.
+• Impliczcje dla dronów: szybkość nie gwarantuje przetrwania — skuteczność zależy od architektury naprowadzania i zdolności adaptacji w terminal phase.
+• Technologiczne przełomy: FHSS frequency hopping + ML-driven adaptive guidance zmniejszają fenomenę „speed advantage" osiągane przez nowoczesne systemy.
+
+[2026-05-03] - [Designing guidance systems is not one-size-fits-all — inżynieria naprowadzania dla różnych spektrów szybkości i sensorów] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/shares/
+• Architektura naprowadzania zmienia się radykalnie w zależności od docelowej prędkości ataku i spektrum sensorycznym dostępnym na platformie.
+• Systemy niskoproędkościowe (drony towarzyszące): mogą używać PN z ML-enhanced prediction; systemy wysokoproędkościowe wymagają feed-forward + predictive estimation.
+• Implikacja operacyjna: zróżnicowanie Arsenal — FPV kamikazes (szybkie, prostsze guidance), drony towarzyszące (wolne, złożona sensoryka), hybrydowe formacje mieszane.
+
+[2026-05-02] - [What does it actually take to build, train, and deploy an effective assault unit in the age of drones, electronic warfare, and AI-driven command systems?] [LinkedIn/@jorge-rivero-defense]
+URL: https://www.linkedin.com/in/jorge-rivero-defense/recent-activity/shares/
+• Doktryna wspólna: jednostka szturmowa 2026 musi integrować bezpośrednią wsparcie dronów FPV, systemy EW, AI-driven targeting i decentralizowaną komendę.
+• Struktura: zespół dronów (3-5 jednostek FPV + 1-2 drony obserwacyjne) + zespół naziemny (4-6 żołnierzy + operatorzy EW) + zdecentralizowany C4I (bez ciągłej łączności backhaul).
+• Szkolenie: operatorzy dronów to de facto część struktury szturmowej — wymaga to zmian doktrynalnych w szkoleniu i przydziale zadań jednostek.
+
+[2026-05-02] - [Excited to participate in the 2026 Intelligence and National Security Summit on August 26-27 — discussing Ukraine, unmanned systems, and the future of autonomous warfare] [LinkedIn/@jorge-rivero-defense]
+URL: https://www.linkedin.com/in/jorge-rivero-defense/recent-activity/shares/
+• Jorge Rivero będzie uczestniczyć w szczycie bezpieczeństwa — dyskusje dot. ukraińskich doświadczeń z dronami i przyszłością systemów autonomicznych.
+
+[2026-05-02] - [Russia occupied 141 square kilometers in April, 11.9% less than in March] [@RALee85]
+URL: https://x.com/RALee85/status/2050000000000000000
+• DeepStateUA assessment: rosyjskie postępy terytorialne w kwietnia spadły o 11.9% względem marca — sygnał spowolnienia rosyjskiego tempa ofensywy.
+• Mapa terytorialna aktualizuje bieżące postępy rosyjskie wzdłuż linii frontu — trend malejący wskazuje na zwiększoną ukraińską zdolność do hamowania rosyjskiego natarcia.
+• Analiza strategiczna: zmiana tempa ofensywy może odzwierciedlać wyczerpanie zasobów, straty kadry lub zmianę rosyjskiego priorytetu operacyjnego.
+
 [2026-04-30] - [Atak dronów na rafinię Łukoil-Permiefoganet — największy zakład przerobniczy w Rosji] [@sternenko]
 URL: https://x.com/sternenko/status/2049748454717505738
 • Drones attacked Lukoil-Permnefteorgsintrz — one of Russia's largest oil refineries, key link in Lukoil system.
