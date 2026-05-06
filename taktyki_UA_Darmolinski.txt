@@ -1,3 +1,35 @@
+[2026-05-06] - [Podręcznik operacyjny dla operatorów dronów — Część II: EW + 18 taktyk UAS] [LinkedIn/@jorge-rivero-defense]
+URL: https://www.linkedin.com/in/jorge-rivero-defense/recent-activity/all/
+• Trzy obszary: medycyna taktyczna i ewakuacja, spektrum elektromagnetyczne i EW, skodyfikowane taktyki dronów — 18 nazwanych manewrów UAS.
+• Classic i Free Hunter (rekonesans → uderzenie), Swarm (masa FPV cue'd przez drony rekonesansowe), Mother Ship (rozszerza zasięg do 60–70 km), Fiber Optic Leash (EW-resistant do 15 km), Interceptor (dron vs dron), psyops głośnikowe via dron.
+• Część III (pełna sekcja C-UAS) zapowiedziana za 2 dni. Wysoka wartość doktrynalna.
+
+[2026-05-06] - [Rosja łamie zawieszenie broni — ataki na 4 obwody w trakcie ogłoszonego rozejmu] [@sternenko]
+URL: https://x.com/sternenko/status/2051886347971862858
+• Ataki podczas ogłoszonego przez Putina "rozejmu" na 9 maja: Charków (2 ranne, 7 domów), obwód zaporoski (infrastruktura przemysłowa), Chersoń (FAB), Krzywy Róg (Shahed).
+• Działania Rosji unieważniają deklarowany rozejm — demonstracja rozbieżności między retoryką dyplomatyczną a taktyką operacyjną.
+
+[2026-05-05] - [Vision Guidance System dla interceptora — jak błąd 2 pikseli daje 50-metrowe chybienie] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/all/
+• Architektura wizyjnego systemu naprowadzania C-UAS: kalibracja geometryczna kamery, eliminacja dystorsji, predykcja pozycji celu (kompensacja opóźnień pętli sterowania).
+• Optical flow dla oceny zbieżności kursów, filtry Kalmana z oceną pewności (jeśli wizja nieostra — system ostrożny), usuwanie własnego ruchu drona z obrazu.
+• Wniosek: zamiana radaru na wizję w C-UAS to złożona integracja algorytmów z fizyką lotu — nie prosta podmiana sensora.
+
+[2026-05-05] - [FPV drony Grupy im. Iwana Franki rażą cele 60–80+ km od linii frontu] [@sternenko]
+URL: https://x.com/sternenko/status/2051618519796666398
+• Operatorzy niszczą pojazdy wroga w rejonie Pisky i Debalcewa — ok. 60 km od linii frontu; standardowe FPV latają już 80+ km i to nie jest limit.
+• Twórcy projektu "Rusoríz" testują technologie zwiększające zasięg — zasięg operacyjny FPV przekracza typowe normy 3–10 km, co zmienia taktykę użycia.
+
+[2026-05-05] - [Ponowny atak na zakład obronny VNIIR-Progress w Czeboksarach] [@sternenko]
+URL: https://x.com/sternenko/status/2051538134978941187
+• Ukraiński dron FP-5 "Flamingo" uderzył w Czeboksary; powtórny atak na VNIIR-Progress — rosyjskie przedsiębiorstwo produkujące systemy automatyki i elektroniki dla sektora militarnego.
+• Systematyczne uderzenia w węzły rosyjskiego przemysłu obronnego jako element degradacji zdolności produkcyjnych.
+
+[2026-05-05] - [Rosyjski atak balistyczny na infrastrukturę gazową Naftogazu — 107 ataków od początku 2026] [@RALee85]
+URL: https://x.com/RALee85/status/2051763851511886334
+• Od początku 2026 Rosja przeprowadziła 107 masowych kombinowanych ataków na obiekty grupy Naftogaz, głównie miejsca wydobycia gazu; ostatnia seria trwa 5 dni z rzędu z użyciem rakiet balistycznych.
+• Ukraina będzie importować gaz dla rekompensaty strat produkcyjnych — systematyczne uderzenia w infrastrukturę energetyczną jako strategia wyczerpania.
+
 [2026-05-04] - [Why AI Won't Replace Classical Guidance Laws – The Hybrid Future?] [LinkedIn/@dmitrynedov]
 URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/shares/
 • W sektorze C-UAS słyszę "AI zastąpi tradycyjne prawa naprowadzania." Się nie zgadzam.
