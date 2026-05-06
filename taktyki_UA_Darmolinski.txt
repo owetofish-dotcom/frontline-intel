@@ -1,3 +1,27 @@
+[2026-05-04] - [Why AI Won't Replace Classical Guidance Laws – The Hybrid Future?] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/shares/
+• W sektorze C-UAS słyszę "AI zastąpi tradycyjne prawa naprowadzania." Się nie zgadzam.
+• AI nie zastępuje fizyki naprowadzania — poprawia percepcję zasilającą klasyczne architektur.
+• Hybrid Guidance System Architecture: klasyczne PN + AI perception layer = sterowanie adaptacyjne z certyfikowalnością.
+• Backbone = Classical Laws (certyfikowalność, niska cena, deterministyka); warstwa percepcji = AI (adaptacyjność, obsługa edge cases).
+• Dla systemów Counter-UAS: hybrydowa architektura jest niezbędna do przechwytywania FPV w warunkach EW i zagrożeń nielinearowych.
+
+[2026-05-04] - [UAV Datalinks Under Fire: The Hidden Engineering Challenge of UAV Warfare] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/shares/
+• Na nowoczesnym polu walki dron jest tylko tak zdolny jak jego łącze danych — a zagrożenia są masowe.
+• Wyzwania inżynierskie: JAMMING (ECCM requester), SPOOFING (cryptographic validation), LATENCY (real-time control loop), BANDWIDTH (multiplexed sensors).
+• Rozwiązania techniczne: FHSS + AI prediction models, runtime assurance layers, federated datalinks (mesh, edge compute), low-latency protocols dla terminal guidance.
+• C4I decentralizacja: gdy backhaul jest niedostępny, dron musi działać autonomicznie z local sensors + edge AI.
+• Implikacja: Datalink resilience = kluczowa figura zasługi w taktycznej zdolności drona. Projektowanie systemów bez EW/jamming analysis = inżynieria niepełna.
+
+[2026-05-04] - [Vision-Based Guidance Control Loop] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/shares/
+• Vision-Based Guidance System dla interceptora: Jak błąd 2-piksela staje się 50-metrową stratą celności.
+• Łańcuch wpływu: Pitch/Roll sensor noise → Image processing artifacts → Guidance error → Terminal miss distance.
+• Architektura: Analog tracking (low bandwidth, robust) + AI perception (high fidelity, sensitive to noise) = hybrid guidance loop z runtime assurance.
+• Feedback system architecture uwzględnia: sensor fusion uncertainty, processing latency (pipeline delay), actuator response dynamics.
+• Wnioski dla systemów C-UAS: Vision-based seekers wymagają zaprojektowania z perspektywy control theory, nie tylko computer vision.
+
 [2026-05-03] - [Architektura naprowadzania dronów — hybrydowa fuzja PN i AI do kierowania pociskami] [LinkedIn/@dmitrynedov]
 URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/shares/
 • Klasyczna Proportional Navigation (PN): matematycznie udowodniona, certyfikowalna, deterministyczna — ale zawodzi w warunkach EW i ruchów nielinearowych.
