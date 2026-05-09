@@ -1,3 +1,23 @@
+[2026-05-08] - [Masowe nocne ataki na obiekty obronne Rosji — rafinerie, strefy przemysłowe, Grozny] [@sternenko]
+URL: https://x.com/sternenko/status/...
+• Overnight: Ukraina przeprowadziła skoordynowany atak na kluczowe obiekty infrastruktury. Rafineria Slavneft-YANOS w Yaroslavlu (jedno z największych w Rosji), Rostów — masowe pożary strefy przemysłowej.
+• Rafineria Permsku atakowana po raz trzeci — dym i ogień na terenie zakładu.
+• Grozny (stolica Czeczenii) pod atakami dronów ukraińskich — dostawa pozdrowień dla Kadyrowa.
+• Znaczenie taktyczne: Degradacja zdolności produkcyjnych rosyjskiego sektora energetycznego; pokrycie geograficzne ataków sygnalizuje zdolność do penetracji głębokich celów.
+
+[2026-05-08] - [Exciting News: SpearX Partners with Bulgarian Defence Institute] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/all/
+• SpearX oficjalnie podpisał umowę o współpracy z instytutem obrony "Professor" na Bułgarii — kamień milowy w rozwoju technologii obronnych.
+• Współpraca z instytutem badawczym w sektorze C-UAS i systemów autonomicznych — rozszerzenie zakresu SpearX na rynki europejskie.
+• Wzmacnienie pozycji SpearX w ekosystemie europejskiej obronności; znaczenie dla integracji systemów zachodniej technologii C-UAS.
+
+[2026-05-07] - [Math Guarantees Safety. AI Promises It. Which One Do You Trust?] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/all/
+• Jako CTO SpearX codziennie staram się odpowiedzieć na pytanie: czy lepiej opierać się na matematyce klasycznej czy AI w systemach autonomicznych?
+• Przypadek: zmiana przyspieszenia celu, pojazd ma ścisłe limity mocy i czasu reakcji — matematyka i prawa guidance dają przewidywalność, AI daje adaptacyjność.
+• Hybrydowa architektura: klasyczne prawa guidance (certyfikacja, deterministyka, niska cena) + warstwa percepcji AI (adaptacja, obsługa edge cases).
+• Dla systemów Counter-UAS: hybrydowe podejście jest kluczowe do przechwytywania FPV w warunkach EW.
+
 [2026-05-06] - [Podręcznik operacyjny dla operatorów dronów — Część II: EW + 18 taktyk UAS] [LinkedIn/@jorge-rivero-defense]
 URL: https://www.linkedin.com/in/jorge-rivero-defense/recent-activity/all/
 • Trzy obszary: medycyna taktyczna i ewakuacja, spektrum elektromagnetyczne i EW, skodyfikowane taktyki dronów — 18 nazwanych manewrów UAS.
