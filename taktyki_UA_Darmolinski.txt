@@ -1,3 +1,43 @@
+[2026-05-12] - [Rosja formalizuje Wojska Bezzalogowych Systemow - 830 FPV NA godzine, plan 7,3 mln w 2026 r.] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2054005270246748267
+- Rosja sformalizowala nowy rodzaj wojsk: Voiska bezpilotnykh sistem (2025) - 101 tys. personelu, plan wzrostu do 165,5 tys. (koniec 2026), docelowo ~210 tys.; 79 tys. do pozyskania w 2026 z uczelni i srodowisk technicznych.
+- Tworzenie oddzielnych pulkow BpS (7., 65., 71., 75., 77.) i batalionow na poziomie armii ogolnowojskowych - dron przestaje byc wsparciem, staje sie organicznym srodkiem walki.
+- Skala to glowne zagrozenie: 830 FPV/godzine, plan produkcji 7,3 mln FPV w 2026 - staly masowy strumien tanich srodkow razenia; jakosc operatorow slabym punktem, nadrabiaja liczebnoscia.
+
+[2026-05-12] - [Updated map: Russian advances east of Slovyansk] [@RALee85]
+URL: https://x.com/RALee85/status/2053930020511662222
+- Aktualizacja mapy DeepState dokumentujaca postepy rosyjskie na wschod od Slowianska - biezace zmiany linii frontu w rejonie Doniecka.
+- Postepy w kontekscie trwajacego naporu rosyjskiego na os Slowiansk-Kramatorsk jako kluczowy cel operacyjny.
+
+[2026-05-12] - [Maps: Russian advances east of Kupyansk, Kostiantynivka, Kramatorsk, Hryshyne, Novopavlivka] [@RALee85]
+URL: https://x.com/RALee85/status/2053732213812871380
+- Zestawienie map tygodniowych: rosyjskie postepy na wschod od Kupianska, na wschod od Kostiantyniwki, na wschod od Kramatorska, na polnocny zachod od Hryszyne i w rejonie Nowopawliwki.
+- Mapa wieloosiowa wskazuje na skoordynowany rosyjski napor na kilku odcinkach Donbasu jednoczesnie - rozciaganie ukrainskiej obrony.
+
+[2026-05-11] - [Fundamentals of the Formation, Training and Deployment of Assault Units, Part III - 19 manewrow dronowych] [LinkedIn/@jorge-rivero-defense]
+URL: https://www.linkedin.com/in/jorge-rivero-defense/recent-activity/all/
+- Rosyjski podrecznik operacyjny (marzec 2026, autorzy-praktycy wojskowi): 19 nazwanych manewrow taktycznych UAS - od parowania kamikaze-rozpoznanie, przez drony swiatloowodowe odporne na zagluszanie, po techniki C-UAS i EW.
+- Pokrywa: ofensywne uzycie dronow, neutralizacje UAV przeciwnika, ograniczenia EW i psychologie przezycia ataku dronowego - doktryna pisana w czasie rzeczywistym z frontu.
+- Znaczenie: potwierdza gleboka kodyfikacje taktyki dronowej przez Rosje i tempo adaptacji doktrynalnej analogiczne do ukrainskich Czesci I i II.
+
+[2026-05-10] - [HAS RUSSIA'S MILITARY CONTRACTION BEGUN? - Iron Ring Pantsyrow wokol Moskwy] [LinkedIn/@drchrisflaherty]
+URL: https://www.linkedin.com/in/drchrisflaherty/recent-activity/all/
+- Rosja znaczaco rozszerzyla pierscieo OPL wokol Moskwy: nowy Iron Ring systemow Pantsir na wyspecjalizowanych wiezach - sygnalizuje koncentracje zasobow na przetrwaniu core-state.
+- Teza kontrakcji: wojsko zmuszone do odwrotu z linii nieobronnych, priorytet obrony glebi strategicznej kosztem teatru ukrainskiego.
+- Implikacja operacyjna: redystrybucja systemow OPL z frontu do obrony Rosji wlasciwej - potencjalnie slabnie pokrycie obrony powietrznej na osi uderzen ukrainskich.
+
+[2026-05-10] - [IS RUSSIA'S SPACE MILITARY CAPACITY GROWING IN 2026? - Sojuz-5, orbital manoeuvre warfare] [LinkedIn/@drchrisflaherty]
+URL: https://www.linkedin.com/in/drchrisflaherty/recent-activity/all/
+- Rosja: 5-8 startow orbitalnych w 2026 r.; 30 kwietnia 2026 - pierwszy suborbitalny test Sojuza-5 (Sunkar) z Bajkonuru; 2021-2025: 98 startow wojskowych (rozpoznanie, lacznosc, GLONASS).
+- Zdolnosci orbital manoeuvre warfare: Oslepianie / Zagluszanie / Spoofing - Rosja wykonuje co-orbital manoeuvres umozliwiajace ataki na satelity bez kinetyki.
+- Flota >100 aktywnych satelitow wojskowych; rozbudowa ISR orbitalnego wspiera planowanie uderzen precyzyjnych i koordynacje A2/AD.
+
+[2026-05-09] - [UKRAINE STRIKES RUSSIAN MISSILE CORVETTE IN CASPIAN SEA - FP-1 na Karakurt w Kaspisku] [LinkedIn/@drchrisflaherty]
+URL: https://www.linkedin.com/in/drchrisflaherty/recent-activity/all/
+- 7 maja: ukrainskie drony FP-1 uderzyly w korwete klasy Karakurt (Project 22800) w bazie morskiej Kaspijsk w Dagestanie; wczesniej Karakurt w Primorsku ~3 maja 2026.
+- Realizacja strategii izolacji i degradacji rosyjskiej potegi morskiej na M. Czarnym, Azowskim i Kaspijskim - drony dalekiego zasiegu jako narzedzie projekcji sily.
+- Kazdа zniszczona korweta Karakurt redukuje rosyjski potencjal uderzen Kalibrem; zasiег dronowy Ukrainy obejmuje caly teatr dzialan morskich Rosji.
+
 [2026-05-09] - [Zmiana strategii taktycznej Rosji — koniec ciężkiego pancernictwa jako głównego narzędzia ataku] [@DarmolinskiT]
 URL: https://x.com/DarmolinskiT/status/2052963999671562710
 • W ostatnich trzech miesiącach widać wyraźną zmianę na wielu odcinkach frontu: rosyjskie pojazdy opancerzone coraz rzadziej pojawiają się jako główne narzędzie ataku, choć nie brakuje czołgów, BWP czy transporterów.
