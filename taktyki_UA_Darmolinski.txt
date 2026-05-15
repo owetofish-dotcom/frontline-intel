@@ -1,3 +1,51 @@
+[2026-05-14] - [Subterranean Warfare with Optic Fiber Drones - nowa taktyka walki podземnej] [LinkedIn/@louis-saillans]
+URL: https://www.linkedin.com/in/louis-saillans/
+• Nowa taktyka: drony z włóknami optycznymi odporne na zagłuszanie i namierzanie sygnałowe
+• Optic fiber drones mogą operować w środowiskach z intensywnym Electronic Warfare
+• Zmiana paradygmatu walki w tunelach i fortyfikacjach podziemnych — sieć światłowodowa eliminuje tradycyjne podatności dronów
+
+[2026-05-14] - [The Future of Land Warfare Cannot Escape Those Affordable Flying Platforms] [LinkedIn/@louis-saillans]
+URL: https://www.linkedin.com/in/louis-saillans/
+• Przyszłość walki lądowej będzie zdominowana przez tanie platformy latające — drony FPV, drony taktyczne, kamikaze-drony
+• Każdy poziom taktyczny (pluton do batalionu) będzie dysponować własnymi systemami bezpilotowymi
+• Obrona przed dronami staje się integralnym elementem każdego planu operacyjnego — bez niego jednostka jest bezbronną
+
+[2026-05-13] - [UKRAINE STRIKES RUSSIAN MISSILE CORVETTE IN CASPIAN SEA - FP-1 na Karakurt w Kaspisku] [LinkedIn/@drchrisflaherty]
+URL: https://www.linkedin.com/in/drchrisflaherty/
+• 7 maja: ukraińskie drony FP-1 uderzyły w korwetę klasy Karakurt (Project 22800) w bazie morskiej Kaspijsk w Dagestanie
+• Wcześniej Karakurt w Primorsku ~3 maja 2026 — eskalacja ukraińskiego zasięgu dronowego
+• Strategia izolacji i degradacji rosyjskiej potęgi morskiej na M. Czarnym, Azowskim i Kaspijskim — drony dalekiego zasięgu jako narzędzie projekcji siły
+
+[2026-05-13] - [HAS RUSSIA'S MILITARY CONTRACTION BEGUN? - Iron Ring Pantsyrow wokół Moskwy] [LinkedIn/@drchrisflaherty]
+URL: https://www.linkedin.com/in/drchrisflaherty/
+• Rosja znacząco rozszerzyła pierścień OPL wokół Moskwy: nowy Iron Ring systemów Pantsir na wyspecjalizowanych wieżach
+• Sygnalizuje koncentrację zasobów na przetrwaniu core-state kosztem tych na periferach
+• Teza: wojsko zmuszone do odwrotu z linii nieobronnych, priorytet obrony głębi strategicznej kosztem teatru ukraińskiego
+
+[2026-05-10] - [IS RUSSIA'S SPACE MILITARY CAPACITY GROWING IN 2026? - Sojuz-5, orbital manoeuvre warfare] [LinkedIn/@drchrisflaherty]
+URL: https://www.linkedin.com/in/drchrisflaherty/
+• Rosja: 5-8 startów orbitalnych w 2026 r.; 30 kwietnia 2026 - pierwszy suborbitalny test Sojuza-5 (Sunkar) z Bajkonuru
+• 2021-2025: 98 startów wojskowych (rozpoznanie, łączność, GLONASS)
+• Zdolności orbital manoeuvre warfare: Osłapianie / Zagłuszanie / Spoofing — Rosja wykonuje co-orbital manoeuvres umożliwiające ataki na satelity bez kinetyki
+
+[2026-05-13] - [Fundamentals of the Formation, Training, and Deployment of Assault Units, Part III] [LinkedIn/@jorge-rivero-defense]
+URL: https://www.linkedin.com/in/jorge-rivero-defense/
+• Rosyjski podręcznik operacyjny (marzec 2026, autorzy-praktycy wojskowi): 19 nazwanych manewrów taktycznych UAS
+• Od parowania kamikaze-rozpoznanie, przez drony światłowodowe odporne na zagłuszanie, po techniki C-UAS i EW
+• Pokrywa: ofensywne użycie dronów, neutralizacje UAV przeciwnika, ograniczenia EW i psychologię przeżycia ataku dronowego
+
+[2026-05-13] - [Drone Swarms Are Here. Your Defense System Is Already Too Slow.] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/
+• Trzy lata temu "drone swarm" brzmiano jak science fiction — dzisiaj jest codziennym realitatem operacyjnym
+• Systemy obrony powietrznej nie potrafią reagować na szybkość i skalę róji dronów — tradycyjne radar + rakieta = zbyt wolne
+• Nowa doktryna: drony uczą się nawzajem, wspomagają się w nawigacji, rozproszone są dla zwiększenia przeżycia zespołu
+
+[2026-05-12] - [Rosyjska doktryna FPV: pulki BpS, Dobropillia, FPV jako tania amunicja precyzyjna (wątek 2/3-3/3)] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2054006512876470658
+- Formalizacja pulkow BpS: 7., 65., 71., 75., 77. oddzielny pulk systemow bezzalogowych + bataliony BpS na poziomie armii ogolnowojskowych i dywizji VDV — dron staje sie organicznym srodkiem walki; rekrutacja cywilna do nowych jednostek (20 stycznia 2026, MON RU).
+- Dobropillia (51. Gwardyjska Armia Ogolnowojskowa): FPV uzywane do blokowania rotacji, atakowania ewakuacji medycznej, logistyki krotkiego dystansu, wymuszania ruchu nocnego i rozproszenia — model ciaglej kontroli nad ruchem, nie spektakularnych uderzen.
+- FPV jako tania amunicja precyzyjna: niska jakosc operatorow kompensowana masa platform i stala obecnoscia nad rejonem; przy niskiej skutecznosci oplacalnosc po stronie atakujacego — cel to pozbawienie przeciwnika swobody ruchu, nie trafienie w pojedynczy cel.
+
 [2026-05-12] - [Rosja formalizuje Wojska Bezzalogowych Systemow - 830 FPV NA godzine, plan 7,3 mln w 2026 r.] [@DarmolinskiT]
 URL: https://x.com/DarmolinskiT/status/2054005270246748267
 - Rosja sformalizowala nowy rodzaj wojsk: Voiska bezpilotnykh sistem (2025) - 101 tys. personelu, plan wzrostu do 165,5 tys. (koniec 2026), docelowo ~210 tys.; 79 tys. do pozyskania w 2026 z uczelni i srodowisk technicznych.
