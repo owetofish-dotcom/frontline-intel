@@ -1,3 +1,39 @@
+[2026-05-18] - [Pierwsza ukraińska bomba szybująca gotowa do walki — BRAVE1, głowica 250 kg] [LinkedIn/@mykhailo-fedorov-9670b4a3]
+URL: https://www.linkedin.com/in/mykhailo-fedorov-9670b4a3/recent-activity/shares/
+• Uczestnik BRAVE1 opracował pierwszą ukraińską kierowaną bombę lotniczą (17 miesięcy prac): głowica 250 kg, rażenie celów dziesiątki km od punktu zrzutu; MON zakupiło pierwszą partię eksperymentalną
+• Oryginalne rozwiązanie inżynieryjne — nie kopia systemów zachodnich ani sowieckich; dedykowane niszczeniu pozycji umocnionych, centrów dowodzenia i celów strategicznych
+• Ukraina przechodzi od importu do własnej produkcji broni precyzyjnej dalekiego zasięgu; piloci trenują scenariusze bojowe przed wdrożeniem
+
+[2026-05-14] - [System DELTA i zintegrowane zarządzanie dronami na linii frontu — C2 w warunkach bojowych] [LinkedIn/@mykhailo-fedorov-9670b4a3]
+URL: https://www.linkedin.com/in/mykhailo-fedorov-9670b4a3/recent-activity/shares/
+• Centra dowodzenia na linii frontu demonstrują DELTA: planowanie szturmów, neutralizacja logistyki wroga, koordynacja rozpoznania i typów dronów w jednym systemie zarządzania walką
+• Różne typy UAV koordynowane przez unified battle management system — integracja C2 jako standard operacyjny AFU
+• Wizyta Pistoriusa na linii frontu: prezentacja rzeczywistych zdolności C2 partnerom europejskim w warunkach bojowych
+
+[2026-05-12] - [AI w wojnie z Palantir — BRAVE1 Dataroom, 80+ modeli AI do wykrywania celów lotniczych] [LinkedIn/@mykhailo-fedorov-9670b4a3]
+URL: https://www.linkedin.com/in/mykhailo-fedorov-9670b4a3/recent-activity/shares/
+• Współpraca z Palantir: system analizy ataków powietrznych, AI do masowego przetwarzania danych wywiadowczych, integracja z planowaniem uderzeń głębokich
+• BRAVE1 Dataroom (z Palantir): deweloperzy mają dostęp do danych z prawdziwego pola walki; 100+ firm trenuje 80+ modeli AI do wykrywania i przechwytywania celów lotniczych w złożonych warunkach bojowych
+• Matematyka i AI bezpośrednio wpływają na wyniki bojowe — cel: poszerzenie współpracy o kolejne projekty defence-tech dające Ukrainie przewagę technologiczną
+
+[2026-05-12] - [Ukraińska OPL: C-UAV vs Shahed — 90% przechwytywania dronów i 80% rakiet manewrujących] [LinkedIn/@mykhailo-fedorov-9670b4a3]
+URL: https://www.linkedin.com/in/mykhailo-fedorov-9670b4a3/recent-activity/shares/
+• Ukraina przechwytuje ~90% wrogich dronów i ~80% rakiet manewrujących — zaawansowane systemy C-UAV, mobilne grupy ogniowe, technologie wykrywania dronów Shahed
+• Zeszłoroczna zima: Rosja wystrzeliła 1000+ pocisków balistycznych/manewrujących i 27 000 dronów Shahed w infrastrukturę energetyczną (cel: blackout przy -20°C)
+• Wyzwanie: rakiety balistyczne — trwają prace z Niemcami nad PURL oraz niezależną europejską zdolnością antybalistyczną
+
+[2026-05-12] - [Brave Germany — program grantowy UAV, AI, łączność i technologie rakietowe (BRAVE1 × Niemcy)] [LinkedIn/@mykhailo-fedorov-9670b4a3]
+URL: https://www.linkedin.com/in/mykhailo-fedorov-9670b4a3/recent-activity/shares/
+• Ogłoszono Brave Germany razem z BRAVE1: granty na UAV, AI, łączność, technologie rakietowe; hackathony i matchmaking dla szybkich rozwiązań na polu walki
+• ~5000 skutecznych uderzeń/miesiąc w cele >20 km za linią frontu; drony dalekiego zasięgu sięgają gospodarkę wojenną Rosji w głębi kraju
+• Ukraińska technologia + AI + doświadczenie bojowe jako fundament nowej europejskiej architektury bezpieczeństwa
+
+[2026-05-11] - [Wieżyczka AI bojowo przetestowana na dronach — w tym odporność na fiber-optic UAV niepokonalne dla EW] [LinkedIn/@mykhailo-fedorov-9670b4a3]
+URL: https://www.linkedin.com/in/mykhailo-fedorov-9670b4a3/recent-activity/shares/
+• BRAVE1: wieżyczka AI autonomicznie wykrywa, śledzi i oblicza trajektorię dronów wroga; operator potwierdza ostrzał jednym przyciskiem — minimalizacja czasu reakcji
+• Przełom C-UAS: system neutralizuje drony z łączem światłowodowym (fiber-optic), odporne na zagłuszanie EW — klasyczne jambery i C-UAS bezradne
+• Bojowo przetestowane przez K-2 Brygadę; wdrożone w 10+ jednostkach na kluczowych odcinkach frontu; od projektu do wdrożenia bojowego w minimalnym czasie
+
 [2026-05-18] - [Updated maps showing Russian advances east of Orikhiv/Kramatorsk and Ukrainian advances near Kharkiv border] [@RALee85]
 URL: https://x.com/RALee85/status/1791...
 • Mapy z ostatnich 5 dni: rosyjskie postępy na wschód od Orikhivu i Kramatorska w obwodzie Żytomierza/Chmielnicki
