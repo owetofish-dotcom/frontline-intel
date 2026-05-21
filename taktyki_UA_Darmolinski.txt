@@ -1,3 +1,57 @@
+[2026-05-21] - [Secret Rusoriza: drony mogą operować 50+ km w tyłach wroga — nowe możliwości FPV] [@sternenko]
+URL: https://x.com/sternenko/
+• Podczas skalowania nowej generacji Secret Rusoriza odkryto nową funkcję: drony mogą operować na głębokości ponad 50 km w rosyjskim tyłu
+• Trafij gdzie najmniej się tego spodziewają; odcięcie logistyki wroga to zadanie krytyczne
+• To jest NIEZWYKLE ważne — pojawia się nowa generacja dronów FPV o znacznym zasięgu, grożąca rosyjskim liniom zaopatrzeniowym na głębokich dystansach
+
+[2026-05-20] - [Otwarta architektura systemu C-UAS — fundamenty nowoczesnej obrony przed dronami] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/shares/
+• Systemy C-UAS z otwartą architekturą umożliwiają elastyczną integrację różnych sensorów i efektorów bez blokady dostawcy
+• Inżynierowie obrony mogą komponować rozwiązania dostosowane do konkretnego warunku taktycznego i geograficznego
+• Standaryzacja interfejsów i protokołów komunikacyjnych jest kluczem do skalowania zdolności C-UAS na całym froncie
+
+[2026-05-20] - [Testowanie C-UAS bez dronów rzeczywistych: symulacja, HIL, cyfrowe bliźniaki — droga do operacyjnej gotowości] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/shares/
+• Nie można testować systemu C-UAS tylko na rzeczywistych dronach — to droższe, wolniejsze i bardziej niebezpieczne
+• Symulacja numeryczna (HIL — Hardware-in-the-Loop), cyfrowe bliźniaki i podejście sieciowe pozwalają szybko walidować algorytmy
+• Przyspieszenie cyklu rozwojowego: od koncepcji do zdolności operacyjnej — miesięcy zamiast lat
+
+[2026-05-20] - [Roje dronów już są tu — Twój system obrony jest zbyt wolny. Czas na przygotowanie] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/shares/
+• Nowa generacja roków FPV uzyskuje impet; drony mogą teraz latać na dystansach 50+ km, co uderza wroga w tyłu i logistyce
+• Teraz trzeba skalować tę technologię i wyposażyć więcej jednostek militarnych
+• Cel: UAH 50 milionów; każda donacja UAH 300 wspomaga ten wysiłek
+
+[2026-05-19] - [Pierwsza ukraińska bomba szybująca gotowa do wdrożenia bojowego — projekt BRAVE1] [LinkedIn/@mykhailo-fedorov-9670b4a3]
+URL: https://www.linkedin.com/in/mykhailo-fedorov-9670b4a3/
+• Pierwsza ukraińska bomba szybująca zakończyła testy i jest gotowa do operacyjnego wdrożenia bojowego
+• System opracowany w ramach BRAVE1, dedykowany niszczeniu pozycji umocnionych i celów strategicznych
+• Ukraina kontynuuje rozwój wysokotech rozwiązań dla drażej precyzyjnej dalekiego zasięgu; piloci przechodzą szkolenie przed wdrożeniem
+
+[2026-05-19] - [Ponad 1,176 km tras ochronionych — podwojenie systemów obrony przed dronami na froncie] [LinkedIn/@mykhailo-fedorov-9670b4a3]
+URL: https://www.linkedin.com/in/mykhailo-fedorov-9670b4a3/
+• Budowa systemów obrony przed dronami (OPL) na froncie: ponad 1,176 km tras już ochronionych
+• Inżynierowie opracowują zaawansowane systemy C-UAS do neutralizacji dronów wrogów i rakiet manewrujących
+• Mobilne grupy ogniowe i technologie wykrywania dronów stanowią kluczowy element bezpieczeństwa logistyki Ukrainy
+
+[2026-05-19] - [Drony FPV głębokie: uderzenie na rosyjską logistykę w Awdijiwce — samodzielna operacja drona] [@sternenko]
+URL: https://x.com/sternenko/
+• Kontrolowana przez operatora bomba latająca (FPV) uderzył w rosyjskie obiekty logistyczne w pobliżu Awdijiwki
+• Takie drony mogą przebyć 50+ km i penetrować głęboką logistykę wroga, stanowiąc wyzwanie dla systemów obrony
+• Ukraińskie zespoły demonstrują zdolność do precyzyjnych operacji zdalnie kierowanych na dystansach strategicznych
+
+[2026-05-19] - [Straty w 1. Pułku Szturmowym zmniejszyły się o 2/3 — ulepszone maskowanie i taktyka defensywna] [@RALee85]
+URL: https://x.com/RALee85/
+• Dowódca 1. Pułku Szturmowego AFU: straty osobowe spadły znacznie dzięki wdrożeniu zaawansowanych technik maskowania
+• Gęstsza roślinność i tereny leśne (sezon wiosenny) utrudniają rosyjskie rozpoznanie i korektę ognia
+• Ukraińska taktyka obrony pozycyjnej coraz bardziej efektywna mimo intensywnych rosyjskich ofensyw
+
+[2026-05-19] - [Wideo: Uderz. Grupy Lasar na rosyjskie ciężarówki — 30-65 km za linią frontu] [@RALee85]
+URL: https://x.com/RALee85/
+• Grupa Lasar (Gwardia Narodowa) przeprowadziła atak drona na kolumny rosyjskich transportów militarnych
+• Cele były zlokalizowane 30-65 km za linią frontu, co wskazuje na rozszerzoną możliwość rozpoznania i rażenia
+• Operacje na głębokości strategicznej zmniejszają zdolność Rosji do utrzymania linii logistycznych
+
 [2026-05-18] - [Pierwsza ukraińska bomba szybująca gotowa do walki — BRAVE1, głowica 250 kg] [LinkedIn/@mykhailo-fedorov-9670b4a3]
 URL: https://www.linkedin.com/in/mykhailo-fedorov-9670b4a3/recent-activity/shares/
 • Uczestnik BRAVE1 opracował pierwszą ukraińską kierowaną bombę lotniczą (17 miesięcy prac): głowica 250 kg, rażenie celów dziesiątki km od punktu zrzutu; MON zakupiło pierwszą partię eksperymentalną
