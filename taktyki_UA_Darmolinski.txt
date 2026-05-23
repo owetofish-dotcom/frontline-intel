@@ -1,3 +1,15 @@
+[2026-05-23] - [KUB-10ME: rosyjski loitering munition — analiza twierdzeń vs rzeczywistość] [LinkedIn/@tim-de-zitter]
+URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/shares/
+• Kałasznikow zaprezentował KUB-10ME: zasięg do 100 km, naprowadzanie EO na cele ruchome, lepsza odporność na EW, pułap 80–1800 m, prędkość ~120 km/h
+• De Zitter: twierdzenia nie należy przyjmować bezkrytycznie — to operacja komunikacyjna rosyjskiego przemysłu obronnego
+• Analityczna wartość: każda prezentacja nowego rosyjskiego UAS wymaga oddzielenia specyfikacji marketingowej od potwierdzonej zdolności bojowej
+
+[2026-05-23] - [Fortyfikacje Ukrainy — system niszczenia momentum, nie symbol obrony] [LinkedIn/@tim-de-zitter]
+URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/shares/
+• UA Siły Obronne skalują pozycje fortyfikacyjne zbudowane na podstawie doświadczeń bojowych — każda linia okopów uwzględnia drony obserwacyjne, korytarze ataków FPV i integrację ognia pośredniego
+• Fortyfikacje to system taktyczny projektowany by niszczyć momentum ataku, wymuszać spowolnienie i eksponować przeciwnika
+• Kluczowa zmiana: ukraińska inżynieria wojskowa systematycznie kodyfikuje wiedzę z pola walki w standardy budowy pozycji obronnych
+
 [2026-05-21] - [Secret Rusoriza: drony mogą operować 50+ km w tyłach wroga — nowe możliwości FPV] [@sternenko]
 URL: https://x.com/sternenko/
 • Podczas skalowania nowej generacji Secret Rusoriza odkryto nową funkcję: drony mogą operować na głębokości ponad 50 km w rosyjskim tyłu
@@ -533,4 +545,3 @@ URL: https://x.com/RALee85/status/2043778199402824024
 • Ryan Lee opublikował zaktualizowaną mapę via DeepStateMap dokumentującą bieżące rosyjskie postępy terytorialne przez granicę ukraińską w obwodzie sumskim.
 • Rosyjska presja przygraniczna w Sumy stanowi front drugorzędny względem głównych walk na osi Doniecka, ale sygnalizuje celowe rozciąganie ukraińskiej obrony.
 • Mapa rejestruje aktywność rosyjską w regionie wcześniej stabilnym — sygnał pozzerzenia rosyjskiego skupienia operacyjnego poza Donbas.
-
