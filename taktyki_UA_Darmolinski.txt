@@ -1,3 +1,38 @@
+[2026-05-23] - [Rosja grozi satelicie ICEYE — eskalacja do walki kosmicznej] [LinkedIn/@drchrisflaherty]
+URL: https://www.linkedin.com/in/drchrisflaherty/recent-activity/shares/
+• Rosja zmienia podejście: odchodzi od zakłóceń ku fizycznym atakom satelita-na-satelitę wymierzonym w systemy kluczowe dla Ukrainy
+• Pojawiły się doniesienia o rosyjskich manewrach w pobliżu satelity ICEYE — fińskiego dostawcy radarów SAR kluczowego dla ukraińskiego ISR
+• Utrata satelitarnych zdolności ISR to nowy asymetryczny wektor ryzyka dla UA
+
+[2026-05-23] - [2026: Analiza wojny kosmicznej Ukraina–Rosja] [LinkedIn/@drchrisflaherty]
+URL: https://www.linkedin.com/in/drchrisflaherty/recent-activity/shares/
+• Konflikt ewoluuje w domenę kosmiczną: satelity rozpoznania, komunikacja, GPS jako cele obu stron
+• Rosja i Ukraina rozwijają zdolności ASAT — kinetyczne i elektroniczne
+• Domena kosmiczna stała się integralną częścią batalii informacyjnej i precyzyjnego ognia
+
+[2026-05-23] - [Nowa książka o rosyjskim VDV — Grau & Bartles, 873 strony] [LinkedIn/@jorge-rivero-defense]
+URL: https://www.linkedin.com/in/jorge-rivero-defense/recent-activity/shares/
+• "The Russian Way of War on the Russian VDV" — 873 strony analizy rosyjskich sił powietrznodesantowych
+• Obowiązkowa lektura dla analityków śledzących rosyjskie doktryny operacyjne i zdolności sił specjalnych
+
+[2026-05-22] - [Drony balonowe KettleTech "Hornet" — nowa klasa taniego zasięgu] [LinkedIn/@louis-saillans]
+URL: https://www.linkedin.com/in/louis-saillans/recent-activity/shares/
+• Stałopłatowy UAV wynoszony balonem meteorologicznym, automatycznie zwalniany, szybuje na pełnym akumulatorze — dramatyczne wydłużenie zasięgu
+• Prawdopodobnie niewidoczny dla radarów — kombinacja balonu i szybowca bez silnika na fazie końcowej
+• Sygnał dla skalowania tanich operacji powietrznych dalekiego zasięgu
+
+[2026-05-22] - [Pivot strategii dronowej UA: z rafinerii na terminale eksportu ropy] [LinkedIn/@louis-saillans]
+URL: https://www.linkedin.com/in/louis-saillans/recent-activity/shares/
+• 2025: 85% uderzeń UA w rosyjskie rafinerie. 2026: 86% uderzeń w morskie terminale eksportu ropy — uderzenie w punkt monetyzacji
+• Strategiczna zmiana doktryny: od degradacji zdolności operacyjnych do uderzenia w gospodarkę wojenną u źródła finansowania
+
+[2026-05-22] - [Detekcja małych celów: 15 pikseli to wyzwanie inżynieryjne, nie brak danych] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/shares/
+• Na dystansie dron to 10-15 pikseli — klasyczne modele CV zawodzą. SpearX: traktuj to jako constraint projektowy
+• Ruch jako sygnał: optical flow, spójność trajektorii i wzorce behawioralne ważniejsze niż statyczne cechy wizualne
+• Implikacja dla C-UAS: systemy detekcji muszą być projektowane pod minimalne sygnatury wizualne małych dronów FPV
+
+
 [2026-05-23] - [KUB-10ME: rosyjski loitering munition — analiza twierdzeń vs rzeczywistość] [LinkedIn/@tim-de-zitter]
 URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/shares/
 • Kałasznikow zaprezentował KUB-10ME: zasięg do 100 km, naprowadzanie EO na cele ruchome, lepsza odporność na EW, pułap 80–1800 m, prędkość ~120 km/h
