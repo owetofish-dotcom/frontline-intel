@@ -1,3 +1,31 @@
+[2026-05-26] - [Gnom UGV mine-layer — gdzie zmierza robotyka naziemna] [LinkedIn/@tim-de-zitter]
+URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/shares/
+• Temerland (UA) wprowadza UGV Gnom zdolny do zdalnego ułożenia 18 min ppanc PTM-3 — bez narażania żołnierzy w polu nasyconym dronami i sensorami termalnymi
+• Robotyczna platforma przenosi najbardziej eksponowaną część misji z żołnierza na maszynę jednorazowego użytku
+• Sygnał: kto rozwiąże skalowanie UGV w warunkach zakłóceń GPS/łączności — zmieni równanie walki obronnej i zaporowej
+
+[2026-05-26] - [Rosyjski system przechwytywania Shahedów = taśma klejąca na prędkości] [LinkedIn/@tim-de-zitter]
+URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/shares/
+• Rosja twierdziła o systemie aktywnego strącania UA dronów przechwytujących na Shahedach — analiza wideo: anteny zamocowane taśmą odpadają przy prędkości
+• Klasyczny przykład messaging operation ≠ operational capability
+• Implikacja C-UAS: nie każdy rosyjski claim wymaga zmiany doktryny — wymagana krytyczna analiza przed zmianą odpowiedzi taktycznej
+
+[2026-05-26] - [Miny magnetyczne 7kg na tankowcu LNG — sabotaż morski nowej generacji] [LinkedIn/@louis-saillans]
+URL: https://www.linkedin.com/in/louis-saillans/recent-activity/shares/
+• FSB: miny magnetyczne ~7 kg każda odkryte na gazowcu LNG — sabotaż wymierzony w rosyjski eksport energii
+• Małe ładunki mocowane magnetycznie — niski próg wejścia, wysoki efekt strategiczny; mogą być dostarczane przez nurków, UUV lub specops
+• Wpisuje się w strategię UA: atakowanie infrastruktury eksportowej jako uderzenie w finanse wojenne
+
+
+
+
+[2026-05-26] - [Gerań-4 — nie modernizacja Shaheda, lecz zmiana rosyjskiego modelu uderzeń lotniczych] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT
+• Pojawienie się napędzanego odrzutowcem Gerań-4 należy czytać nie jako jednostkową modernizację Shaheda
+• Symptom głębokich zmian w rosyjskim modelu zatrudniania zasobów do uderzeń powietrznych
+• Rossja najwyraźniej osiąga limit wydajności klasycznych bezzałogowców napędzanych silnikami spalinowymi — Gerań-4 to zmiana paradygmatu
+
+
 [2026-05-24] - [Oreshnik — nie ostrzeżenie rakietowe, lecz sygnalizacja nuklearna innymi środkami] [LinkedIn/@tim-de-zitter]
 URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/shares/
 • Wywiad UA + partnerzy sprawdzają doniesienia o przygotowaniach do masowego uderzenia na UA z użyciem rakiet Oreshnik
