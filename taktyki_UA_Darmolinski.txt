@@ -1,3 +1,58 @@
+[2026-05-29] - [Iron Dome polowany od dołu — FPV Hezbollahu atakują wyrzutnie] [LinkedIn/@tim-de-zitter]
+URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/shares/
+• Hezbollah: drony FPV Ababil na łączach światłowodowych uderzyły w wyrzutnie Iron Dome — odporne na zagłuszanie, precyzyjne
+• Tani FPV może polować na wyrzutnie, radary, załogi, zespoły przeładowania — cały łańcuch OPL staje się celem
+• Lekcja: ochrona systemu OPL wymaga własnej warstwy obrony przed FPV na poziomie ground-level
+
+[2026-05-29] - [Rosja traci 35 000 żołnierzy miesięcznie — model ludzki sprzeczny z celami strategicznymi] [LinkedIn/@tim-de-zitter]
+URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/shares/
+• Rosja traci ok. 35 000 żołnierzy miesięcznie, nie przekładając kosztów na realne zdobycze terytorialne
+• Fundamentalna sprzeczność: wydawanie ludzi w tempie ponad zdolność rekrutacji, szkolenia i spójności operacyjnej
+• To nie wygrana — to model wypalający zasoby ludzkie szybciej niż można je odtworzyć
+
+[2026-05-28] - [Hornet pod balonem — tani booster atmosferyczny dla UAV] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2060076170423730660
+• UA test: dron Hornet na balonie ~8km wysokości, przelot ~42km — tani booster atmosferyczny wydłużający zasięg bez kosztownej infrastruktury
+• Balon niewidoczny dla radarów, dron szybuje po zwolnieniu — synergia niskiej ceny i wysokiego efektu operacyjnego
+• Sygnał dla doktryny: tanie platformy balonowe mogą skalować zasięg FPV i UAV bez konwencjonalnych systemów startowych
+
+[2026-05-28] - [OKO NA WROGA: Szczątki Oresznika w dobrym stanie — analiza fragmentów] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2060070011599823162
+• Pojawiły się fragmenty rakiety Oresznik w dobrym stanie — sekcja sterowania, elementy łączące, prawdopodobnie naprowadzanie
+• Analiza szczątków umożliwia ocenę rzeczywistych zdolności vs. rosyjskie twierdzenia propagandowe
+• Seria "Oko na Wroga" — analiza rosyjskiego sprzętu na podstawie fizycznych dowodów z pola walki
+
+
+[2026-05-27] - [Roje Dronów Już Tutaj. Twój System Obronny Jest Już Za Powolny] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/all/
+• Trzy lata temu "rój dronów" brzmmiał jak science fiction — dzisiaj to codzienność operacyjna
+• Systemy obronne nie nadążają za skalą i prędkością operacji wielodronowych
+• Konieczna zmiana paradygmatu od obrony jednostkowych celów do zarządzania rojem
+
+[2026-05-27] - [Testowanie C-UAS Bez Prawdziwych Dronów: Symulacja, HIL, Cyfrowe Bliźniaki] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/all/
+• Nie można testować C-UAS wyłącznie z rzeczywistymi dronami — zbyt drogie, zbyt powolne, zbyt niebezpieczne
+• Symulacja, HIL (hardware-in-the-loop), cyfrowe bliźniaki to jedyne skalowalne rozwiązania
+• Wyzwanie: potwierdzić zdolności w warunkach laboratoryjnych versus rzeczywisty konflikt
+
+[2026-05-27] - [Otwarta Architektura Systemów C-UAS to Nie Buzzword — to Przetrwanie] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/all/
+• Zamknięte systemy obrony przeciwdronowej szybko stają się przestarzałe wobec nowych taktyk
+• Architektura otwarta pozwala na szybką integrację nowych sensorów, algorytmów i skuteczności
+• Czystej (pure) engineering problem — nie marketing; o automatyczną ewolucję zdolności
+
+[2026-05-27] - [Dlaczego Piksele nie są "Niskie Dane" — To Wyzwanie Inżynierskie] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/all/
+• Detekcja małych celów (pixel-level): optyka vs algorytmy kontra radiometryczne wyzwania
+• Trade-off: rozdzielczość sensora kontra zakres, szum kontra kontrast
+• Sygnał: rozwiązanie problemu detektora małych celów zmienia równanie C-UAS/sensoryki drona
+
+[2026-05-27] - [Ukraińskie Roboty Naziemne Przechodzą z Testu na Pole Walki] [LinkedIn/@tim-de-zitter]
+URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/all/
+• Brygada Graniczna (Forpost) raportu: Ukrainian ground robots operacyjne w warunkach frontowych
+• UGV rozwiązuje problem transportu amunicji, zabezpieczenia pozycji bez eksponowania żołnierzy
+• Trend: robotyka naziemna wychodzi z fabryki — teraz test skalowania w warunkach nasycenia drona
+
 [2026-05-26] - [Gnom UGV mine-layer — gdzie zmierza robotyka naziemna] [LinkedIn/@tim-de-zitter]
 URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/shares/
 • Temerland (UA) wprowadza UGV Gnom zdolny do zdalnego ułożenia 18 min ppanc PTM-3 — bez narażania żołnierzy w polu nasyconym dronami i sensorami termalnymi
