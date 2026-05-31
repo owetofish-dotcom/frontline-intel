@@ -1,3 +1,33 @@
+[2026-05-31] - [Otwarta architektura systemu C-UAS nie jest buzzwordem — to przetrwanie] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/all/
+• Systemy C-UAS o zamkniętej architekturze szybko stają się przestarzałe wobec nowych taktyk
+• Architektura otwarta umożliwia szybką integrację nowych sensorów, algorytmów i zdolności bojowych
+• Problem inżynierski, nie marketingowy — chodzi o automatyczną ewolucję możliwości obronnych
+
+[2026-05-31] - [Dlaczego piksele nie są "dane niskie" — to inżynierskie wyzwanie] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/all/
+• Detekcja małych celów (pixel-level): optyka vs algorytmy kontra radiometryczne wyzwania
+• Kompromis: rozdzielczość sensora vs zasięg, szum vs kontrast
+• Rozwiązanie problemu detektora małych celów zmienia równanie dla C-UAS/sensoryki dronów
+
+[2026-05-31] - [SpearX na HEMUS 2026 — następny duży krok] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/all/
+• SpearX bierze udział w HEMUS IDEE — największej wystawie obronnej w Europie Środkowo-Wschodniej
+• Demonstracja zdolności: zaawansowane systemy C-UAS, architektura otwarta, integracja sensorów
+• Sygnał dla przemysłu obronnego: europejskie rozwiązania konkurencyjne globalnie
+
+[2026-05-31] - [Rumunia podpisuje duże umowy z Rhinemetall] [LinkedIn/@tim-de-zitter]
+URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/all/
+• Rumunia podpisała umowy ramowe z Rhinemetall na systemy obrony powietrznej i uzbrojenie
+• Kaliber: czołgi, systemy uzbrojenia, integracja w ekosystem NATO
+• Sygnał: Europa Środkowa zdywersyfikowuje dostawców sprzętu — nie tylko Niemcy
+
+[2026-05-31] - [Nowe ukraińskie przeloty zasięgu 360+ kilometrów] [LinkedIn/@tim-de-zitter]
+URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/all/
+• Zelenskyy potwierdził kolejny ukraiński atak na duże dystanse
+• Zasięg: 360+ km — przekracza konwencjonalne systemy rakietowe dostępne dla UA
+• Analiza: Ukraina skaluje możliwości długodystansowe, zmienia bilans operacyjny
+
 [2026-05-29] - [Iron Dome polowany od dołu — FPV Hezbollahu atakują wyrzutnie] [LinkedIn/@tim-de-zitter]
 URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/shares/
 • Hezbollah: drony FPV Ababil na łączach światłowodowych uderzyły w wyrzutnie Iron Dome — odporne na zagłuszanie, precyzyjne
