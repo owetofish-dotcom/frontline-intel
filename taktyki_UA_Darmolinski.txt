@@ -1,3 +1,9 @@
+[2026-06-01] - [Słuchanie nieba — Ukraina pokazuje, że obrona powietrzna nie zawsze zaczyna się od...] [LinkedIn/@tim-de-zitter]
+URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/shares/
+• Ukraina demonstruje nowe podejście do obrony powietrznej, które nie opiera się wyłącznie na tradycyjnych systemach
+• Słuchanie i detekcja akustyczna stają się kluczowe dla wczesnego ostrzeżenia przed dronami
+• Nowa warstwa obrony powietrznej: integracja pasywnych sensorów słuchowych z systemami C4I
+
 [2026-05-31] - [Otwarta architektura systemu C-UAS nie jest buzzwordem — to przetrwanie] [LinkedIn/@dmitrynedov]
 URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/all/
 • Systemy C-UAS o zamkniętej architekturze szybko stają się przestarzałe wobec nowych taktyk
