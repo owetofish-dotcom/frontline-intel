@@ -1,3 +1,57 @@
+[2026-06-02] - [Hermeus Quarterhorse Mk 2.1 — demonstrator bezzałogowego odrzutowca przekroczył prędkość dźwięku] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2061306227712250172
+• Amerykańska firma Hermeus przeprowadziła loty testowe bezzałogowego demonstratora Quarterhorse Mk 2.1
+• Maszyna przekroczyła prędkość dźwięku i osiągnęła Mach 1.21 — pierwsze w historii takie osiągnięcie dla prywatnie rozwijanego bezzałogowca
+• To nie pojedynczy rekord, ale etap na ścieżce do platformy wielofunkcyjnej zdolnej do operacji szybkich i niskopoziomowych
+
+[2026-06-02] - [Rosjanie planują drastyczne cięcia wydatków na obronę — konflikt strategiczny wewnątrz Kremla] [@RALee85]
+URL: https://x.com/RALee85/status/2061490485156335771
+• Oficjele z Ministerstwa Finansów i banku centralnego Rosji ostrzegają Kreml, że obecne wydatki obronne zagrażają budżetowi
+• Podział: Ministerstwo Obrony i część Kremla chcą utrzymać wydatki, argumentując że cięcia zniszczyłyby gospodarkę
+• Sygnał dla NATO: ekonomiczny nacisk na Rosję rośnie, potencjalna niezgoda wśród elity dot. priorytetów strategicznych
+
+[2026-06-02] - [SpearX będzie uczestnikiem HEMUS 2026 — największej wystawy obronnej Europy Środkowo-Wschodniej] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/all/
+• SpearX zaprezentuje zaawansowane systemy C-UAS, architekturę otwartą i integrację wielosensorową
+• HEMUS IDEE (3-6 czerwca 2026 w Bukareszcie) — największe targi obronne w regionie
+• Europejskie rozwiązania konkurencyjne globalnie: sygnał dla przemysłu obronnego i NATO
+
+[2026-06-01] - [SpearX otrzymał pierwszą dotację od BRAVE1 na ukraińską firmę SCYTHIA GROUP] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/all/
+• SpearX pracuje z ukraińską firmą SCYTHIA GROUP na rzecz rozwoju zdolności C-UAS
+• BRAVE1 (fundusz unijny) przyznał dotację — potwierdzenie strategicznej ważności systemów obrony przed dronami
+• To nie koniec linii — potwierdzenie kierunku i budowanie rzeczy, która naprawdę się liczy
+
+[2026-06-01] - [Dlaczego 19 pikseli to nie "dane niskie" — to inżynierskie wyzwanie dla C-UAS] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/all/
+• Detekcja małych celów (pixel-level): optyka vs algorytmy kontra radiometryczne wyzwania fizyki
+• Problem: rozdzielczość sensora vs zasięg obserwacji, szum vs kontrast — kompromis bez rozwiązania
+• Rozwiązanie tego problemu zmienia równanie dla efektywności C-UAS i możliwości sensoryki dronów
+
+[2026-06-01] - [Otwarta architektura systemu C-UAS nie jest buzzwordem — to przetrwanie] [LinkedIn/@dmitrynedov]
+URL: https://www.linkedin.com/in/dmitrynedov/recent-activity/all/
+• Systemy C-UAS o zamkniętej architekturze szybko stają się przestarzałe wobec nowych taktyk przeciwnika
+• Architektura otwarta = szybka integracja nowych sensorów, algorytmów, ewolucja zdolności bojowych w terenie
+• Problem inżynierski, nie marketingowy — chodzi o automatyczną zdolność systemu do adaptacji
+
+[2026-06-01] - [Kamuflaż akustyczny to nie magia — to ukradziony czas reakcji] [LinkedIn/@tim-de-zitter]
+URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/all/
+• Technologia stealth nie eliminuje problemów — zmienia równanie detektora
+• Malowanie absorbujące nie zmniejsza sygnatura na radarach, to manipulacja czasem detekcji
+• W walce o powietrze: każdy dodatkowy czas na odwet, każdy pixel pikselem i każde słowo słowem
+
+[2026-06-01] - [Rosjanie pokazali, co wygląda jak tanio produkowany dron uderzeniowy o niskim koszcie] [LinkedIn/@tim-de-zitter]
+URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/all/
+• Rosyjskie źródła zgłaszają odbudowanie i rozmontowanie drona uderzeniowego — pierwszy taki przypadek
+• Konstrukcja: skrzydła delta, pionowy stabilizator, prosta w produkcji — projektowanie do niskich kosztów
+• Mogą to produkować fabrycznie — sygnał zagrożenia: szybka iteracja systemów drona walczącego
+
+[2026-06-01] - [Rosja uczy się, że droga nowa wymaga obrony powietrznej — zmiana doktrynu logistyki] [LinkedIn/@tim-de-zitter]
+URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/all/
+• Rosyjscy bloggerzy militarni dyskutują otwarcie o ochronie tras logistycznych przed dronami
+• Zmiana w myśleniu: infrastruktura transportu wymaga teraz skoordynowanej obrony powietrznej
+• To zmiana w doktrynie walki: mobilna obrona powietrzna staje się niezbędna dla sprawnego logistyki frontowego
+
 [2026-06-01] - [Słuchanie nieba — Ukraina pokazuje, że obrona powietrzna nie zawsze zaczyna się od...] [LinkedIn/@tim-de-zitter]
 URL: https://www.linkedin.com/in/tim-de-zitter/recent-activity/shares/
 • Ukraina demonstruje nowe podejście do obrony powietrznej, które nie opiera się wyłącznie na tradycyjnych systemach
