@@ -1,3 +1,27 @@
+[2026-06-06] - [Echo wojny: Ukraina zaczyna dusić rosyjską logistykę] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2063089502294315174
+• Na Donbasie i południu Ukrainy widać wejście w nową fazę — Ukraina przechodzi do ofensywy logistycznej
+• Ukraińskie drony uderzają na rosyjskie szlaki zaopatrzeniowe, paraliżując przepływ materiałów na frontach
+• Strategiczny zwrot: dominacja w powietrzu przechodzi w dominację nad logistyką frontu — fundamentem taktyki rosyjskiej
+
+[2026-06-06] - [„Marsjanie", czyli Hornet i BumbleBee — rosyjskie drony z przechwytywaniem obrazu] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2063083610018578441
+• Rosjanie pokazują nowe warianty dronów uderzeniowych — projekty zwane „Marsjanie"
+• Hornet i BumbleBee: nie pełna autonomia, tylko zaawansowany system przechwytywania i przesyłu obrazu
+• Wskazanie rosyjskiego kierunku: zamiast full autonomy — drony z man-in-the-loop i real-time video datalink
+
+[2026-06-05] - [Rosyjskie robotyzacja pola walki — nowy element wdrażania systemów bojowych] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2062697866536034335
+• Rosjanie zaprezentowali kolejny element robotyzacji pola walki
+• Post zawiera nagranie wideo pokazujące nowe iteracje systemów robotycznych
+• Część szerszego trendu rosyjskiej automatyzacji systemów bojowych na linii frontu
+
+[2026-06-03] - [Maj 2026 — rekordowy miesiąc wojny dronowej. Analiza AFP ukraińskiego ekosystemu drona] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2062009439855513750
+• Według analizy AFP opartej na dziennych komunikatach ukraińskich Sił Powietrznych, Rosja użyła około 8150 dalekiego zasięgu dronów uderzeniowych, głównie rodziny Shahed/Geran
+• Rosjanie w maju 2026 wykazali zdolność przechwycenia 8973 ukraińskich dronów dalekiego zasięgu — tendencja do śledzenia rosyjskiego C-UAS
+• W praktyce oznacza to, że broń staje się ekosystemem — ukraiński ekosystem drona nie jest już narzędziem do klasycznych działań, stał się podstawowym narzędziem radzenia, rozpoznania, presji psychologicznej, paralizowania logistyki i wymuszania zmian w taktyce
+
 [2026-06-02] - [Hermeus Quarterhorse Mk 2.1 — demonstrator bezzałogowego odrzutowca przekroczył prędkość dźwięku] [@DarmolinskiT]
 URL: https://x.com/DarmolinskiT/status/2061306227712250172
 • Amerykańska firma Hermeus przeprowadziła loty testowe bezzałogowego demonstratora Quarterhorse Mk 2.1
