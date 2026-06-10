@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit -m \"Fix: stabilne IDs dla post-read state + popraw margin między headerem a postami:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)",
+      "Bash(git rebase:*)",
+      "Bash(git checkout:*)",
+      "Bash(gh pr:*)",
+      "Bash(command -v gh)",
+      "Bash(brew install:*)"
+    ]
+  }
+}
