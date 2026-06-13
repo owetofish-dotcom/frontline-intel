@@ -1,3 +1,21 @@
+[2026-06-13] - [UA uderza w port Taman w Kubanie — pożar w strategicznym terminalu przeładunkowym] [@sternenko]
+URL: https://x.com/sternenko/status/2065678010687054323
+• Siły Obronne UA ponownie uderzyły w port Taman na wybrzeżu Morza Azowskiego (Kuban) — gubernator Krasnodaru Kondratjev potwierdza pożar w terminalu morskim
+• Port Taman: strategiczny kompleks przeładunkowy obsługujący paliwa ropopochodne, ładunki chemiczne, zboże, węgiel i metal — kluczowy węzeł eksportowy południa Rosji
+• Kontynuacja ukraińskiej kampanii deep strike na rosyjską infrastrukturę logistyczną i energetyczną w głębi Rosji
+
+[2026-06-12] - [UA jednocześnie uderza w Nizhnekamskneftekhim (Tatarstan) i Tolyattikauchuk (Samara) — strategiczne surowce dla WPK] [@sternenko]
+URL: https://x.com/sternenko/status/2065297384670699682
+• UA uderzyła jednocześnie w dwa zakłady petrochemiczne: Nizhnekamskneftekhim w Tatarstanie i Tolyattikauchuk w Samarze
+• Oba zakłady dostarczają rosyjskiemu WPK strategiczne surowce — kauczuki i polimery niezbędne do produkcji komponentów dla pojazdów opancerzonych i lotnictwa
+• Dodatkowy pożar w elektrociepłowni Symferopol (Krym) po ataku — zakłócenia w dostawach prądu; BDA satelitarne (@kromark/@planet) potwierdza uszkodzenia jednostki destylacji w Tolyattikauchuk
+
+[2026-06-12] - [153 geolokaliz. uderzeń na rosyjską logistykę (maj-cz.) — analiza open source Oko Gora] [@RALee85]
+URL: https://x.com/oko_gora_tg/status/2065471062553317885
+• Oko Gora i Clement Molin: 153 geolokaliz. uderzeń na rosyjską logistykę w maju-czerwcu + 375 nagranych incydentów z kanałów brygad, korpusów i jednostek
+• Systematyczna analiza danych OSINT potwierdza skalę i skuteczność ukraińskiej kampanii interdykcji — powiązane z działaniami dronów FPV, artylerii i uderzeń dalekiego zasięgu
+• Kompleksowy obraz destrukcji rosyjskich linii zaopatrzenia — komplementarne do wcześniejszych danych o 71% redukcji ruchu na trasie E-58
+
 [2026-06-11] - [Rafineria Afipski w Kubanie podpalona — jeden z największych zakładów naftowych Rosji] [@sternenko]
 URL: https://x.com/sternenko/status/2064940486813434337
 • Rafineria Afipski w Kubanie stanęła w ogniu po ataku Sił Obronnych UA — jedna z największych rafinerii ropy naftowej w południowej Rosji (przepustowość: 6,25 mln ton ropy/rok)
