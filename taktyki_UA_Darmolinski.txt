@@ -1,3 +1,21 @@
+[2026-06-15] - [Schwytany Hornet: nowy model uderzenia w logistykę + start z aerostatu na 8-8.25 km — "tyłek przestaje być tyłkiem"] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT
+• Schwytany egzemplarz Horneta (stałopłat, 15 kg, głowica 4-5 kg, rozpiętość 2,2 m, prędkość 100-120 km/h) ujawnia zmianę modelu walki z logistyką — platforma wypełnia lukę między FPV (strefa kontaktu) a dronami dalekiego zasięgu (strategia); cel: pojazdy, cysterny, warsztaty, punkty przeładunkowe 20-200 km za linią frontu
+• KLUCZOWE — start z aerostatu/balonu na wys. 8-8.25 km: po uwolnieniu Hornet szybuje ~42 km zachowując większość energii akumulatora; dopiero w tym profilu zasięg 150+ km staje się technicznie wiarygodny; dwie kamery (przód + dół) umożliwiają prowadzenie celu w środowisku z zakłócaniem GPS (terrain-visual nav)
+• Ukraińska kampania "uderzenia średniego zasięgu": trasa R-280 "autostrada śmierci" — 71% redukcja ruchu militarnego w 2 tygodnie; wniosek taktyczny: tyły (50-100 km od frontu) stają się polem walki — konieczne C-UAS mobilny, maskowanie kolumn, dyscyplina emisji EM i rotacja korytarzy ruchu
+
+[2026-06-15] - [3. Korpus Armijny UA: rekord — 3762 rosyjskie БПЛА zestrzelone w maju, w tym 1866 dronów uderzeniowych Mołnia] [@RALee85]
+URL: https://x.com/RALee85
+• 3. Korpus Armijny UA zestrzelił rekordowe 3762 rosyjskich dronów w maju 2026 — w tym 1866 jednostek Mołnia (strike UAS) skutecznie zneutralizowanych przez Echelony Obrony Powietrznej korpusu
+• Dane ilościowe potwierdzają drastyczną eskalację rosyjskiej kampanii dronami uderzeniowymi Mołnia w sektorze III KA — skala wymaga systematycznej wielowarstwowej odpowiedzi C-UAS, nie tylko środków pasywnych
+• Wskaźnik "1866 Mołnia zestrzelonych" to miernik kluczowy do śledzenia trendu ataku i skuteczności obrony — precedens do porównania z kolejnymi miesiącami
+
+[2026-06-15] - [UA uderza głęboko: zakład Temp (Rybinsk), Azot (Tula) — RU EW nakierowuje własny jamming na budynek mieszkalny w Orle] [@sternenko]
+URL: https://x.com/sternenko
+• Rosrezerv "Temp" w Rybinsku (Obł. Jarosławska, ~1200 km od frontu) — pożar w zakładzie magazynowania rezerw państwowych po uderzeniu Sił Obronnych UA; zakład Azot w Nowomoskowsku (Obł. Tulska) trafiony — produkuje azotan amonu do materiałów wybuchowych; Wiaźma (Obł. Smoleńska) również pod uderzeniem
+• INCYDENT EW (Orzeł): rosyjska stacja walki elektronicznej "nakierowała" ukraińskiego drona prosto w budynek mieszkalny — klasyczny efekt uboczny jammingu GPS w terenie zurbanizowanym (dron traci sygnał i leci w kierunku najsilniejszego zakłócenia zamiast do celu); potwierdza ryzyko "friendly EW fire"
+• Eskalacja kampanii UA na rosyjski MIC-chemiczny i infrastrukturę rezerw — równoległy atak na dwa elementy łańcucha produkcji materiałów wybuchowych (Azot) i zaopatrzenia strategicznego (Temp)
+
 [2026-06-14] - [Hezbollah przejmuje taktykę FPV od UA — systematyczna integracja małych dronów uderzeniowych przeciw siłom naziemnym Izraela] [@DarmolinskiT]
 URL: https://x.com/DarmolinskiT/status/2065858546575593949
 • Hezbollah zmienia podejście: zamiast izolowanych ataków FPV nagrania z południa Libanu pokazują systematyczną integrację małych dronów uderzeniowych z działaniami przeciw ciężkiemu uzbrojeniu naziemnemu Izraela (Merkawy, Namery, D9, pojazdy wsparcia i żołnierze przy sprzęcie)
