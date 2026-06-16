@@ -1,3 +1,51 @@
+[2026-06-16] - [ZALA GEOKOSMOS: rosyjska warstwa C2/PNT dla BSP — "kto kontroluje łączność, kontroluje bezzałogowe pole walki"] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2066722580581540038
+• ZALA GEOKOSMOS to nie system łączności dla dronów — to próba zbudowania rosyjskiej warstwy C2/PNT dla całego bezzałogowego pola walki; działa gdzie GNSS i sieci komórkowe są zakłócane: naziemne stacje SDR + lokalna wymiana danych + alternatywne pozycjonowanie + dowodzenie różnymi platformami z jednego systemu
+• Start: Sachalin i Daleki Wschód — regionalny, naziemny ekwiwalent infrastruktury kontrolnej dla BSP i systemów autonomicznych w wybranych korytarzach; nie Starlink (nieorbitalny), lecz zdecentralizowana sieć stref operacyjnych
+• Implikacja strategiczna (Darmolinski): kto kontroluje łączność, synchronizację czasu i lokalną nawigację — kontroluje bezzałogowe pole walki; UA/NATO potrzebują własnej odpornej infrastruktury C2 + alternatywnego PNT + zarządzania emisją EM — same płatowce i kamery nie wystarczą
+
+[2026-06-15] - [Rosja zmienia model lotniczych uderzeń: pakiety mieszane (582 BSP + rakiety balistyczne + Cyrkony) jako operacje przełamania systemu OPL UA] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2066394331494170799
+• Noc 14-15 VI 2026: 681 środków uderzenia — 582 BSP + 30 Kh-101/Iskander-K + 15 Iskander-M/S-400 balistycznych + 5 Cyrkonów 3M22; 632 zestrzelone/zagłuszone; wzorzec powtarza się od maja: ~600 BSP + 90 rakiet (24 V) i uderzenie z dużą liczbą balistyk (2 VI)
+• Logika nowego modelu: BSP = masa/przeciążenie OPL + aktywacja radarów; rakiety manewrujące = niski profil lotu; balistyki = minimalizacja czasu reakcji; Cyrkony = dodatkowa warstwa innej klasy detekcji — razem: operacja przełamania systemu OPL, nie uderzenie punktowe
+• Wniosek operacyjny: shift na system-breakthrough operations — UA musi integrować OPL klasyczną, EW, mobilne grupy ogniowe i C-UAS niskopułapowy przy ograniczonych efektorach; każdy 1% przebicia przy setkach środków = poważne straty
+
+[2026-06-15] - [Rosyjski Tu-22M3 rozbił się w obwodzie irkuckim] [@RALee85]
+URL: https://x.com/RALee85/status/2066542648802869671
+• Rosyjski strategiczny bombowiec Tu-22M3 "Backfire" rozbił się w obwodzie irkuckim (Syberia); baza bazabazon (Telegram) potwierdza incydent z nagraniem; lokalizacja ~5000 km od frontu wskazuje na wypadek podczas lotu treningowego/powrotnego, nie zestrzelenie przez UA
+• Tu-22M3 to kluczowy nośnik uderzeń rakietami Kh-22/Kh-32 na UA — utrata maszyny obniża zdolność do głębokich uderzeń dalekiego zasięgu; Rosja straciła już kilka Tu-22M3 w wyniku uderzeń ukraińskiej OPL (S-200, Patriot) przy misjach bliżej frontu
+• Każda utrata Tu-22M3 jest strategicznie istotna — produkcja zakończona, remontowość ograniczona; flota kurczy się zarówno przez combat losses jak i awarie operacyjne
+
+[2026-06-15] - [Geran-2 atakuje Ławrę Peczerską — SSU: komponenty produkowane w rosyjskiej SEZ "Alabuga"] [@sternenko]
+URL: https://x.com/sternenko/status/2066468558003896614
+• Rosja użyła Gerana-2 (klon Shahed-136) do uderzenia w Ławrę Kijowsko-Peczerską — uszkodzone: dach katedry, kopuły, ściany, witraże; SSU zakwalifikowało atak jako zbrodnię wojenną
+• Kluczowy intelligence: SSU ustaliło, że część komponentów Gerana-2 użytego w ataku wyprodukowano w SEZ "Alabuga" (Tatarstan) — potwierdzenie zdecentralizowanej rosyjskiej produkcji dronów kamikaze z SEZ jako platformą przemysłową
+• SEZ "Alabuga" jako węzeł komponentów BSP uderzeniowych = cel dla sankcji wtórnych i interdykcji łańcucha dostaw; Rosja lokalnie produkuje Geran-2 niezależnie od irańskiego importu — skalowanie produkcji omija zachodnie restrykcje
+
+[2026-06-16] - [ZALA GEOKOSMOS: rosyjska warstwa C2/PNT dla BSP — "kto kontroluje łączność, kontroluje bezzałogowe pole walki"] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2066722580581540038
+• ZALA GEOKOSMOS to nie system łączności dla dronów — to próba zbudowania rosyjskiej warstwy C2/PNT dla całego bezzałogowego pola walki; działa gdzie GNSS i sieci komórkowe są zakłócane: naziemne stacje SDR + lokalna wymiana danych + alternatywne pozycjonowanie + dowodzenie różnymi platformami z jednego systemu
+• Start: Sachalin i Daleki Wschód — regionalny, naziemny ekwiwalent infrastruktury kontrolnej dla BSP i systemów autonomicznych w wybranych korytarzach; nie Starlink (nieorbitalny), lecz zdecentralizowana sieć stref operacyjnych
+• Implikacja strategiczna (Darmolinski): kto kontroluje łączność, synchronizację czasu i lokalną nawigację — kontroluje bezzałogowe pole walki; UA/NATO potrzebują własnej odpornej infrastruktury C2 + alternatywnego PNT + zarządzania emisją EM — same płatowce i kamery nie wystarczą
+
+[2026-06-15] - [Rosja zmienia model lotniczych uderzeń: pakiety mieszane (582 BSP + rakiety balistyczne + Cyrkony) jako operacje przełamania systemu OPL UA] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2066394331494170799
+• Noc 14-15 VI 2026: 681 środków uderzenia — 582 BSP + 30 Kh-101/Iskander-K + 15 Iskander-M/S-400 balistycznych + 5 Cyrkonów 3M22; 632 zestrzelone/zagłuszone; wzorzec powtarza się od maja: ~600 BSP + 90 rakiet (24 V) i uderzenie z dużą liczbą balistyk (2 VI)
+• Logika nowego modelu: BSP = masa/przeciążenie OPL + aktywacja radarów; rakiety manewrujące = niski profil lotu; balistyki = minimalizacja czasu reakcji; Cyrkony = dodatkowa warstwa wymagająca innej klasy detekcji — razem: operacja przełamania systemu OPL, nie uderzenie punktowe
+• Wniosek operacyjny: model shift z uderzeń punktowych na system-breakthrough operations — UA musi integrować OPL klasyczną, EW, mobilne grupy ogniowe i C-UAS niskopułapowy przy ograniczonych efektorach; każdy 1% przebicia przy setkach środków = poważne straty
+
+[2026-06-15] - [Rosyjski Tu-22M3 rozbił się w obwodzie irkuckim] [@RALee85]
+URL: https://x.com/RALee85/status/2066542648802869671
+• Rosyjski strategiczny bombowiec Tu-22M3 "Backfire" rozbił się w obwodzie irkuckim (Syberia); baza bazabazon (Telegram) potwierdza incydent z nagraniem; krótka notka RALee85
+• Tu-22M3 to kluczowy nośnik uderzeń rakietami Kh-22/Kh-32 na UA — utrata maszyny obniża zdolność do głębokich uderzeń dalekiego zasięgu; Rosja straciła już kilka Tu-22M3 w wyniku uderzeń UA OPL (S-200, Patriot) przy misjach bliżej frontu
+• Lokalizacja głęboko w Rosji (Irkuck, ~5000 km od frontu) wskazuje na wypadek podczas lotu treningowego/powrotnego, nie zestrzelenie; każda utrata strategicznego bombowca osłabia potencjał uderzeń dalekiego zasięgu i wymaga kosztownej naprawy/zastępstwa
+
+[2026-06-15] - [Geran-2 atakuje Ławrę Peczerską — SSU: komponenty produkowane w rosyjskiej SEZ "Alabuga"] [@sternenko]
+URL: https://x.com/sternenko/status/2066468558003896614
+• Rosja użyła Gerana-2 (rosyjski klon Shahed-136) do uderzenia w Ławrę Kijowsko-Peczerską — uszkodzone: dach katedry, kopuły, ściany, witraże; atak zakwalifikowany przez SSU jako zbrodnia wojenna
+• Kluczowy intelligence: SSU ustaliło, że część komponentów Gerana-2 użytego w ataku wyprodukowano w SEZ "Alabuga" (Tatarstan) — potwierdzenie zdecentralizowanej rosyjskiej produkcji dronów kamikaze z SEZ jako platformą przemysłową
+• Implikacja: SEZ "Alabuga" jako węzeł komponentów BSP uderzeniowych = cel dla sankcji wtórnych i interdykcji łańcucha dostaw; Rosja lokalnie produkuje Geran-2 niezależnie od irańskiego importu — skalowanie produkcji omija zachodnie restrykcje
+
 [2026-06-15] - [Schwytany Hornet: nowy model uderzenia w logistykę + start z aerostatu na 8-8.25 km — "tyłek przestaje być tyłkiem"] [@DarmolinskiT]
 URL: https://x.com/DarmolinskiT
 • Schwytany egzemplarz Horneta (stałopłat, 15 kg, głowica 4-5 kg, rozpiętość 2,2 m, prędkość 100-120 km/h) ujawnia zmianę modelu walki z logistyką — platforma wypełnia lukę między FPV (strefa kontaktu) a dronami dalekiego zasięgu (strategia); cel: pojazdy, cysterny, warsztaty, punkty przeładunkowe 20-200 km za linią frontu
