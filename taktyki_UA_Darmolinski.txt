@@ -1,3 +1,27 @@
+[2026-06-17] - [Ukraiński RAM-2X z nową konfiguracją: 2 silniki + terminal Starlink — "drony dalekiego zasięgu bez zależności od sieci naziemnych"] [@DarmolinskiT rt @visionergeo]
+URL: https://x.com/visionergeo/status/2066842371904487701
+• Ukraińskie Siły Zbrojne przeprowadziły upgrade drona kamikaze RAM-2X: redesigned configuration — 2 silniki (lepsza prędkość i odporność na jamming) + zintegrowany terminal Starlink (łączność satelitarna niezależna od sieci naziemnych); krytyczne dla uderzeń >100 km
+• Starlink jako terminal komunikacyjny w dronie uderzeniowym = eliminacja podatności na lokalne zakłócanie łączności; łączność naziemna (data link) była największą słabością poprzednich RAM-X przy długim zasięgu
+• Ocena @visionergeo: RAM-2X upgrade to odpowiedź UA na lukę w segmencie dronów kamikaze dalekiego zasięgu — dwa silniki zwiększają redundancję platformy i utrudniają intercept; Starlink jako C2 link dla dronów uderzeniowych = model do śledzenia przez UA i NATO
+
+[2026-06-17] - [Taiwan buduje przemysłowy ekosystem dronowy na modelu półprzewodnikowym: "non-red supply chain" dla BSP] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2067079673423474945
+• Rządowy plan Tajwanu: 44,2 mld TWD (~1,4–1,5 mld USD) na rozwój sektora dronowego 2025–2030 — cel: 100 tys. dronów/miesiąc, ~50% na eksport; podejście przemysłowe: nie tylko platformy, ale certyfikacja, producenci, ekosystem krajowy
+• Kluczowy kierunek strategiczny: "non-red supply chain" — łańcuch dostaw wolny od komponentów z Chin kontynentalnych; tajwański ITRI = pierwsza poza-USA jednostka certyfikowana w programie Green UAS; obejmuje własną elektronikę, cyberbezpieczeństwo, systemy łączności i nawigacji
+• Wniosek (Darmolinski): Tajwan buduje cały ekosystem (nie tylko fabryki) — logika sukcesu mikrochipów przeniesiona na rynek BSP; łańcuch technologiczny + kontrola jakości + certyfikacja + połączenie z bezpieczeństwem państwa = model relewantny dla Polski/UE
+
+[2026-06-17] - [2S22 Bohdana "Marta": niemiecko-finansowany wariant z lufą L39 — próby w UA od II/III 2026] [@RALee85 rt @deaidua]
+URL: https://x.com/deaidua/status/2066930470579736731
+• Potwierdzono: wariant 2S22 Bohdana finansowany przez Niemcy (200 egz. na bazie podwozia Zetros) nosi nazwę "Marta" i wyposażony jest w lufę L39 calibre — krótsza niż standardowa; wygląd zbliżony do Mod.4; potwierdzenie z Ukrainian Armoured Vehicles i @Jeff21461
+• Próby w Ukrainie zakończone z gotowym produktem: koniec luty / początek marca 2026; L39 barrel vs standardowa L52/L55 = inny profil parametrów balistycznych, kompromis zasięg–logistyka lub inny profil amunicji
+• 200 egzemplarzy "Marta" = znacząca zdolność ogniowa; Niemcy finansują zmodyfikowany wariant ukraińskiej haubicy samobieżnej — nowy system wdrożeniowy w siłach UA wart śledzenia
+
+[2026-06-17] - [Wieża Pancyr przy rafinerii moskiewskiej postawiona przed atakiem UA — nie była uzbrojona 14 VI 2026] [@RALee85 rt @kromark]
+URL: https://x.com/kromark/status/2066798056771670317
+• @kromark (RFE/RL): wieża systemu Pancyr-S postawiona przy rafinerii ropy naftowej w Moskwie (Kapotnia) w połowie czerwca 2026 — jednak 14 VI system nie był jeszcze wyposażony w właściwy system Pancyr; najbliższy aktywny Pancyr ~5 km od obiektu
+• UA uderzyła dronem w rafinerię Kapotnia 16 VI 2026 rano — atak nastąpił ZANIM rosyjska OPL stała się operacyjna przy tym obiekcie; sekwencja: Rosja planuje ochronę → UA uderza w okno przed aktywacją systemu
+• Implikacja taktyczna: okno między instalacją a aktywacją systemu OPL jest operacyjnie exploitable — UA posiada intelligence o wdrożeniach rosyjskiej OPL i działa przed zamknięciem okna; Rosja reaktywnie wzmacnia ochronę energetyki, ale reaguje z opóźnieniem
+
 [2026-06-16] - [ZALA GEOKOSMOS: rosyjska warstwa C2/PNT dla BSP — "kto kontroluje łączność, kontroluje bezzałogowe pole walki"] [@DarmolinskiT]
 URL: https://x.com/DarmolinskiT/status/2066722580581540038
 • ZALA GEOKOSMOS to nie system łączności dla dronów — to próba zbudowania rosyjskiej warstwy C2/PNT dla całego bezzałogowego pola walki; działa gdzie GNSS i sieci komórkowe są zakłócane: naziemne stacje SDR + lokalna wymiana danych + alternatywne pozycjonowanie + dowodzenie różnymi platformami z jednego systemu
