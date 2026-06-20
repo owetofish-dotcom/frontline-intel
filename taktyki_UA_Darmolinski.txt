@@ -1,3 +1,15 @@
+[2026-06-20] - [Fire Point FREYJA: europejsko-ukraiński system przeciwbalistyczny — HENSOLDT TRML-4D + umowa UA-Niemcy na zdolności antybalistyczne] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT
+• Fire Point (ukraińska firma obronno-technologiczna) rozwija projekt FREYJA — koncepcja europejsko-ukraińskiego systemu obrony przeciwlotniczej klasy anty-balistycznej: wykrywanie i niszczenie rakiet balistycznych; 16 VI 2026, Eurosatory (Paryż): Fire Point + HENSOLDT podpisały MoU — HENSOLDT odpowiada za radary (TRML-4D, znany z zastosowania w UA OPL), ich integrację, produkcję, testy i dostawę do systemu FREYJA; 18 VI 2026 (Ramstein): Ukraina i Niemcy podpisały oddzielną umowę rządową na wspólny rozwój zdolności antybalistycznych — Zełenski: wyniki do zimy
+• FREYJA = projekt deweloperski z otwartą architekturą (nie gotowy odpowiednik Patriot/SAMP-T); wymaga jeszcze: potwierdzenia skuteczności efektora, terminal guidance, integracji C2, odporności na saturację; sekwencja działań (testy → MoU → umowa rządowa) pokazuje szybkie tempo przemysłowo-polityczne; ukraiński sektor obronny wchodzi w rolę co-creatora europejskich systemów, nie tylko odbiorcy pomocy
+• Implikacja (Darmolinski): w Europie trwa wyścig o miejsce w nowych łańcuchach wartości OPL i obrony przeciwrakietowej — kto wejdzie wcześniej = co-creator; kto czeka = klient; kluczowe obszary dla Polski/UE: sensory, komunikacja, pojazdy, integracja systemów, elektronika, testowanie — nie deklaracje polityczne
+
+[2026-06-20] - [Pancyr-S1 zlokalizowany w Moskwie (55.65545, 37.83684) — Rosja rozszerza pokrycie OPL aglomeracji po atakach UA] [@RALee85 rt @BenDoBrown]
+URL: https://x.com/BenDoBrown
+• @BenDoBrown (13h ago): geolokalizacja systemu Pancyr-S1 w Moskwie, koordynaty 55.65545, 37.83684 — nowa pozycja OPL w zachodniej części aglomeracji (rejon Tuszino/Strogino, NW Moskwy); potwierdzone niezależnie przez @TheDeadDistrict; zdjęcia satelitarne + naziemne potwierdzają rozmieszczenie
+• Kontekst: poprzednia dokumentacja (17 VI 2026) — niedouzbrojony Pancyr przy rafinerii Kapotnia (SE Moskwy) nie był gotowy przed atakiem UA 16 VI; nowa geolokalizacja (NW Moskwy) = oddzielna pozycja = systematyczna rozbudowa pokrycia radarowego i efektorowego wokół stolicy po narastających atakach UA BSP
+• Wzorzec reaktywnej ekspansji rosyjskiej OPL miejskiej: każda seria uderzeń UA wymusza instalację kolejnych systemów Pancyr w nowych sektorach Moskwy; nakładanie map geolokalizacji = intelligence o luce w OPL RU — UA dokumentuje okna czasowe i przestrzenne między rozmieszczeniem a aktywacją; pattern powtarzalny
+
 [2026-06-19] - [Rekordowy masowy atak dronowy UA na Moskwę — setki BSP, rafineria Kapotnia, 4 lotniska wstrzymane] [@RALee85 rt @ChristopherJM/@bayraktar_1love]
 URL: https://x.com/RALee85
 • UA uderzyła setkami BSP w ponad 12 regionów Rosji (noc 18/19 VI 2026) — atak na Moskwę największy w historii; rafineria Kapotnia (11,6 mln ton/rok) trafiona, zbiornik paliwa eksplodował; 4 lotniska moskiewskie wstrzymały operacje, Aeroflot odwołał loty — atak "much larger than the one carried out just two days ago" (@bayraktar_1love)
