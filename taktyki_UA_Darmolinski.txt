@@ -1,3 +1,22 @@
+[2026-06-21] - [Uderzenie UA na rafinerię w Tiumeniu (2000 km od Ukrainy) — nowy rekord zasięgu BSP, potwierdzony przez Sternenkę] [@sternenko]
+URL: https://x.com/sternenko
+• Ukraińskie Siły Obronne uderzyły w rafinerię ropy naftowej w Tiumeniu (Syberia Zachodnia) — 2000 km od granicy Ukrainy; co najmniej 2 eksplozje potwierdzone przez lokalnych mieszkańców; przed atakiem: ogłoszony alert dronowy w mieście, zakład urgently odciążył ciśnienie w instalacji; przepustowość rafinerii: 7,5–9 mln ton ropy/rok
+• Sternenko (doradca Min. Obrony UA): „In general, this is the record striking range of Ukrainian drones. Deep strike. Deeper further. There will be no safe regions in Russia." — oficjalne potwierdzenie nowego rekordu zasięgu BSP UA jako celowej deklaracji programowej
+• 2000 km = nowa granica operacyjna UA BSP; kontekst: Tiumeń (centrum naftowe Rosji) jako cel symboliczny i ekonomiczny; wzorzec: każde kolejne uderzenie przesuwa granicę zasięgu — Sternenko zapowiada dalszą eskalację głębokości uderzeń strategicznych
+
+[2026-06-21] - [UA 81. Brygada Powietrzno-Desantowa "Apache" — dedykowany batalion UAS z dronami Blyskavka uderza różne cele] [@RALee85 rt @moklasen]
+URL: https://x.com/moklasen
+• UA 81. Brygada Powietrzno-Desantowa "Apache" posiada dedykowany batalion UAS (bezzałogowych systemów powietrznych) używający dronów Blyskavka do uderzania różnych typów celów; nagrania z kanału t.me/apachi_fpv dokumentują operacje bojowe
+• Kontekst: Blyskavka + terminal Starlink kosztuje ~1600 USD, zasięg >100 km — tańszy lub porównywalny kosztowo z interceptorami używanymi przeciwko nim (RALee85, 7 VI 2026); dedykowany batalion UAS w brygadzie powietrzno-desantowej = model głębokiej integracji BSP z jednostkami elitarnymi
+• Wzorzec: specjalizacja jednostek bojowych UA w operacjach BSP dalekiego zasięgu — brygady tworzą własne kanały dokumentacji uderzeń (t.me/apachi_fpv) = transparentność operacyjna i dokumentacja intelligence; Blyskavka jako narzędzie łączące taktykę i strategię w jednym systemie
+
+[2026-06-21] - [Rosyjska cysterna paliwa unika drona FPV Hornet — emergentna taktyka aktywnego omijania BSP przez pojazdy logistyczne RU] [@RALee85 rt @moklasen]
+URL: https://x.com/moklasen
+• Nagranie pokazuje rosyjską cysternę paliwa aktywnie unikającą uderzenia drona FPV Hornet poprzez manewr omijający — pojazd zmienia kierunek i przyspiesza, wykorzystując manewrowość do wyjścia z trajektorii ataku; cysterny paliwa = priorytetowy cel UA ze względu na wartość logistyczną
+• Technika aktywnego unikania BSP przez pojazdy logistyczne RU = emergentna taktyka adaptacyjna RU; FPV Hornet podatny na manewry przy pewnych kątach podejścia; kierowcy RU uczą się identyfikować i unikać ataków BSP — potwierdzona ewolucja kontrdziałań naziemnych
+• Implikacja taktyczna: rosnące zdolności unikania przez cele naziemne = wyzwanie dla operatorów FPV UA; wymagana adaptacja: wyższe prędkości nurkowania, ataki z kąta pionowego, koordynacja wielu BSP na jeden cel; obie strony uczą się z udostępnianych nagrań w pętli taktycznej
+
+
 [2026-06-20] - [Fire Point FREYJA: europejsko-ukraiński system przeciwbalistyczny — HENSOLDT TRML-4D + umowa UA-Niemcy na zdolności antybalistyczne] [@DarmolinskiT]
 URL: https://x.com/DarmolinskiT
 • Fire Point (ukraińska firma obronno-technologiczna) rozwija projekt FREYJA — koncepcja europejsko-ukraińskiego systemu obrony przeciwlotniczej klasy anty-balistycznej: wykrywanie i niszczenie rakiet balistycznych; 16 VI 2026, Eurosatory (Paryż): Fire Point + HENSOLDT podpisały MoU — HENSOLDT odpowiada za radary (TRML-4D, znany z zastosowania w UA OPL), ich integrację, produkcję, testy i dostawę do systemu FREYJA; 18 VI 2026 (Ramstein): Ukraina i Niemcy podpisały oddzielną umowę rządową na wspólny rozwój zdolności antybalistycznych — Zełenski: wyniki do zimy
