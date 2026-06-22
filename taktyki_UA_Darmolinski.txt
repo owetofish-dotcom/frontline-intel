@@ -1,3 +1,27 @@
+[2026-06-21] - [Rosja: 349. jednostka refabrykuje BWP i czołgi — potwierdzenie masowej produkcji i przywracania pancerza] [@RALee85 rt @Jonpy99]
+URL: https://x.com/Jonpy99
+• @Jonpy99: "Refurbished BMPs and tanks have been put back in storage in the 349th. Furthermore confirmation that Russia is indeed overhauling and producing a lot of armor." — zrefabrykowane BWP i czołgi wróciły do składów 349. jednostki; Rosja aktywnie remontuje i produkuje duże ilości sprzętu pancernego
+• Kontekst: odłożenie do składów = budowanie rezerw; zdolność RU do uzupełniania strat pancernych przez refabrykację starzejącego się sprzętu z magazynów strategicznych; wzorzec potwierdzony niezależnie przez wiele źródeł intelligence
+• Implikacja taktyczna: Rosja nie wyczerpuje zapasów pancerza — aktywna refabrykacja BWP i czołgów oznacza trwałą zdolność odtwarzania potencjału; wymaga śledzenia tempa refabrykacji vs. strat na froncie przez UA
+
+[2026-06-21] - [Drony UA palą promy samochodowe i atakują infrastrukturę portu Kavkaz — kampania interdykcji logistyki Krymu] [@sternenko]
+URL: https://x.com/sternenko
+• Sternenko: w rejonie portu Kavkaz (Kraj Krasnodarski) płoną promy samochodowe po ataku dronowym; drony aktywnie atakują infrastrukturę portową — nagrania dokumentują trafienie promów i ogień w porcie kluczowym dla dostaw na Krym
+• Port Kavkaz = główny węzeł logistyczny dla dostaw przez Cieśninę Kerczeńską; promy samochodowe = krytyczny wektor transportu żołnierzy, paliwa, sprzętu; atak na promy = bezpośrednie uderzenie w zdolność RU zaopatrywania Krymu drogą morską
+• Wzorzec: UA prowadzi skoordynowaną kampanię wielokierunkowej interdykcji Krymu (port Kavkaz + zbiorniki TPP Kercz + skład ropy + mosty + drogi); efekt kumulatywny: 21 VI Krym oficjalnie bez paliwa na stacjach dla osób prywatnych — promy Kavkaz to kolejne ogniwo tej samej kampanii
+
+[2026-06-21] - [Geran-Seeker OWA: RU buduje sieć przekaźników radiowych w strefie okupowanej — chińskie modemy LTE, zasięg <200 km, Białoruś jako potencjalny wektor] [@RALee85]
+URL: https://x.com/RALee85
+• RALee85: Zelensky nawiązał do systemu przekaźnika radiowego używanego dla dronów Geran i Gerbera-Seeker OWA; Geran/Gerbera używają sieci mesh z chińskimi modemami LTE, ale latencja jest zbyt wysoka dla trybu FPV seekera; Rosja zbudowała system przekaźników w terenach okupowanych i wzdłuż granicy dla lepszego sygnału seekerów — zasięg <200 km
+• Profil techniczny: chińskie modemy LTE + mesh network = standardowa łączność Geran/Gerbera; problem latencji uniemożliwia aktywne naprowadzanie FPV na dalszym dystansie; przekaźniki RU w strefie ocupowanej jako obejście ograniczeń sieci komórkowych na Ukrainie
+• Implikacja strategiczna: jeśli Białoruś zgodzi się na system przekaźnikowy, zasięg Gerbera-Seekera sięgnie Kijowa i zachodniej Ukrainy — wyjaśnia żądanie Zełenskiego (termin 1 tydzień) usunięcia sprzętu naprowadzającego z terytorium Białorusi; Białoruś jako wektor potencjalnego rozszerzenia zdolności Geran-Seeker o 200+ km na zachód
+
+[2026-06-21] - [Nocny rajd UA na Krym: zbiorniki TPP Kercz, skład ropy Kavkaz, parkingi sprzętu promowego, pozycje radarów RLC/PPO] [@RALee85 rt @cyber_boroshno]
+URL: https://x.com/cyber_boroshno
+• @cyber_boroshno: efekty nocnego rajdu na Krym — trafiony: zbiornik ropy terminalu "TPP" w Kerczu; skład ropy portu "Kavkaz"; parkingi pojazdów przy przeprawach "Krym" i "Kavkaz"; pozycje radarów (РЛС/ПВО) — mapa z trasami ataków dronowych potwierdza wielokierunkowy charakter rajdu
+• Cel "pozycje radarów (РЛС/ПВО)" = radary i systemy OPL — UA celowo atakuje infrastrukturę sensoryczną OPL RU na Krymie; obok celów logistycznych (paliwo, pojazdy) = degradacja świadomości radiolokacyjnej i zdolności obrony punktowej
+• Wzorzec wielowarstwowy: jeden rajd jednocześnie atakuje logistykę paliwa (zbiorniki) + transport (parkingi promów) + obronę (radary) + porty (skład Kavkaz) — multidomenowe uderzenie na system podtrzymania operacyjnego Krymu; atakowanie radarów wskazuje na intencję tworzenia "okien" w OPL dla kolejnych operacji UA
+
 [2026-06-21] - [Uderzenie UA na rafinerię w Tiumeniu (2000 km od Ukrainy) — nowy rekord zasięgu BSP, potwierdzony przez Sternenkę] [@sternenko]
 URL: https://x.com/sternenko
 • Ukraińskie Siły Obronne uderzyły w rafinerię ropy naftowej w Tiumeniu (Syberia Zachodnia) — 2000 km od granicy Ukrainy; co najmniej 2 eksplozje potwierdzone przez lokalnych mieszkańców; przed atakiem: ogłoszony alert dronowy w mieście, zakład urgently odciążył ciśnienie w instalacji; przepustowość rafinerii: 7,5–9 mln ton ropy/rok
