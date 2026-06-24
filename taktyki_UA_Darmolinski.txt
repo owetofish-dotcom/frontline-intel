@@ -1,3 +1,9 @@
+[2026-06-24] - [Mi-28NM RU wyposażane w nowe elementy EW anty-FPV — anteny/sensory na końcówkach skrzydeł, kadłubie i ogonie; możliwa modernizacja L-370 "Vitebsk"] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT
+• @DarmolinskiT (20h): wiarygodne doniesienia o montażu dodatkowych elementów ochronnych anty-FPV na śmigłowcach Mi-28NM; na zdjęciach i nagraniach widoczne nowe anteny lub sensory na końcówkach skrzydeł, w okolicach kabiny i ogona; rosyjscy i zagraniczni obserwatorzy interpretują je jako element systemu EW lub modernizację pokładowego systemu samoobrony L-370 "Vitebsk"
+• Profil techniczny: brak potwierdzonych parametrów skuteczności systemu — drony na włóknie optycznym, autonomiczne oraz działające poza standardowymi pasmami pozostają problematyczne; "to kolejny etap adaptacji na polu walki, nie gotowe rozwiązanie problemu"; L-370 Vitebsk = aktywny system samoobrony (ADEWS) dla śmigłowców RU — zakłóca naprowadzanie rakiet IR i laserowe
+• Implikacja taktyczna: fakt, że RU zaczyna myśleć o EW na śmigłowcach = FPV wyszło poza rolę broni anty-pojazd/anty-piechota i zaczyna wpływać na sposób użycia lotnictwa śmigłowcowego wzdłuż linii frontu; eskalacja wyścigu zbrojeń EW → FPV na nowy wektor (lotnictwo); ograniczenia systemu wobec dronów FO wskazują na zachowaną przewagę UA w tej kategorii
+
 [2026-06-22] - [UA uderza w zakład półprzewodników VZPP-S w Woroneżu rakietami manewrującymi + potwierdzenie użycia AGM-188 Rusty Dagger (ERAM)] [@RALee85 rt @JimmySecUK + @Archer83Able]
 URL: https://x.com/RALee85
 • @JimmySecUK: zakład półprzewodników VZPP-S w Woroneżu trafiony ukraińskim uderzeniem rakietowym — obiekt "heavily damaged"; VZPP-S = producent półprzewodników, elektroniki wojskowej i podzespołów dla przemysłu obronnego RU; zdjęcia potwierdzają poważne uszkodzenia budynków produkcyjnych
