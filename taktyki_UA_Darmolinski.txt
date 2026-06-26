@@ -1,3 +1,30 @@
+[2026-06-26] - [RU: nowa taktyka FAB/KAB + ZALA Z-16 jako zintegrowany system polowania na zaplecze frontu] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2070343881711907272
+• @DarmolinskiT (36m, 5:10 AM 26 VI 2026): RU zmienił użycie kierowanych bomb lotniczych FAB/KAB — nie już głównie głęboko strategiczne, lecz coraz częściej wzdłuż linii frontu (miejscowości, przeprawy, budynki); długi zasięg wykorzystywany jako bufor bezpieczeństwa dla lotnictwa (zrzut z dystansu >zasięgu UA OPL); bomby odpalane po mniej oczywistych trajektoriach → utrudnienie przechwycenia
+• ZALA Z-16 jako sensor w pętli rażenia: wariant Z-16-5G/T-16-5G — masa 49,5 kg, rozpiętość 4,64 m, napęd hybrydowy, lot >12h, zasięg transmisji wideo >150 km; nawigacja INS + GNSS + tryby alternatywne (odporność na zakłócenia); start z wyrzutni pneumatycznej, lądowanie na spadochronie; rola: ISR/BDA — obserwacja, śledzenie celu (pojazdy, przeprawy, punkty koncentracji), ocena skutków rażenia
+• Pełna pętla kill-chain: ZALA wykrywa → utrzymuje obserwację → potwierdza aktywność → FAB/KAB uderza → ZALA ocenia efekt → decyzja o kolejnym uderzeniu; to nie dron rozpoznawczy, to sensor wpięty w system rażenia; największe zagrożenie = integracja BSP+bomba w sprawną pętlę polowania
+• Implikacja taktyczna: fundamentalna zmiana koncepcji użycia FAB/KAB — z broni "uderz daleko" na "precyzyjny myśliwy wzdłuż frontu"; ZALA Z-16 jako orbiter ISR/BDA eliminuje straty wynikające z uderzania w nieaktywne cele; docelowanie dynamiczne = nowe zagrożenie dla UA logistyki, przepraw i punktów dowodzenia do 150 km od linii frontu
+
+[2026-06-25] - [RU: chińskie modemy MESH w Shahed/Gerbera działają poza "standardowymi" pasmami — ewolucja w spektrum EM] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2070250420958822690
+• @DarmolinskiT (6h, 22:58 25 VI 2026): łączność Shahed/Gerbera OWA opiera się na chińskich modemach MESH — ale nie ogranicza się do jednego pasma; potwierdzono operowanie w: 1300–1500 MHz, 3200–3400 MHz (podstawowe), a także 500–700 MHz, 1600–1800 MHz, 2100–2300 MHz, 2700–2900 MHz, 3900–4100 MHz (ostatnia obserwacja)
+• Mechanizm adaptacji: producenci/software różnicują konfigurację zależnie od sprzętu i środowiska zagłuszania; RU aktywnie testuje, które pasma zachowują łączność pod silnym jamowaniem = nie jeden standard, lecz ciągły proces adaptacji EM; "war of electromagnetic adaptation"
+• Implikacja dla C-UAS i EW: 1) zakres pasm znany jest niewystarczający — konieczny ciągły monitoring spektrum i aktualizacja biblioteki emisji; 2) jamowanie punktowe szybko traci skuteczność przy przesunięciu do nowych pasm; 3) rośnie rola SIGINT/ESM i automatycznego wykrywania nieznanych emisji
+• Implikacja taktyczna: UA i sojusznicy muszą utrzymywać dynamiczne listy pasm, a systemy EW muszą obsługiwać broadband/wideband jamming; liczba pasm będzie nadal rosnąć; przewaga należy do strony, która wykryje zmianę szybciej i wdroży odpowiedź
+
+[2026-06-25] - [UA Siły BSP: nocny rajd — 38 celów na Krymie w tym radary i infrastruktura energetyczna] [@RALee85]
+URL: https://x.com/RALee85/status/2070162235062616231
+• @RALee85 (12h, 17:08 25 VI 2026): "Ukraine's Unmanned Systems Forces struck 38 targets in Crimea over night including radar and energy infrastructure." — 38 celów w jednym rajdzie nocnym BSP UA na Krym; cele priorytetowe: radary (RLS/OPL) + infrastruktura energetyczna
+• Kontekst taktyczny: celowanie w radary = świadoma degradacja zdolności sensorycznych OPL RU na Krymie (tworzenie "okien" dla kolejnych uderzeń); infrastruktura energetyczna = zakłócenie łańcucha zasilania baz, portów i systemów obrony; wzorzec wielowarstwowego ataku UA na Krym
+• Implikacja taktyczna: 38 celów/noc = UA BSP osiągnęły masową zdolność uderzeniową; celowanie w radary OPL = intencja przygotowania "korytarza" dla przyszłych operacji; degradacja Krymu jako bazy operacyjnej RU postępuje — kampania jednocześnie uderza w obronę, logistykę i zasilanie
+
+[2026-06-25] - [Ronin BBS FPV 50+ km: RALee85 potwierdza z rozmów z brygadami — nowe pasmo rażenia logistyki RU] [@RALee85 / @sternenko]
+URL: https://x.com/RALee85
+• @sternenko (24 VI 2026): "Right now, the Russians have no way to counter our innovative drones. Thanks to this, Ronin's BBS incinerate Russian logistics from a distance of 50+ kilometers." — drony Ronin BBS atakują logistykę RU z dystansu 50+ km; "to nie potrwa wiecznie, ale teraz możemy w pełni to wykorzystać"
+• @RALee85 (16h, komentarz własny): "Several of the brigades I spoke to a few weeks ago mentioned these FPVs as providing an advantage over Russian UAS crews. The greater range allows FPV crews to operate farther from the front line, and they are helping push the kill zone more past Russian lines." — potwierdzenie operacyjne z rozmów z wieloma brygadami
+• Implikacja taktyczna: long-range FPV (50+ km) likwiduje "bezpieczną strefę" logistyczną RU — trasy zaopatrzenia, składy, bazy w głębi tyłów stają się podatne; jeśli Ronin BBS skalowalne, RU musi cofnąć bazy lub wdrożyć nowe EW/C-UAS; okno przewagi UA jest tymczasowe — RU adaptuje się (patrz: modemy MESH, EW na Mi-28)
+
+
 [2026-06-25] - [Sternenko: UA uderza w depot paliwowe Kubania (Poltava) po raz drugi w miesiącu + nocny atak na infrastrukturę energetyczną Krymu] [@sternenko]
 URL: https://x.com/sternenko/status/2070008760051880039
 • Sternenko (6:58 AM, 25 VI): depot naftowe "Poltava" w Kubaniu trafione po raz drugi w tym miesiącu — co najmniej 3 zbiorniki płoną; depot jest hubem logistycznym dostarczającym paliwo do Kubania i Republiki Adygei; jednoczesny atak nocny na infrastrukturę energetyczną Krymu — części półwyspu pozbawione prądu
