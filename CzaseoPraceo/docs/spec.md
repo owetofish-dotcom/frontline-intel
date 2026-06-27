@@ -3,7 +3,7 @@
 > Faza Spec Kit: **Specify** (co i dlaczego — bez decyzji technologicznych).
 > Decyzje „jak" trafią do `plan.md`.
 
-Wersja: 0.1 (szkic) · Data: 2026-06-27
+Wersja: 0.2 (szkic) · Data: 2026-06-27
 
 ---
 
@@ -31,6 +31,9 @@ godzin gotowe do rozliczeń.
 - Jako pracownik przykładam kartę do czytnika, **widzę swoje imię i nazwisko**
   oraz aktualny stan (w pracy / poza pracą), i jednym kliknięciem potwierdzam
   **wejście** lub **wyjście**.
+- Po odbiciu widzę na ekranie **listę osób obecnych** w pracy, pokazaną w formie
+  skróconej (3 litery imienia + 3 litery nazwiska) — bez ujawniania pełnych
+  danych.
 - Jako pracownik chcę, by odbicie zadziałało **nawet gdy tablet nie ma
   internetu**, a system zapamiętał je i zsynchronizował później.
 - Jako pracownik, gdy przyłożę nieznaną/nieprzypisaną kartę, **widzę czytelny
@@ -60,6 +63,10 @@ godzin gotowe do rozliczeń.
   pokazuje komunikat o braku rozpoznania.
 - **FR-4 Tryb offline.** Kiosk zapisuje odbicia lokalnie bez sieci i
   synchronizuje je po odzyskaniu łącza; zsynchronizowane odbicia nie dublują się.
+- **FR-4a Ochrona przed dublem.** Drugie odbicie tej samej karty w ciągu
+  **15 minut** jest ignorowane (czas progu nie jest na razie konfigurowalny).
+- **FR-4b Lista obecnych na kiosku.** Po odbiciu kiosk pokazuje listę osób
+  aktualnie w pracy w formie skróconej: **3 litery imienia + 3 litery nazwiska**.
 - **FR-5 Zarządzanie pracownikami.** Admin firmy dodaje/edytuje/dezaktywuje
   pracowników i przypisuje/odpina numery kart RFID (numer karty unikalny w
   obrębie firmy).
@@ -67,6 +74,12 @@ godzin gotowe do rozliczeń.
   pozostają niezmienne, korekta zapisuje autora, czas i powód.
 - **FR-7 Raporty.** Admin generuje raport godzin za okres i wybranych
   pracowników (suma godzin, lista odbić), z **eksportem CSV i PDF**.
+- **FR-7a Czas dokładny vs raportowy.** System zawsze przechowuje i pokazuje
+  adminowi **dokładny czas odbić** (np. 16:51, 17:15). Na potrzeby raportu czas
+  jest **zaokrąglany** wg ustawienia firmy (domyślnie: **do pełnych godzin**).
+- **FR-7b Ręczna decyzja admina.** Gdy dzień jest niejednoznaczny (np. wyjście
+  17:31 zamiast spodziewanych 17:00), admin w dashboardzie **ręcznie ustala
+  liczbę godzin** zaliczonych w tym dniu; decyzja zapisuje się jak korekta (FR-6).
 - **FR-8 Stawka godzinowa (opcjonalna).** Admin może ustawić stawkę; raport
   wtedy liczy też kwotę.
 - **FR-9 Hierarchia kont.** Super-admin zarządza firmami i adminami; admin
@@ -75,6 +88,14 @@ godzin gotowe do rozliczeń.
   poza własną firmą.
 - **FR-11 Rejestracja kiosku.** Admin rejestruje/autoryzuje urządzenie-kiosk
   dla swojej firmy.
+- **FR-12 Ustawienia firmy.** Admin konfiguruje per-firma: zaokrąglanie godzin
+  w raporcie (domyślnie pełne godziny), obsługę pracy przez północ (domyślnie
+  **wyłączona** — doba rozliczeniowa nie przechodzi przez północ), opcjonalną
+  stawkę godzinową.
+- **FR-13 Wymiana/karty zapasowe.** Pracownik ma jedną aktywną kartę; admin może
+  ją **wymienić** (dezaktywacja starej + przypisanie nowej, z zachowaniem
+  historii) oraz opcjonalnie przypisać **kartę zapasową**. Numery kart są
+  numeryczne i unikalne w obrębie firmy.
 
 ## 5. Wymagania niefunkcjonalne (NFR)
 - **NFR-1** Odbicie (rozpoznanie karty → potwierdzenie na ekranie) < 1 s przy
@@ -88,26 +109,34 @@ godzin gotowe do rozliczeń.
 
 ## 6. Encje (wysoki poziom — szczegóły w fazie Plan)
 Firma (najemca) · Użytkownik panelu (super-admin / admin) · Pracownik ·
-Karta RFID (numer ↔ pracownik) · Odbicie (czas, typ wejście/wyjście, źródło) ·
-Korekta wpisu · Kiosk (urządzenie) · Stawka godzinowa.
+Karta RFID (numer ↔ pracownik, status aktywna/zapasowa) · Odbicie (czas, typ
+wejście/wyjście, źródło) · Korekta wpisu · Kiosk (urządzenie) ·
+Ustawienia firmy (zaokrąglanie, praca przez północ, stawka godzinowa).
 
 ## 7. Poza zakresem MVP
 Przerwy (start/koniec), projekty i klienci, harmonogramy/grafiki, integracje
 kadrowo-płacowe, geolokalizacja, aplikacja pracownika na prywatny telefon,
 logowanie pracownika hasłem.
 
-## 8. Kwestie otwarte `[DO USTALENIA]`
-- **OQ-1** Format numeru karty RFID (długość, system — np. 10-cyfrowy
-  dziesiętny vs HEX) — zależny od modelu czytnika.
-- **OQ-2** Strefa czasowa i obsługa zmiany czasu — czas firmy czy urządzenia?
-- **OQ-3** Zaokrąglanie godzin w raporcie (do minuty? do 5/15 min?).
-- **OQ-4** Co przy podwójnym odbiciu w krótkim czasie (zabezpieczenie przed
-  przypadkowym dublem)?
-- **OQ-5** Rozliczanie pracy przechodzącej przez północ / zmiany nocne.
-- **OQ-6** Czy admin firmy może mieć wielu pracowników na jednej karcie / kartę
-  zapasową?
+## 8. Rozstrzygnięte decyzje
+- **D-1 Format karty RFID:** numer **wyłącznie cyfrowy** (czytnik wpisuje same
+  cyfry + Enter). Przechowywany jako ciąg cyfr, unikalny w obrębie firmy.
+- **D-2 Strefa czasowa:** **czas urządzenia w miejscu pracy** (kiosku) jest
+  źródłem czasu odbicia.
+- **D-3 Zaokrąglanie:** ustawialne per firma; **domyślnie do pełnych godzin** w
+  raporcie, przy stałym podglądzie czasu dokładnego (patrz FR-7a/FR-7b).
+- **D-4 Podwójne odbicie:** drugie odbicie tej samej karty w ciągu **15 min**
+  ignorowane (FR-4a).
+- **D-5 Praca przez północ:** ustawialna per firma; **domyślnie wyłączona**
+  (FR-12).
+- **D-6 Karty:** jedna aktywna karta na pracownika, możliwa wymiana i opcjonalna
+  karta zapasowa (FR-13).
 
 ---
 
 ## Historia zmian
+- 0.2 (2026-06-27) — rozstrzygnięto kwestie otwarte (D-1…D-6); dodano listę
+  obecnych na kiosku (FR-4b), ochronę przed dublem 15 min (FR-4a), czas
+  dokładny vs raportowy i ręczną decyzję admina (FR-7a/b), ustawienia firmy
+  (FR-12), wymianę/karty zapasowe (FR-13).
 - 0.1 (2026-06-27) — pierwszy szkic na podstawie wywiadu Spec Kit.
