@@ -1,3 +1,27 @@
+[2026-06-27] - [UA: Hornet drony 3. Brygady Spartan i Pułku Pilum — uderzenia w ciężarówki, pociągi i przynętę RU] [@RALee85]
+URL: https://x.com/RALee85/status/2070514521588813963
+• @RALee85: filmy z uderzeń dronów Hornet przez UA Gwardię Narodową (3. Brygada Spartańska i Pułk Pilum) w rosyjskie ciężarówki, pociągi i obiekt będący prawdopodobnie przynętą; Hornet = UA bezzałogowiec uderzeniowy średniego zasięgu zdolny do ataku na cele logistyczne i pancerne
+• Taktyka: celowanie jednocześnie w transport kołowy (ciężarówki), kolejowy (pociągi) i potencjalne obiekty-pułapki (przynęta) → wielodomenowe zakłócanie logistyki RU wzdłuż LBS; użycie przez Gwardię Narodową = rozszerzenie operatora poza siły liniowe
+• Implikacja: Hornet jako system dezorganizacji tyłów RU w pobliżu frontu; zdolność do wykrycia i zniszczenia przynęt = rosnąca inteligencja rozpoznawcza po stronie UA; dokumentacja wideo = potwierdzenie operacyjne wdrożenia systemu
+
+[2026-06-27] - [RU: Geran-Seeker — nowy wariant z głowicą naprowadzającą uderza w stacje energetyczne i transport] [@RALee85]
+URL: https://x.com/RALee85/status/2070470064571113782
+• @RALee85: filmy z uderzeń rosyjskich dronów Geran-Seeker w podstacje elektroenergetyczne, stacje dystrybucji gazu i pociągi; Geran-Seeker = zmodyfikowany Geran-2 (Shahed-136) wyposażony w dodatkową głowicę IR/optyczną do precyzyjnego naprowadzania końcowego
+• Taktyka: rozszerzenie spektrum celów Gerana poza infrastrukturę punktową — celowanie w sieci dystrybucji energii i transport kolejowy = niszczenie zdolności logistycznych UA systemem, który wcześniej był czysto strategicznym; głowica seeker umożliwia ominięcie jamowania GPS
+• Implikacja taktyczna: Geran-Seeker to ewolucja platformy — z drona nawigowanego satelitarnie w drona z autonomicznym naprowadzaniem końcowym; rosnące zagrożenie dla UA infrastruktury energetycznej i kolejowej o odporności na zakłócanie EM; konieczność rozbudowy UA systemów SHORAD i EW o zdolność do zwalczania celów manewrujących terminal-phase
+
+[2026-06-27] - [RU: nowy pierścień S-400 wokół Moskwy — pozycja przy MGU, ekspansja OPL stolicy] [@RALee85 / @kromark]
+URL: https://x.com/RALee85
+• @kromark (via @RALee85): wykryto nową pozycję S-400 wokół Moskwy — zlokalizowana przy Moskiewskim Uniwersytecie Państwowym (MGU), w sąsiedztwie fundacji „Innopraktika" kierowanej przez córkę Putina Katierinę Tichonową; to kolejny pierścień obrony powietrznej wokół stolicy po wcześniejszych wdrożeniach
+• Kontekst: rozbudowa OPL Moskwy trwa od miesięcy — rozmieszczenie S-400 bezpośrednio w tkance miejskiej (kampus akademicki) wskazuje na eskalację postrzeganego zagrożenia atakami UA BSP/rakietami dalekiego zasięgu; coraz gęstszy pierścień SAM komplikuje potencjalne przyszłe uderzenia UA
+• Implikacja: koncentracja S-400 w Moskwie = osłabienie ich dostępności na froncie; lokalizacja przy kluczowych obiektach cywilnych (MGU) może być zamierzoną tarczą; UA rozpoznanie zdolne do monitorowania i dokumentowania rozlokowań w głębi terytorium RU
+
+[2026-06-27] - [UA: drony cyfrowe FPV w terenie — żołnierze po pierwszych lotach potwierdzają przewagę i domagają się masowego wdrożenia] [@sternenko / @sternenkofund]
+URL: https://x.com/sternenkofund/status/2070465301708251179
+• @sternenkofund (via @sternenko): żołnierze UA, którzy latali na najnowszych dronach cyfrowych FPV, jednogłośnie potwierdzają ich przewagę — głos z pola walki: „chcemy więcej" i „kiedy dostaniemy cyfrowe dla wszystkich?"; fundacja Sternenki prowadzi zbiórki na drony cyfrowe dla wszystkich jednostek
+• Tech: cyfrowy FPV vs analogowy — cyfrowe drony oferują znacznie wyższą rozdzielczość obrazu (720p/1080p vs ~480p analogowe), brak statycznych zakłóceń, odporność na interference analogowe; kluczowe w warunkach gęstego jamowania EM przez RU; trudniejsze do zakłócenia tradycyjnymi systemami EW
+• Implikacja taktyczna: przejście UA na drony cyfrowe FPV = potencjalny przełom w odporności na zakłócanie; potwierdzenie operacyjne z frontu przyspiesza zapotrzebowanie; wyścig technologiczny RU-UA w przestrzeni FPV przechodzi w cyfrową erę — strona która wdroży szybciej uzyska przejściową przewagę EW
+
 [2026-06-26] - [RU: nowa taktyka FAB/KAB + ZALA Z-16 jako zintegrowany system polowania na zaplecze frontu] [@DarmolinskiT]
 URL: https://x.com/DarmolinskiT/status/2070343881711907272
 • @DarmolinskiT (36m, 5:10 AM 26 VI 2026): RU zmienił użycie kierowanych bomb lotniczych FAB/KAB — nie już głównie głęboko strategiczne, lecz coraz częściej wzdłuż linii frontu (miejscowości, przeprawy, budynki); długi zasięg wykorzystywany jako bufor bezpieczeństwa dla lotnictwa (zrzut z dystansu >zasięgu UA OPL); bomby odpalane po mniej oczywistych trajektoriach → utrudnienie przechwycenia
