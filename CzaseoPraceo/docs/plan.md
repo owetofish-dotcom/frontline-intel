@@ -105,8 +105,9 @@ to nam nie przeszkadza. Wymóg: serwowanie po **HTTPS**.
 - `vendor/` (FPDF/mPDF) wgrane przez FTP.
 
 ## 11. Ryzyka i do potwierdzenia
-- **R-1** Cron na home.pl — czy dostępny (porządki, retry sync)? Jeśli nie,
-  sync wyłącznie inicjowany przez kiosk — i tak wystarczy.
+- **R-1** ✅ Cron na home.pl **dostępny** (wg pamięci użytkownika — potwierdzić w
+  panelu). Wykorzystanie: porządki/retry synchronizacji, ewentualne nocne
+  podsumowania. Sync i tak działa też z inicjatywy kiosku, więc cron to dodatek.
 - **R-2** Limit liczby baz/rozmiaru — model jednej bazy z `tenant_id` to omija.
 - **R-3** Service Worker wymaga HTTPS — potwierdzić SSL na docelowej domenie.
 - **R-4** Stabilność „klawiaturowego" czytnika w przeglądarce tabletu —
