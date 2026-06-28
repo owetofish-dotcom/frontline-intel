@@ -22,15 +22,22 @@ CzaseoPraceo/
 ```
 
 ## Uruchomienie (home.pl)
-1. Załóż bazę MySQL w panelu home.pl.
-2. Zaimportuj `db/schema.sql` przez **phpMyAdmin**.
-3. Skopiuj `config.local.example.php` → `config.local.php` i uzupełnij dane bazy.
-4. Wgraj pliki przez **FTP** (zadbaj o HTTPS na domenie — wymagane dla PWA).
-5. Utwórz super-admina:  `php db/seed.php twoj@email.pl "Haslo"` (potem usuń `seed.php`).
+Pełna instrukcja krok po kroku: **`docs/DEPLOY.md`**. W skrócie:
+1. Załóż bazę MySQL i zaimportuj `db/schema.sql` przez **phpMyAdmin**.
+2. Skopiuj `config.local.example.php` → `config.local.php` i uzupełnij dane bazy.
+3. Wgraj pliki przez **FTP** (HTTPS na domenie — wymagane dla PWA).
+4. Utwórz super-admina:  `php db/seed.php twoj@email.pl "Haslo"` (potem usuń `seed.php`).
+5. Skonfiguruj kiosk: zarejestruj w panelu → wpisz token na tablecie → dodaj do ekranu głównego.
 
 ## Dokumentacja
-Pełny kontekst projektu w `docs/` — zacznij od `docs/spec.md` i `docs/tasks.md`.
+Pełny kontekst w `docs/`: `spec.md`, `plan.md`, `ux-guidelines.md`, `tasks.md`,
+`DEPLOY.md`, `constitution.md`.
 
-## Status
-W trakcie implementacji wg `docs/tasks.md`. Ukończone: **E0 — fundament**
-(schemat bazy, konfiguracja, PDO, warstwa zakresu, uwierzytelnianie, ochrona plików).
+## Status — gotowe (zweryfikowane E2E na MariaDB + render przeglądarki)
+- **E0** fundament · **E1** logowanie/RBAC · **E2** super-admin (firmy/admini)
+- **E3** admin firmy (zakłady, pracownicy, karty RFID, kierownicy)
+- **E4** API kiosku (token, sync idempotentny, dedup) · **E5** kiosk PWA offline
+- **E6** korekty + ustawienia · **E7** raporty CSV/PDF · **E8** cron · **E9** a11y/responsywność
+
+Pozostaje **T-10.1** — test na docelowym tablecie i czytniku RFID (po Twojej stronie).
+Szczegóły i checklista w `docs/DEPLOY.md`.

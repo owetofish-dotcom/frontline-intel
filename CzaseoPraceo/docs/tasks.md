@@ -108,10 +108,10 @@ Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy
   zakłady, pracownicy, kioski, raporty).
 
 ## E10 — Walidacja z użytkownikami i wdrożenie
-- [ ] **T-10.1 Test kiosku na docelowym tablecie i czytniku** (R-4) —
-  z realnymi użytkownikami, w warunkach hali (ux §1 HCD). Wcześnie, nie na końcu.
-- [ ] **T-10.2 Wdrożenie**: FTP, import `schema.sql`, konfiguracja, weryfikacja
-  SSL (R-3).
+- [ ] **T-10.1 Test kiosku na docelowym tablecie i czytniku** (R-4) — **po
+  stronie użytkownika**, na realnym sprzęcie (instrukcja + checklista w `DEPLOY.md`).
+- [x] **T-10.2 Wdrożenie**: instrukcja `docs/DEPLOY.md` (FTP, import `schema.sql`,
+  konfiguracja, super-admin, cron, kiosk, czytnik, checklista SSL/R-3).
 
 ---
 
