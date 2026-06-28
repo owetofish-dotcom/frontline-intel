@@ -86,8 +86,9 @@ function flash_get(): array
 function flash_render(): void
 {
     foreach (flash_get() as $f) {
-        $cls = 'alert-' . ($f['type'] === 'success' ? 'success' : ($f['type'] === 'warning' ? 'warning' : 'error'));
-        echo '<div class="alert ' . $cls . '" role="status">' . h($f['message']) . '</div>';
+        $type = $f['type'] === 'success' ? 'success' : ($f['type'] === 'warning' ? 'warning' : 'error');
+        $role = $type === 'error' ? 'alert' : 'status'; // błędy ogłaszane asertywnie (WCAG)
+        echo '<div class="alert alert-' . $type . '" role="' . $role . '">' . h($f['message']) . '</div>';
     }
 }
 

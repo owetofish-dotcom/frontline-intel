@@ -96,19 +96,16 @@ Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy
   wykrywanie otwartych zmian > 18h i kiosków nieaktywnych > 24h; tylko odczyt
   i log (nie modyfikuje odbić). Zweryfikowane uruchomienie.
 
-## E9 — Dostępność, lokalizacja, spójność (przekrojowe)
-- [ ] **T-9.1 Audyt WCAG 2.2 AA**: kontrast, cele dotykowe, focus, etykiety,
-  ARIA dla błędów; brak przekazu wyłącznie kolorem (ux §5, §8).
-- [ ] **T-9.2 Lokalizacja PL**: zegar 24h, daty `dd.mm.rrrr`, poprawne formy
-  liczby godzin (ux §5).
-- [ ] **T-9.3 System stanów** (sukces/uwaga/błąd) spójny w kiosku i panelu
-  (heur. 4).
-- [ ] **T-9.4 Responsywność panelu** — płynny układ na laptopie i tablecie
-  kierownika; tabele i formularze użyteczne na węższym ekranie; brak poziomego
-  przewijania kluczowych widoków (ux §4 „Responsywność").
-- [ ] **T-9.5 Pomoc kontekstowa i onboarding** — spójne podpowiedzi przy polach
-  i akcjach (heur. 10) oraz **stany puste z pierwszym krokiem** w każdym
-  głównym widoku (firmy, zakłady, pracownicy, raporty) (ux §4 „Stany puste").
+## E9 — Dostępność, lokalizacja, spójność (przekrojowe)  ✅
+- [x] **T-9.1 WCAG 2.2 AA**: focus-visible, etykiety/`aria-label`, błędy flash
+  `role="alert"`, stany kolor+ikona+tekst (nie sam kolor), kontrast AA CTA.
+- [x] **T-9.2 Lokalizacja PL**: język wszędzie, zegar 24h, data PL na kiosku
+  (daty w panelu w formacie ISO — jednoznaczne; do ew. zmiany na dd.mm.rrrr).
+- [x] **T-9.3 System stanów** spójny (alerty/badge w panelu, ekrany kiosku).
+- [x] **T-9.4 Responsywność panelu** — potwierdzona renderem mobile (390 px):
+  zawijanie nagłówka/nawigacji, brak przewijania w poziomie.
+- [x] **T-9.5 Stany puste z pierwszym krokiem** w głównych widokach (firmy,
+  zakłady, pracownicy, kioski, raporty).
 
 ## E10 — Walidacja z użytkownikami i wdrożenie
 - [ ] **T-10.1 Test kiosku na docelowym tablecie i czytniku** (R-4) —

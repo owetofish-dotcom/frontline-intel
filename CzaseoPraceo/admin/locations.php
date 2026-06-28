@@ -100,7 +100,7 @@ layout_header('Zakłady', 'locations.php');
           <?= csrf_field() ?>
           <input type="hidden" name="action" value="rename">
           <input type="hidden" name="id" value="<?= (int) $l['id'] ?>">
-          <input type="text" name="name" value="<?= h($l['name']) ?>" required maxlength="190" style="flex:1;min-width:200px">
+          <input type="text" name="name" value="<?= h($l['name']) ?>" required maxlength="190" aria-label="Nowa nazwa zakładu" style="flex:1;min-width:200px">
           <button class="btn btn-outline" type="submit">Zapisz</button>
         </form>
       </details>
