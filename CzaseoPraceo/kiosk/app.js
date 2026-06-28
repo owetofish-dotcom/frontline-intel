@@ -110,9 +110,12 @@ function renderAttendance() {
 /* ---------- Logo firmy ---------- */
 function renderLogo() {
   metaGet('logo').then(l => {
-    const el = document.getElementById('board-logo');
-    if (l) { el.src = l; el.classList.remove('hidden'); }
-    else { el.classList.add('hidden'); el.removeAttribute('src'); }
+    const targets = [document.getElementById('board-logo'), ...document.querySelectorAll('[data-logo]')];
+    for (const el of targets) {
+      if (!el) continue;
+      if (l) { el.src = l; el.classList.remove('hidden'); }
+      else { el.classList.add('hidden'); el.removeAttribute('src'); }
+    }
   });
 }
 async function fetchConfig() {
