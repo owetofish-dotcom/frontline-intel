@@ -19,8 +19,17 @@ final class Database
         $user    = (string) cfg('db.user', '');
         $pass    = (string) cfg('db.password', '');
         $charset = (string) cfg('db.charset', 'utf8mb4');
+        $port    = cfg('db.port');     // opcjonalny port (np. inny niż 3306)
+        $socket  = cfg('db.socket');   // opcjonalny gniazdo unix
 
-        $dsn = "mysql:host={$host};dbname={$name};charset={$charset}";
+        if ($socket) {
+            $dsn = "mysql:unix_socket={$socket};dbname={$name};charset={$charset}";
+        } else {
+            $dsn = "mysql:host={$host};dbname={$name};charset={$charset}";
+            if ($port) {
+                $dsn .= ";port={$port}";
+            }
+        }
         self::$pdo = new PDO($dsn, $user, $pass, [
             PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,

@@ -37,15 +37,15 @@ Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy
 - [x] **T-2.2 Zakładanie konta admina firmy** (walidacja e-mail/hasła,
   anty-duplikat); stany puste z podpowiedzią pierwszego kroku.
 
-## E3 — Admin firmy
-- [ ] **T-3.1 Zakłady** (CRUD `locations`).
-- [ ] **T-3.2 Pracownicy** (CRUD, dezaktywacja zamiast usuwania).
-- [ ] **T-3.3 Przypisania pracownik ↔ zakład** (`employee_locations`).
-- [ ] **T-3.4 Karty RFID:** przypisanie/wymiana/karta zapasowa (FR-13),
-  unikalność numeru. **UX:** walidacja inline; potwierdzenie dezaktywacji.
-- [ ] **T-3.5 Konta kierowników** + przypisanie do zakładów
-  (`panel_user_locations`).
-  **UX:** zawsze widoczny kontekst „Firma › Zakład" i rola (ux §4).
+## E3 — Admin firmy  ✅ (zweryfikowane E2E na MariaDB)
+- [x] **T-3.1 Zakłady** (dodawanie, zmiana nazwy, aktywacja/dezaktywacja).
+- [x] **T-3.2 Pracownicy** (dodawanie, dezaktywacja zamiast usuwania).
+- [x] **T-3.3 Przypisania pracownik ↔ zakład** (`employee_locations`,
+  wiele-do-wielu, w zakresie uprawnień użytkownika).
+- [x] **T-3.4 Karty RFID:** przypisanie/wymiana/karta zapasowa (FR-13),
+  walidacja D-1 (tylko cyfry) i unikalność — zweryfikowane (litery/duplikat odrzucone).
+- [x] **T-3.5 Konta kierowników** + przypisanie do zakładów; izolacja kierownika
+  potwierdzona testem E2E (nie widzi danych spoza swoich zakładów).
 
 ## E4 — API kiosku
 - [ ] **T-4.1 Autoryzacja urządzenia** tokenem niosącym `tenant_id`+`location_id`.
