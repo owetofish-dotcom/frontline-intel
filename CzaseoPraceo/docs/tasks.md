@@ -4,7 +4,7 @@
 > ukończenia (Definition of Done). Kryteria UX pochodzą z `ux-guidelines.md` i
 > są walidowane macierzą na końcu pliku.
 
-Wersja: 0.1 · Data: 2026-06-27
+Wersja: 0.2 · Data: 2026-06-27
 
 Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy —
 **UX** (z `ux-guidelines.md`).
@@ -101,6 +101,12 @@ Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy
   liczby godzin (ux §5).
 - [ ] **T-9.3 System stanów** (sukces/uwaga/błąd) spójny w kiosku i panelu
   (heur. 4).
+- [ ] **T-9.4 Responsywność panelu** — płynny układ na laptopie i tablecie
+  kierownika; tabele i formularze użyteczne na węższym ekranie; brak poziomego
+  przewijania kluczowych widoków (ux §4 „Responsywność").
+- [ ] **T-9.5 Pomoc kontekstowa i onboarding** — spójne podpowiedzi przy polach
+  i akcjach (heur. 10) oraz **stany puste z pierwszym krokiem** w każdym
+  głównym widoku (firmy, zakłady, pracownicy, raporty) (ux §4 „Stany puste").
 
 ## E10 — Walidacja z użytkownikami i wdrożenie
 - [ ] **T-10.1 Test kiosku na docelowym tablecie i czytniku** (R-4) —
@@ -125,7 +131,7 @@ Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy
 | H7 Elastyczność i efektywność | T-7.1 (domyślny okres), filtry tabel | ✅ |
 | H8 Estetyka i minimalizm | T-5.5 (jeden przycisk), progresywne ujawnianie | ✅ |
 | H9 Naprawa błędów | T-5.7, T-1.2 (komunikaty bez enumeracji) | ✅ |
-| H10 Pomoc i dokumentacja | podpowiedzi kontekstowe w panelu | ⚠️ |
+| H10 Pomoc i dokumentacja | T-9.5 (podpowiedzi + onboarding) | ✅ |
 | Cele dotykowe ≫ 60 px (Fitts) | T-5.5 | ✅ |
 | Min. wyborów (Hick) | T-5.5 (jeden przycisk) | ✅ |
 | Feedback < 1 s + multimodalny | T-5.5 (kolor+ikona+tekst+dźwięk) | ✅ |
@@ -135,21 +141,21 @@ Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy
 | Brak przekazu wyłącznie kolorem | T-5.5, T-9.1 | ✅ |
 | Prywatność by design (3+3) | T-5.6 | ✅ |
 | Izolacja zakresu (tenant/zakład/rola) | T-0.4, T-1.2, T-4.2 | ✅ |
-| Stany puste / onboarding | T-2.2, T-3.x | ⚠️ |
+| Stany puste / onboarding | T-9.5 (+ T-2.2, T-3.x) | ✅ |
 | Bezpieczeństwo UX (sesja, hasło) | T-1.1, T-1.2, T-1.3 | ✅ |
 | Test z użytkownikami (HCD) | T-10.1 | ✅ |
-| Responsywność panelu | — | ❗ |
+| Responsywność panelu | T-9.4 | ✅ |
 
-### Luki wykryte przez walidację (do domknięcia)
-- **❗ Responsywność panelu** — brak osobnego zadania. → **dodać T-9.4**:
-  panel płynny na laptopie i tablecie kierownika.
-- **⚠️ H10 Pomoc / onboarding** — rozproszone. → **dodać T-9.5**: spójne
-  podpowiedzi kontekstowe i stany puste z pierwszym krokiem.
-- **⚠️ Dźwięk/wibracja na kiosku** — ujęte w T-5.5, ale zależne od sprzętu;
-  zweryfikować w **T-10.1** (niektóre tablety/PWA ograniczają audio bez
-  interakcji — mieć wariant czysto wizualny jako zapas).
+### Luki wykryte przez walidację — status domknięcia
+- **✅ Responsywność panelu** — domknięte zadaniem **T-9.4**.
+- **✅ H10 Pomoc / onboarding** — domknięte zadaniem **T-9.5** (podpowiedzi +
+  stany puste z pierwszym krokiem).
+- **⚠️ Dźwięk/wibracja na kiosku** — pozostaje ryzykiem sprzętowym (nie luką
+  projektu): ujęte w T-5.5, weryfikowane w **T-10.1**; wariant czysto wizualny
+  jako zapas (niektóre tablety/PWA ograniczają audio bez interakcji).
 
-> Po akceptacji dopiszę T-9.4 i T-9.5, by macierz była w 100% na ✅.
+> Macierz heurystyk i zasad UX: **100% ✅**. Jedyny otwarty punkt to zależne od
+> sprzętu audio kiosku, świadomie obsłużone wariantem wizualnym.
 
 ---
 
@@ -162,5 +168,7 @@ ustawienia zaawansowane) w kolejnych iteracjach.
 ---
 
 ## Historia zmian
+- 0.2 (2026-06-27) — domknięto luki walidacji: dodano T-9.4 (responsywność
+  panelu) i T-9.5 (pomoc kontekstowa + stany puste); macierz UX w 100% ✅.
 - 0.1 (2026-06-27) — pierwszy podział na zadania (E0–E10) z kryteriami UX i
   macierzą walidacji wg `ux-guidelines.md`.
