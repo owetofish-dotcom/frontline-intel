@@ -65,22 +65,32 @@ to nam nie przeszkadza. Wymóg: serwowanie po **HTTPS**.
   pominąć filtra) — realizacja zasady IV konstytucji.
 - Super-admin to konto bez `tenant_id`, z dostępem ponad firmami (zarządzanie
   najemcami), oddzielone od logiki admina firmy.
+- **Druga warstwa zakresu — zakład (`location_id`):** kiosk jest autoryzowany
+  do jednego zakładu; jego widok pracowników i przyjmowane odbicia są
+  ograniczone do `tenant_id` **oraz** `location_id`. Pracownicy „widoczni" dla
+  kiosku to ci z `employee_locations` danego zakładu.
 
 ## 6. Szkic schematu bazy (do doprecyzowania w fazie Tasks)
 - `tenants` — firmy (nazwa, status, ustawienia: zaokrąglanie, praca_przez_polnoc, stawka)
+- `locations` — **zakłady/fabryki** (tenant_id, nazwa, status)
 - `panel_users` — konta panelu (rola: super_admin/admin, tenant_id, email, hash hasła)
 - `employees` — pracownicy (tenant_id, imię, nazwisko, status)
+- `employee_locations` — przypisanie pracownik ↔ zakład (tenant_id, employee_id,
+  location_id) — relacja wiele-do-wielu (pracownik może być w kilku zakładach)
 - `rfid_cards` — karty (tenant_id, employee_id, numer cyfrowy, status: aktywna/zapasowa)
-- `punches` — odbicia (tenant_id, employee_id, typ wejście/wyjście, czas_urządzenia,
-  device_punch_id do idempotencji, źródło, czas_synchronizacji)
+- `punches` — odbicia (tenant_id, **location_id**, employee_id, typ wejście/wyjście,
+  czas_urządzenia, device_punch_id do idempotencji, źródło, czas_synchronizacji)
 - `punch_corrections` — korekty (punch_id lub wpis ręczny, autor, czas, powód, wartość)
-- `kiosks` — urządzenia (tenant_id, nazwa, token autoryzacyjny)
+- `kiosks` — urządzenia (tenant_id, **location_id**, nazwa, token autoryzacyjny)
 
 ## 7. Endpointy API (zarys)
 - `POST /api/punches/sync` — przyjmij paczkę odbić z kiosku (idempotentnie po
   `device_punch_id`), zwróć potwierdzenia.
-- `GET  /api/employees?since=…` — lista pracowników firmy do lokalnej kopii kiosku.
-- `POST /api/kiosk/auth` — autoryzacja urządzenia tokenem.
+- `GET  /api/employees?since=…` — lista pracowników **danego zakładu** do
+  lokalnej kopii kiosku (zakres wyznaczony przez `location_id` z tokenu kiosku,
+  nie tylko `tenant_id`).
+- `POST /api/kiosk/auth` — autoryzacja urządzenia tokenem (token niesie
+  `tenant_id` + `location_id`).
 - Panel korzysta z PHP renderowanego serwerowo (formularze), nie potrzebuje
   osobnego API na MVP.
 
@@ -116,5 +126,8 @@ to nam nie przeszkadza. Wymóg: serwowanie po **HTTPS**.
 ---
 
 ## Historia zmian
+- 0.2 (2026-06-27) — dodano zakłady/lokalizacje: tabele `locations`,
+  `employee_locations`, `location_id` w `kiosks` i `punches`; scoping API
+  kiosku po `tenant_id` + `location_id`.
 - 0.1 (2026-06-27) — pierwszy szkic planu pod stack home.pl (PHP 8 / MySQL /
   FTP / PWA kiosk).

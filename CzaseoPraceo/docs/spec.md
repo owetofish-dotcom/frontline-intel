@@ -3,7 +3,7 @@
 > Faza Spec Kit: **Specify** (co i dlaczego — bez decyzji technologicznych).
 > Decyzje „jak" trafią do `plan.md`.
 
-Wersja: 0.2 (szkic) · Data: 2026-06-27
+Wersja: 0.3 (szkic) · Data: 2026-06-27
 
 ---
 
@@ -22,7 +22,7 @@ godzin gotowe do rozliczeń.
 | Rola | Gdzie | Co robi |
 |------|-------|---------|
 | **Super-admin SaaS** | panel web | zarządza firmami-najemcami, zakłada konta admina firmy, nadzoruje system |
-| **Admin firmy** | panel web | zarządza pracownikami i kartami, koryguje wpisy, generuje raporty, ustawia stawki, konfiguruje kioski |
+| **Admin firmy** | panel web | zarządza zakładami, pracownikami i kartami, koryguje wpisy, generuje raporty, ustawia stawki, konfiguruje kioski |
 | **Pracownik** | kiosk (tablet) | odbija kartę, potwierdza wejście/wyjście |
 
 ## 3. Historyjki użytkownika
@@ -47,7 +47,11 @@ godzin gotowe do rozliczeń.
   **eksportuję go do CSV i PDF**.
 - Jako admin (opcjonalnie) ustawiam **stawkę godzinową**, by raport pokazał
   także koszt/wynagrodzenie.
-- Jako admin **rejestruję tablet-kiosk** mojej firmy.
+- Jako admin **tworzę zakłady (fabryki/lokalizacje)** w obrębie firmy.
+- Jako admin **rejestruję tablet-kiosk** i **przypisuję go do konkretnego
+  zakładu**.
+- Jako admin **przypisuję pracownika do zakładu(-ów)** — tylko oni mogą odbijać
+  się na tablecie tego zakładu.
 
 ### Super-admin SaaS
 - Jako super-admin **zakładam nową firmę (najemcę)** i konto jej admina.
@@ -96,6 +100,14 @@ godzin gotowe do rozliczeń.
   ją **wymienić** (dezaktywacja starej + przypisanie nowej, z zachowaniem
   historii) oraz opcjonalnie przypisać **kartę zapasową**. Numery kart są
   numeryczne i unikalne w obrębie firmy.
+- **FR-14 Zakłady (lokalizacje).** Firma może mieć **wiele zakładów**
+  (fabryk/lokalizacji). Admin tworzy i zarządza zakładami w obrębie firmy.
+- **FR-15 Przypisanie kiosku do zakładu.** Każdy tablet-kiosk należy do
+  **jednego zakładu**; w firmie może działać wiele kiosków w różnych zakładach.
+- **FR-16 Dostęp pracownika do kiosku wg zakładu.** Pracownik jest przypisany do
+  zakładu(-ów). Kiosk danego zakładu **rozpoznaje i pozwala odbić się wyłącznie
+  pracownikom tego zakładu**; karta pracownika spoza zakładu jest odrzucana z
+  czytelnym komunikatem. Lista obecnych na kiosku dotyczy tylko jego zakładu.
 
 ## 5. Wymagania niefunkcjonalne (NFR)
 - **NFR-1** Odbicie (rozpoznanie karty → potwierdzenie na ekranie) < 1 s przy
@@ -108,10 +120,11 @@ godzin gotowe do rozliczeń.
 - **NFR-6** Audytowalność: każdą godzinę w raporcie da się prześledzić do źródła.
 
 ## 6. Encje (wysoki poziom — szczegóły w fazie Plan)
-Firma (najemca) · Użytkownik panelu (super-admin / admin) · Pracownik ·
-Karta RFID (numer ↔ pracownik, status aktywna/zapasowa) · Odbicie (czas, typ
-wejście/wyjście, źródło) · Korekta wpisu · Kiosk (urządzenie) ·
-Ustawienia firmy (zaokrąglanie, praca przez północ, stawka godzinowa).
+Firma (najemca) · **Zakład/lokalizacja** (należy do firmy) · Użytkownik panelu
+(super-admin / admin) · Pracownik (przypisany do zakładu/-ów) · Karta RFID
+(numer ↔ pracownik, status aktywna/zapasowa) · Odbicie (czas, typ
+wejście/wyjście, źródło, zakład) · Korekta wpisu · Kiosk (urządzenie, przypisane
+do zakładu) · Ustawienia firmy (zaokrąglanie, praca przez północ, stawka).
 
 ## 7. Poza zakresem MVP
 Przerwy (start/koniec), projekty i klienci, harmonogramy/grafiki, integracje
@@ -134,7 +147,15 @@ logowanie pracownika hasłem.
 
 ---
 
+## 9. Kwestie otwarte `[DO USTALENIA]`
+- **OQ-A** Zakres admina firmy: czy admin widzi/zarządza **wszystkimi
+  zakładami** firmy, czy chcesz też **adminów ograniczonych do jednego
+  zakładu** (np. kierownik fabryki widzi tylko swój zakład)?
+
 ## Historia zmian
+- 0.3 (2026-06-27) — dodano zakłady/lokalizacje w obrębie firmy (FR-14…FR-16):
+  kiosk przypisany do zakładu, pracownik do zakładu(-ów), kiosk obsługuje tylko
+  pracowników swojego zakładu.
 - 0.2 (2026-06-27) — rozstrzygnięto kwestie otwarte (D-1…D-6); dodano listę
   obecnych na kiosku (FR-4b), ochronę przed dublem 15 min (FR-4a), czas
   dokładny vs raportowy i ręczną decyzję admina (FR-7a/b), ustawienia firmy
