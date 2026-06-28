@@ -1,0 +1,102 @@
+/* CzaseoPraceo — kiosk (tablet). UX wg ux-guidelines §3:
+   duże cele dotykowe, wysoki kontrast, jeden przycisk, feedback multimodalny.
+   Kolory marki (makodrew/deklareo). Font systemowy (kiosk działa offline). */
+
+:root {
+  --primary:  #2f9268;
+  --primary-d:#277c58;
+  --ink:      #17282f;
+  --success:  #1d7a46;
+  --danger:   #b22424;
+  --warning:  #8a5a00;
+  --paper:    #ffffff;
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { height: 100%; margin: 0; }
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  background: var(--ink);
+  color: var(--ink);
+  user-select: none; -webkit-user-select: none;
+  overflow: hidden;
+}
+
+/* Pasek statusu */
+.statusbar {
+  position: fixed; top: 0; left: 0; right: 0; height: 56px;
+  display: flex; align-items: center; gap: 1rem; padding: 0 1.2rem;
+  background: var(--ink); color: #cdd8dd; font-size: 1rem; z-index: 10;
+}
+.statusbar .loc { font-weight: 600; color: #fff; }
+.statusbar .spacer { flex: 1; }
+.net { display: inline-flex; align-items: center; gap: .4rem; }
+.net .dot { width: 12px; height: 12px; border-radius: 50%; background: #4ad295; }
+.net.offline .dot { background: #e0a23a; }
+.tosync { color: #cdd8dd; }
+
+/* Sceny */
+.screen { position: fixed; inset: 56px 0 0 0; display: none; flex-direction: column;
+  align-items: center; justify-content: center; text-align: center; padding: 2rem; }
+.screen.active { display: flex; }
+
+/* Bezczynność / attract */
+#screen-idle { background: var(--paper); }
+.clock { font-size: clamp(4rem, 18vw, 11rem); font-weight: 800; color: var(--ink); line-height: 1; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+.date { font-size: clamp(1.1rem, 4vw, 2rem); color: #5d6b75; margin-top: .5rem; }
+.tap-hint { margin-top: 2.5rem; font-size: clamp(1.3rem, 5vw, 2.4rem); font-weight: 700; color: var(--primary-d); }
+.tap-hint .ico { display:block; font-size: 2.4em; margin-bottom: .3rem; }
+
+/* Lista obecnych (3+3) */
+.present { position: fixed; bottom: 0; left: 0; right: 0; background: #f3f6f8; border-top: 1px solid #e3e9ed;
+  padding: .8rem 1.2rem; max-height: 28vh; overflow: hidden; }
+.present h2 { margin: 0 0 .5rem; font-size: 1rem; color: #5d6b75; text-transform: uppercase; letter-spacing: .03em; }
+.present .chips { display: flex; flex-wrap: wrap; gap: .5rem; }
+.chip { background: #fff; border: 1px solid #e3e9ed; border-radius: 999px; padding: .35rem .8rem;
+  font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums; }
+.present.empty-present { display: none; }
+
+/* Rozpoznanie */
+#screen-recognized { background: var(--paper); }
+.rec-name { font-size: clamp(2.2rem, 9vw, 5rem); font-weight: 800; color: var(--ink); margin-bottom: .5rem; }
+.rec-action { font-size: clamp(1.3rem, 5vw, 2.4rem); color: #5d6b75; margin-bottom: 2rem; }
+.rec-action strong { color: var(--primary-d); }
+
+/* Wielki przycisk potwierdzenia (Fitts) */
+.big-btn {
+  appearance: none; border: none; cursor: pointer; font-family: inherit;
+  width: min(90vw, 640px); min-height: 22vh; border-radius: 28px;
+  font-size: clamp(1.8rem, 7vw, 3.2rem); font-weight: 800; color: #fff;
+  background: var(--primary); box-shadow: 0 10px 0 var(--primary-d);
+  display: flex; align-items: center; justify-content: center; gap: .6rem;
+}
+.big-btn:active { transform: translateY(6px); box-shadow: 0 4px 0 var(--primary-d); }
+.cancel-btn {
+  margin-top: 1.6rem; appearance: none; background: #fff; border: 2px solid #e3e9ed;
+  border-radius: 999px; padding: 1rem 2rem; font-size: 1.3rem; font-weight: 600; color: var(--ink);
+  font-family: inherit; cursor: pointer; min-height: 64px; min-width: 200px;
+}
+
+/* Sukces / błąd — pełny ekran, kolor + ikona + tekst */
+#screen-success { background: var(--success); color: #fff; }
+#screen-error   { background: var(--danger);  color: #fff; }
+#screen-warn    { background: #b8860b;         color: #fff; }
+.result-ico { font-size: clamp(5rem, 22vw, 13rem); line-height: 1; }
+.result-title { font-size: clamp(2rem, 9vw, 4.5rem); font-weight: 800; margin: .5rem 0; }
+.result-sub { font-size: clamp(1.2rem, 5vw, 2.2rem); opacity: .95; }
+
+/* Ekran konfiguracji (pierwsze uruchomienie) */
+#screen-setup { background: var(--paper); }
+#screen-setup .box { width: min(92vw, 520px); text-align: left; }
+#screen-setup h1 { color: var(--ink); }
+#screen-setup label { display:block; font-weight:600; margin: 1rem 0 .4rem; color: var(--ink); }
+#screen-setup input { width:100%; padding: .9rem 1rem; font-size: 1.1rem; border:1px solid #d8dee6; border-radius: 12px; font-family: inherit; }
+#screen-setup button { margin-top: 1.2rem; }
+.btn { appearance:none; border:none; cursor:pointer; font-family:inherit; background:var(--primary); color:#fff;
+  font-size:1.2rem; font-weight:700; padding:1rem 1.8rem; border-radius:999px; }
+.setup-error { color: var(--danger); margin-top: 1rem; font-weight:600; }
+.hidden { display: none !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  .big-btn:active { transform: none; }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#2f9268">
+<title>CzaseoPraceo — Kiosk</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Pasek statusu: zakład, sieć, do synchronizacji -->
+<div class="statusbar">
+  <span class="loc" id="loc-name">—</span>
+  <span class="spacer"></span>
+  <span class="tosync" id="tosync"></span>
+  <span class="net" id="net"><span class="dot"></span><span id="net-label">online</span></span>
+</div>
+
+<!-- Pierwsze uruchomienie: token urządzenia -->
+<section class="screen" id="screen-setup">
+  <div class="box">
+    <h1>Konfiguracja kiosku</h1>
+    <p>Wprowadź token urządzenia z panelu administratora (Kioski → token pokazany przy rejestracji).</p>
+    <label for="token">Token kiosku</label>
+    <input type="text" id="token" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="np. a934402f…">
+    <div class="setup-error hidden" id="setup-error"></div>
+    <button class="btn" id="setup-save">Połącz kiosk</button>
+  </div>
+</section>
+
+<!-- Bezczynność / attract -->
+<section class="screen" id="screen-idle">
+  <div class="clock" id="clock">--:--</div>
+  <div class="date" id="date"></div>
+  <div class="tap-hint"><span class="ico" aria-hidden="true">⊡</span>Przyłóż kartę do czytnika</div>
+  <div class="present empty-present" id="present">
+    <h2>W pracy teraz</h2>
+    <div class="chips" id="present-chips"></div>
+  </div>
+</section>
+
+<!-- Rozpoznanie + potwierdzenie -->
+<section class="screen" id="screen-recognized">
+  <div class="rec-name" id="rec-name">—</div>
+  <div class="rec-action">Wykryto: <strong id="rec-action">—</strong></div>
+  <button class="big-btn" id="confirm-btn"><span id="confirm-label">Potwierdź</span></button>
+  <button class="cancel-btn" id="cancel-btn">Anuluj</button>
+</section>
+
+<!-- Sukces -->
+<section class="screen" id="screen-success">
+  <div class="result-ico" aria-hidden="true">✓</div>
+  <div class="result-title" id="success-title">Zarejestrowano</div>
+  <div class="result-sub" id="success-sub"></div>
+</section>
+
+<!-- Ostrzeżenie (np. dubel <15 min) -->
+<section class="screen" id="screen-warn">
+  <div class="result-ico" aria-hidden="true">!</div>
+  <div class="result-title" id="warn-title">Uwaga</div>
+  <div class="result-sub" id="warn-sub"></div>
+</section>
+
+<!-- Błąd (np. nieznana karta) -->
+<section class="screen" id="screen-error">
+  <div class="result-ico" aria-hidden="true">✕</div>
+  <div class="result-title" id="error-title">Błąd</div>
+  <div class="result-sub" id="error-sub"></div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>

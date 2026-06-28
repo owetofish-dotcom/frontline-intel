@@ -57,26 +57,21 @@ Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy
   (duplicate), dedup 15 min (deduped), odrzucenie obcej karty (unknown_card),
   zapis `location_id`. Zweryfikowane wszystkie ścieżki.
 
-## E5 — Kiosk PWA (najważniejszy UX)
-- [ ] **T-5.1 Szkielet PWA** (manifest, instalacja na ekran, tryb
-  pełnoekranowy/kiosk, HTTPS).
-- [ ] **T-5.2 Service Worker + IndexedDB** — bufor odbić offline-first,
-  optymistyczny zapis, synchronizacja w tle.
-  **UX:** pracownik nigdy nie czeka na serwer (ux §6).
-- [ ] **T-5.3 Odczyt karty** (nasłuch `keydown`, cyfry + Enter), rozpoznanie
-  pracownika z lokalnej kopii.
-- [ ] **T-5.4 Ekran bezczynności (attract)** — duży zegar 24h, logo zakładu,
-  „Przyłóż kartę". **UX:** ux §3 „Tryb pracy urządzenia".
-- [ ] **T-5.5 Ekran rozpoznania + potwierdzenia** — duże imię/nazwisko,
-  wykryte Wejście/Wyjście, **jeden duży przycisk**, potwierdzenie < 1 s.
-  **UX:** cele dotykowe ≫ 60 px; kontrast AA; sukces = kolor **+** ikona **+**
-  tekst **+** dźwięk; auto-powrót po 3–5 s (ux §3).
-- [ ] **T-5.6 Lista obecnych 3+3** po odbiciu, tylko dla zakładu (FR-4b).
-  **UX:** minimalizacja danych (ux §7).
-- [ ] **T-5.7 Stany błędu/brzegowe:** nieznana karta, karta spoza zakładu
-  (FR-16), dubel < 15 min (FR-4a), offline. **UX:** komunikaty po ludzku z
-  rozwiązaniem; nigdy nie blokować pracownika (ux §3, §8).
-- [ ] **T-5.8 Wskaźnik online/offline + licznik „do synchronizacji"** (ux §1, §6).
+## E5 — Kiosk PWA (najważniejszy UX)  ✅ (zweryfikowane w przeglądarce)
+- [x] **T-5.1 Szkielet PWA** (manifest, ikona, tryb pełnoekranowy, theme color).
+- [x] **T-5.2 Service Worker + IndexedDB** — app-shell offline, bufor odbić
+  (pending), optymistyczny zapis, synchronizacja w tle; zweryfikowane (odbicie
+  zsynchronizowane, licznik wyzerowany).
+- [x] **T-5.3 Odczyt karty** (`keydown` cyfry + Enter, reset bufora) —
+  zweryfikowane symulacją HID.
+- [x] **T-5.4 Ekran bezczynności** — duży zegar 24h, data PL, „Przyłóż kartę",
+  nazwa zakładu w pasku.
+- [x] **T-5.5 Rozpoznanie + potwierdzenie** — duże imię, wykryte wejście/wyjście,
+  wielki przycisk (Fitts), sukces kolor+ikona+tekst+dźwięk+wibracja, auto-powrót 4 s.
+- [x] **T-5.6 Lista obecnych 3+3** po odbiciu (tylko zakład kiosku).
+- [x] **T-5.7 Stany błędu/brzegowe:** nieznana karta, dubel < 15 min, offline
+  (zapis lokalny, brak blokady pracownika).
+- [x] **T-5.8 Wskaźnik online/offline + licznik „do synchronizacji".**
 
 ## E6 — Korekty i ustawienia firmy
 - [ ] **T-6.1 Korekty wpisów** (FR-6): oryginał niezmienny, korekta z autorem,

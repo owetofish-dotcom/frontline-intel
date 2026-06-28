@@ -1,0 +1,15 @@
+{
+  "name": "CzaseoPraceo — Kiosk",
+  "short_name": "Kiosk RCP",
+  "description": "Rejestracja czasu pracy — odbicie kartą RFID.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#17282f",
+  "theme_color": "#2f9268",
+  "lang": "pl",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

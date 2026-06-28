@@ -32,6 +32,9 @@ if ($route === 'employees' && $method === 'GET') {
 /** Lista pracowników zakładu z kartami i ostatnim stanem (do lokalnej kopii kiosku). */
 function handle_employees(int $tenantId, int $locationId): void
 {
+    $loc = Database::one("SELECT name FROM locations WHERE id = :l", [':l' => $locationId]);
+    $locationName = $loc['name'] ?? '';
+
     $employees = Database::all(
         "SELECT e.id, e.first_name, e.last_name
          FROM employees e
@@ -41,7 +44,7 @@ function handle_employees(int $tenantId, int $locationId): void
         [':loc' => $locationId, ':t' => $tenantId]
     );
     if ($employees === []) {
-        json_out(['ok' => true, 'location_id' => $locationId, 'server_time' => date('c'), 'employees' => []]);
+        json_out(['ok' => true, 'location_id' => $locationId, 'location_name' => $locationName, 'server_time' => date('c'), 'employees' => []]);
     }
 
     $ids = array_map(static fn($e) => (int) $e['id'], $employees);
@@ -85,7 +88,7 @@ function handle_employees(int $tenantId, int $locationId): void
             'last_time'  => $stateMap[$id]['time'] ?? null,
         ];
     }
-    json_out(['ok' => true, 'location_id' => $locationId, 'server_time' => date('c'), 'employees' => $out]);
+    json_out(['ok' => true, 'location_id' => $locationId, 'location_name' => $locationName, 'server_time' => date('c'), 'employees' => $out]);
 }
 
 /** Sync paczki odbić: idempotencja po (kiosk_id, device_punch_id) + dedup 15 min (FR-4a). */
