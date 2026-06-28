@@ -1,3 +1,33 @@
+[2026-06-28] - [UA: rakiety "Flamingo" niszczą halę produkcyjną Titan-Barrikady w Wołgogradzie] [@sternenko / @Exilenova_plus]
+URL: https://x.com/sternenko/status/2070956162137125352
+• @sternenko (via Exilenova+): zakład Titan-Barrikady w Wołgogradzie trafiony ukraińskimi rakietami "Flamingo" — zniszczona hala produkcyjna nr 38; trzy uderzenia rakietowe potwierdzone przez lokalnych mieszkańców; Titan-Barrikady = producent sprzętu wojskowego (barykady, pojazdy inżynieryjne) dla rosyjskiego MIC; fotodokumentacja: hala produkcyjna doszczętnie spalone, dach runął
+• "Flamingo" = UA dron/rakieta deep-strike dokumentowany wcześniej (Czeboksary/VDNIR-Progress 10 VI, VZPP-S Woroneż 22 VI); Wołgograd = kolejny obiekt MIC trafiony tym systemem na dystansach 900–1500 km; wzorzec re-strike: UA atakuje te same kategorie obiektów wielokrotnie do trwałego zniszczenia zdolności produkcyjnych
+• Implikacja taktyczna: Titan-Barrikady Wołgograd dołącza do listy rosyjskiego MIC zdegradowanego kampanią Flamingo; uderzenie w halę produkcyjną (vs magazyn) = wyższy efekt dezorganizacji produkcji wojskowej; Exilenova+ jako kanał dokumentacji = potwierdzenie operacyjne za pomocą zdjęć satelitarnych i naziemnych; eskalacja systematycznej kampanii UA na MIC poza tysiąc km od frontu
+
+[2026-06-28] - [RU: Geran-4 Seeker OWA celuje w UA MiG-29 na lotnisku Woznesensk (obw. mikołajowski)] [@RALee85]
+URL: https://x.com/RALee85/status/2070837071309078654
+• @RALee85 (16h): RU wojsko twierdzi że atakowało MiG-29 UA na lotnisku Woznesensk (obw. mikołajowski) dronami Geran-4 Seeker OWA; wideo Zvezdanews pokazuje ISR lotniska: МиГ-29 с боекомплектом (MiG-29 z uzbrojeniem), АПА-5Д, ИТС до 10 чел (serwisanci), Т3-22 (cysterna) — pełna identyfikacja celów naziemnych na filmie rozpoznawczym
+• Geran-4 = nowe oznaczenie wariantu: dotychczas Geran-2 (bazowy) i Geran-Seeker (głowica IR); "Geran-4" sugeruje iterację z funkcją anty-lotniczą (ataki na ziemne aktywa lotnicze: samoloty, infrastruktura), zgodny z ruchem OWA nocnego; korelacja: UA SZP potwierdza utratę MiG-29 nocą 27 VI 2026 w rejonie Połtawy (pilot katapultował się bezpiecznie) — zbliżony profil, możliwe powiązanie
+• Implikacja taktyczna: Geran-4 Seeker OWA rozszerza role systemu z infrastruktury energetycznej na aktywa lotnicze naziemne; ISR Zvezdanews pokazuje zdolność RU do identyfikacji konkretnych samolotów + sprzętu obsługi naziemnej jako celów; UA lotniska frontowe stają się priorytetem pętli rażenia OWA; potwierdza wzorzec adaptacji Geranu do kolejnych kategorii celów
+
+[2026-06-28] - [UA: Hornet — 25. Brygada Powietrznodesantowa (Siczeslawska) dołącza do operatorów systemu] [@RALee85]
+URL: https://x.com/RALee85/status/2070808692354646401
+• @RALee85 (17h): wideo uderzeń dronów Hornet przez 25. Brygadę Powietrznodesantową (Siczeslawską) UA; kanał bojowy brygady "ТРАСА СМЕРТІ ДЛЯ ОКУПАНТІВ"; wizualizacja mapy uderzeń z wieloma punktami rażenia wzdłuż frontu
+• Kontekst operatora: 27 VI Hornet dokumentowany u Gwardii Narodowej (3. Brygada Spartańska + Pułk Pilum); 28 VI 25. Brygada PD (Siły Zbrojne UA, nie Gwardia Narodowa) = rozszerzenie bazy operatorów na regularne jednostki powietrznodesantowe; dwa różne komponenty armii UA operujące Hornetem w oknie 24h = dowód skalowania wdrożenia
+• Implikacja taktyczna: Hornet wchodzi do mainstreamu UA doktryny BSP — Gwardia Narodowa + SZU powietrznodesantowe używają systemu jednocześnie; implikuje standaryzację szkolenia i logistyki poza jedną formacją; RU staje przed rosnącą liczbą jednostek UA zdolnych do precyzyjnego rażenia logistyki średniego zasięgu (do ok. 80 km od frontu)
+
+[2026-06-27] - [UA: zbiórka Rusoriz Digital zakończona — 51 mln UAH = 1700 cyfrowych FPV nowej generacji] [@sternenkofund / @sternenko]
+URL: https://x.com/sternenkofund/status/2070765463831781476
+• @sternenkofund: zbiórka "Rusoriz Digital" zakończona — zebrano 51 221 696 hrywien → 1700 dronów FPV nowej generacji (cyfrowych) niszczących logistykę RU + pełna infrastruktura operacyjna; cena ~30 000 UAH/szt. (~720 USD); masowe zamówienie
+• Technologia: "Digital" = cyfrowe FPV (720p-1080p, odporność na zakłócenia analogowe, trudniejsze do jamowania tradycyjnymi systemami EW RU); żołnierze potwierdzili przewagę w terenie 27 VI; zbiórka domknięta ekspresowo po potwierdzeniu operacyjnym = model sprzężenia zwrotnego pole walki → zakup → wdrożenie
+• Implikacja taktyczna: 1700 digital FPV jednorazowo = znaczące przyspieszenie przejścia UA od analogowych do cyfrowych; wzmacnia asymetrię wobec RU systemów EW (zaprojektowanych pod pasma analogowe); "Rusoriz Digital" jako model publicznego finansowania przejścia technologicznego szybszego niż zamówienia rządowe
+
+[2026-06-27] - [UA: dron uderzeniowy Liutyi filmowany nad rafinerią w Ufie — potwierdzone 1 350 km od frontu] [@bayraktar_1love / @RALee85]
+URL: https://x.com/bayraktar_1love/status/2070637460338491538
+• @bayraktar_1love (27 VI, via RALee85): nagranie wideo UA drona Liutyi nad rafinerią w Ufie (Republika Baszkiria, ~1350 km od frontu); kompleks Baszneft-Nowoil (7,3 mln t/rok) + Ufaneftekhim (9,5 mln t/rok); nagranie z ziemi przez świadka — dron wyraźnie widoczny w locie nad zabudowaniami rafinerii
+• Profil Liutyi: UA dron uderzeniowy własnej produkcji, zasięg >1000 km, napęd turboodrzutowy; 1350 km od frontu = jedno z najgłębszych dokumentowanych uderzeń UA dronami (rafinerie Uralu poza Urałem); wideo potwierdza sylwetkę Liutyi'ego i zdolność operacyjną systemu w warunkach bojowych
+• Implikacja taktyczna: Liutyi nad Ufą = dowód operacyjny że rosyjskie rafinerie w Baszkirii/na Uralu są w zasięgu UA; kampania UA na obiekty paliwowe dociera do serca rosyjskiego przemysłu naftowego; RU musi objąć ochroną OPL/EW cały Ural — ogromne rozciągnięcie zasobów obronnych; nagranie = propaganda operacyjna UA i potwierdzenie zasięgu dla partnerów i sojuszników
+
 [2026-06-27] - [UA: Hornet drony 3. Brygady Spartan i Pułku Pilum — uderzenia w ciężarówki, pociągi i przynętę RU] [@RALee85]
 URL: https://x.com/RALee85/status/2070514521588813963
 • @RALee85: filmy z uderzeń dronów Hornet przez UA Gwardię Narodową (3. Brygada Spartańska i Pułk Pilum) w rosyjskie ciężarówki, pociągi i obiekt będący prawdopodobnie przynętą; Hornet = UA bezzałogowiec uderzeniowy średniego zasięgu zdolny do ataku na cele logistyczne i pancerne
