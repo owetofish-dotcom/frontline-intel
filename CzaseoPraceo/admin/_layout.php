@@ -79,12 +79,15 @@ function layout_header(string $title, string $active = 'index.php'): void
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?= h($title) ?> — CzaseoPraceo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
 <header class="app-header">
   <div class="bar">
-    <a class="brand" href="index.php">CzaseoPraceo</a>
+    <a class="brand" href="index.php"><span class="brand-mark" aria-hidden="true">⏱</span>CzaseoPraceo</a>
     <span class="context"><?= h(current_context_label()) ?></span>
     <span class="spacer"></span>
     <span class="who"><?= h($user['full_name'] ?: $user['email']) ?> · <?= h(role_label(Auth::role())) ?></span>

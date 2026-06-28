@@ -26,12 +26,16 @@ if (($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST') {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Logowanie — CzaseoPraceo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
 <div class="login-wrap">
   <div class="card login-card">
-    <h1>CzaseoPraceo</h1>
+    <div class="brand"><span class="brand-mark" aria-hidden="true">⏱</span>CzaseoPraceo</div>
+    <h1>Zaloguj się do panelu</h1>
     <?php if ($error !== ''): ?>
       <div class="alert alert-error" role="alert"><?= h($error) ?></div>
     <?php endif; ?>
