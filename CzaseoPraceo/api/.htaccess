@@ -1,0 +1,6 @@
+# Routing API: /api/employees, /api/punches → index.php (PATH_INFO)
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+</IfModule>

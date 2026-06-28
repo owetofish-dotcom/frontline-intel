@@ -19,8 +19,8 @@ Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy
   karty w obrębie firmy; import przez phpMyAdmin bez błędów.
 - [x] **T-0.2 Konfiguracja** poza repo (`config.local.php`), połączenie PDO,
   tryb wyjątków, `utf8mb4`.
-- [~] **T-0.3 Struktura `/api`, `/admin`, `/kiosk`** utworzona; front controller
-  API powstanie w E4.
+- [x] **T-0.3 Struktura `/api`, `/admin`, `/kiosk`** + front controller API
+  (PATH_INFO, `.htaccess`).
 - [x] **T-0.4 Warstwa dostępu do danych** (`lib/Scope.php`) wymuszająca
   centralnie filtr `tenant_id` oraz zakres zakładu (`location_id`).
 
@@ -47,13 +47,15 @@ Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy
 - [x] **T-3.5 Konta kierowników** + przypisanie do zakładów; izolacja kierownika
   potwierdzona testem E2E (nie widzi danych spoza swoich zakładów).
 
-## E4 — API kiosku
-- [ ] **T-4.1 Autoryzacja urządzenia** tokenem niosącym `tenant_id`+`location_id`.
-- [ ] **T-4.2 `GET /api/employees`** — lista pracowników **tylko danego
-  zakładu** (do lokalnej kopii kiosku).
-- [ ] **T-4.3 `POST /api/punches/sync`** — przyjęcie paczki odbić,
-  **idempotencja** po `device_punch_id`, zapis `location_id`.
-  **F:** ponowna wysyłka tej samej paczki nie tworzy duplikatów.
+## E4 — API kiosku  ✅ (zweryfikowane E2E na MariaDB)
+- [x] **T-4.1 Autoryzacja urządzenia** tokenem (`lib/Kiosk.php`, SHA-256,
+  nagłówek `X-Kiosk-Token`) + rejestracja kiosków w panelu (`admin/kiosks.php`,
+  token pokazywany raz). Brak tokenu → 401.
+- [x] **T-4.2 `GET /api/employees`** — pracownicy **tylko zakładu kiosku** +
+  karty + inicjały 3+3 + ostatni stan in/out.
+- [x] **T-4.3 `POST /api/punches`** — idempotencja po `device_punch_id`
+  (duplicate), dedup 15 min (deduped), odrzucenie obcej karty (unknown_card),
+  zapis `location_id`. Zweryfikowane wszystkie ścieżki.
 
 ## E5 — Kiosk PWA (najważniejszy UX)
 - [ ] **T-5.1 Szkielet PWA** (manifest, instalacja na ekran, tryb
