@@ -107,6 +107,29 @@ function renderAttendance() {
   fillList('absent-list', absent, 'Wszyscy obecni');
 }
 
+/* ---------- Logo firmy ---------- */
+function renderLogo() {
+  metaGet('logo').then(l => {
+    const el = document.getElementById('board-logo');
+    if (l) { el.src = l; el.classList.remove('hidden'); }
+    else { el.classList.add('hidden'); el.removeAttribute('src'); }
+  });
+}
+async function fetchConfig() {
+  try {
+    const r = await fetch(`${API}/config`, { headers: { 'X-Kiosk-Token': token } });
+    if (!r.ok) return;
+    const d = await r.json();
+    if (d.location_name) {
+      place.name = d.location_name;
+      await metaSet('loc_name', d.location_name);
+      document.getElementById('loc-name').textContent = place.name;
+    }
+    await metaSet('logo', d.logo || '');
+    renderLogo();
+  } catch (_) { /* offline — użyjemy cache */ }
+}
+
 /* ---------- Pogoda (Open-Meteo, bez klucza) ---------- */
 const WX = {0:'☀️',1:'🌤️',2:'⛅',3:'☁️',45:'🌫️',48:'🌫️',51:'🌦️',53:'🌦️',55:'🌦️',
   56:'🌧️',57:'🌧️',61:'🌧️',63:'🌧️',65:'🌧️',66:'🌧️',67:'🌧️',71:'🌨️',73:'🌨️',75:'❄️',
@@ -318,6 +341,7 @@ async function saveToken() {
     await fetchEmployees();
     await metaSet('token', token);
     await metaSet('city', city);
+    await fetchConfig();
     renderAttendance();
     loadWeather();
     show('screen-idle');
@@ -350,9 +374,11 @@ async function init() {
     token = stored;
     await loadFromCache();
     document.getElementById('loc-name').textContent = place.name;
+    renderLogo();
     renderAttendance();
     loadWeather();
     show('screen-idle');
+    fetchConfig();
     syncNow();
   } else {
     show('screen-setup');

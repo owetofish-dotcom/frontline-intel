@@ -25,8 +25,24 @@ if ($route === 'employees' && $method === 'GET') {
     handle_employees($tenantId, $locationId);
 } elseif ($route === 'punches' && $method === 'POST') {
     handle_punch_sync($kiosk, $tenantId, $locationId);
+} elseif ($route === 'config' && $method === 'GET') {
+    handle_config($tenantId, $locationId);
 } else {
     json_error('Nieznana trasa lub metoda.', 404);
+}
+
+/** Konfiguracja kiosku: nazwa zakładu + logo firmy (pobierane rzadko). */
+function handle_config(int $tenantId, int $locationId): void
+{
+    $loc = Database::one("SELECT name FROM locations WHERE id = :l", [':l' => $locationId]);
+    $t   = Database::one("SELECT logo_mime, logo_data FROM tenants WHERE id = :t", [':t' => $tenantId]);
+    $logo = (!empty($t['logo_data'])) ? 'data:' . $t['logo_mime'] . ';base64,' . $t['logo_data'] : null;
+    json_out([
+        'ok' => true,
+        'location_name' => $loc['name'] ?? '',
+        'logo' => $logo,
+        'server_time' => date('c'),
+    ]);
 }
 
 /** Lista pracowników zakładu z kartami i ostatnim stanem (do lokalnej kopii kiosku). */

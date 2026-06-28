@@ -115,6 +115,15 @@ Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy
 
 ---
 
+## Rozszerzenia (poza pierwotnym MVP, na życzenie)
+- [x] **R-1 Tablica kiosku (tryb nasłuchiwania):** zegar 24h, data PL, imieniny
+  dnia (offline), pogoda 5 dni (Open-Meteo), tablica obecności zakładu
+  (Obecni/Nieobecni). Zweryfikowane w przeglądarce (pogoda happy-path do
+  potwierdzenia na tablecie z internetem).
+- [x] **R-2 Logo firmy:** wgrywanie w ustawieniach (PNG/JPG/WEBP/SVG/GIF, maks.
+  768 KB), wyświetlanie w nagłówku panelu i na tablicy kiosku (offline, przez
+  `/api/config`). Zweryfikowane E2E.
+
 ## Walidacja UX — macierz pokrycia
 > „Czy zadania realizują uznane zalecenia?" Status: ✅ pokryte · ⚠️ częściowo ·
 > ❗ luka do uzupełnienia.

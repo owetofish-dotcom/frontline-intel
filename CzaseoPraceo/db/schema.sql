@@ -20,6 +20,8 @@ CREATE TABLE IF NOT EXISTS tenants (
   rounding_mode   ENUM('exact','full_hour','min5','min15') NOT NULL DEFAULT 'full_hour', -- D-3
   allow_overnight TINYINT(1) NOT NULL DEFAULT 0,        -- D-5 (domyślnie bez pracy przez północ)
   hourly_rate     DECIMAL(10,2) NULL,                   -- FR-8 (opcjonalna stawka)
+  logo_mime       VARCHAR(50) NULL,                     -- logo firmy (typ MIME)
+  logo_data       MEDIUMTEXT NULL,                      -- logo firmy (base64)
   created_at      DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at      DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (id)

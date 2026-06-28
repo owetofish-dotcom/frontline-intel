@@ -62,6 +62,20 @@ function nav_items(): array
     };
 }
 
+/** Data URI logo firmy zalogowanego (lub null). */
+function current_logo(): ?string
+{
+    $tid = Auth::tenantId();
+    if ($tid === null) {
+        return null;
+    }
+    $t = Database::one("SELECT logo_mime, logo_data FROM tenants WHERE id = :id", [':id' => $tid]);
+    if (!$t || empty($t['logo_data'])) {
+        return null;
+    }
+    return 'data:' . $t['logo_mime'] . ';base64,' . $t['logo_data'];
+}
+
 function role_label(?string $role): string
 {
     return match ($role) {
@@ -90,6 +104,9 @@ function layout_header(string $title, string $active = 'index.php'): void
 <header class="app-header">
   <div class="bar">
     <a class="brand" href="index.php"><span class="brand-mark" aria-hidden="true">⏱</span>CzaseoPraceo</a>
+    <?php if ($logo = current_logo()): ?>
+      <img class="tenant-logo" src="<?= h($logo) ?>" alt="Logo firmy">
+    <?php endif; ?>
     <span class="context"><?= h(current_context_label()) ?></span>
     <span class="spacer"></span>
     <span class="who"><?= h($user['full_name'] ?: $user['email']) ?> · <?= h(role_label(Auth::role())) ?></span>
