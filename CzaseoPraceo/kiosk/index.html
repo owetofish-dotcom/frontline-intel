@@ -12,12 +12,13 @@
 </head>
 <body>
 
-<!-- Pasek statusu: zakład, sieć, do synchronizacji -->
+<!-- Pasek statusu: zakład, sieć, do synchronizacji, ustawienia -->
 <div class="statusbar">
   <span class="loc" id="loc-name">—</span>
   <span class="spacer"></span>
   <span class="tosync" id="tosync"></span>
   <span class="net" id="net"><span class="dot"></span><span id="net-label">online</span></span>
+  <button class="gear" id="gear" title="Ustawienia kiosku" aria-label="Ustawienia kiosku">⚙</button>
 </div>
 
 <!-- Pierwsze uruchomienie: token urządzenia -->
@@ -27,19 +28,37 @@
     <p>Wprowadź token urządzenia z panelu administratora (Kioski → token pokazany przy rejestracji).</p>
     <label for="token">Token kiosku</label>
     <input type="text" id="token" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="np. a934402f…">
+    <label for="city">Miejscowość (pogoda, opcjonalnie)</label>
+    <input type="text" id="city" autocomplete="off" placeholder="np. Tuszyma">
     <div class="setup-error hidden" id="setup-error"></div>
     <button class="btn" id="setup-save">Połącz kiosk</button>
   </div>
 </section>
 
-<!-- Bezczynność / attract -->
+<!-- Bezczynność / tablica informacyjna (tryb nasłuchiwania) -->
 <section class="screen" id="screen-idle">
-  <div class="clock" id="clock">--:--</div>
-  <div class="date" id="date"></div>
-  <div class="tap-hint"><span class="ico" aria-hidden="true">⊡</span>Przyłóż kartę do czytnika</div>
-  <div class="present empty-present" id="present">
-    <h2>W pracy teraz</h2>
-    <div class="chips" id="present-chips"></div>
+  <div class="board">
+    <div class="board-top">
+      <div class="clock-col">
+        <div class="clock" id="clock">--:--</div>
+        <div class="date" id="date"></div>
+        <div class="nameday" id="nameday"></div>
+      </div>
+      <div class="weather" id="weather" aria-live="polite"></div>
+    </div>
+
+    <div class="attendance">
+      <div class="att-col att-present">
+        <h2>Obecni <span class="cnt" id="present-count">0</span></h2>
+        <div class="att-list" id="present-list"></div>
+      </div>
+      <div class="att-col att-absent">
+        <h2>Nieobecni <span class="cnt" id="absent-count">0</span></h2>
+        <div class="att-list" id="absent-list"></div>
+      </div>
+    </div>
+
+    <div class="tap-bar"><span class="ico" aria-hidden="true">⊡</span> Przyłóż kartę do czytnika</div>
   </div>
 </section>
 
@@ -72,6 +91,7 @@
   <div class="result-sub" id="error-sub"></div>
 </section>
 
+<script src="imieniny.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

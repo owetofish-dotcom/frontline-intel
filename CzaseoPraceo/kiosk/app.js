@@ -60,6 +60,11 @@ function tick() {
   const d = new Date();
   const c = document.getElementById('clock'); if (c) c.textContent = `${pad2(d.getHours())}:${pad2(d.getMinutes())}`;
   const dt = document.getElementById('date'); if (dt) dt.textContent = `${DNI[d.getDay()]}, ${d.getDate()} ${MIE[d.getMonth()]} ${d.getFullYear()}`;
+  const nd = document.getElementById('nameday');
+  if (nd) {
+    const key = pad2(d.getMonth() + 1) + '-' + pad2(d.getDate());
+    nd.textContent = (typeof IMIENINY !== 'undefined' && IMIENINY[key]) ? 'Imieniny: ' + IMIENINY[key] : '';
+  }
 }
 function deviceTime(d){ return `${d.getFullYear()}-${pad2(d.getMonth()+1)}-${pad2(d.getDate())} ${pad2(d.getHours())}:${pad2(d.getMinutes())}:${pad2(d.getSeconds())}`; }
 function hhmm(d){ return `${pad2(d.getHours())}:${pad2(d.getMinutes())}`; }
@@ -75,21 +80,69 @@ async function refreshToSync() {
   document.getElementById('tosync').textContent = c > 0 ? `do synchronizacji: ${c}` : '';
 }
 
-/* ---------- Lista obecnych (3+3) ---------- */
-function initials33(f, l) { const c = s => (s || '').trim().slice(0,3); return (c(f) + ' ' + c(l)).toUpperCase(); }
-function renderPresent() {
-  const present = [...employeesById.values()].filter(e => e.state === 'in');
-  const box = document.getElementById('present'), chips = document.getElementById('present-chips');
-  chips.innerHTML = '';
-  if (present.length === 0) { box.classList.add('empty-present'); return; }
-  box.classList.remove('empty-present');
-  present.sort((a,b) => (a.last_name||'').localeCompare(b.last_name||'', 'pl'));
-  for (const e of present) {
+/* ---------- Tablica obecności (obecni / nieobecni) ---------- */
+function attName(e) {
+  const ln = (e.last_name || '').trim();
+  return (e.first_name || '') + (ln ? ' ' + ln.charAt(0).toUpperCase() + '.' : '');
+}
+function fillList(id, list, emptyText) {
+  const box = document.getElementById(id);
+  box.innerHTML = '';
+  if (list.length === 0) { const s = document.createElement('span'); s.className = 'none'; s.textContent = emptyText; box.appendChild(s); return; }
+  for (const e of list) {
     const span = document.createElement('span');
-    span.className = 'chip';
-    span.textContent = e.initials || initials33(e.first_name, e.last_name);
-    chips.appendChild(span);
+    span.className = 'att-item';
+    span.textContent = attName(e);
+    box.appendChild(span);
   }
+}
+function renderAttendance() {
+  const all = [...employeesById.values()];
+  const byLast = (a, b) => (a.last_name || '').localeCompare(b.last_name || '', 'pl');
+  const present = all.filter(e => e.state === 'in').sort(byLast);
+  const absent  = all.filter(e => e.state !== 'in').sort(byLast);
+  document.getElementById('present-count').textContent = String(present.length);
+  document.getElementById('absent-count').textContent  = String(absent.length);
+  fillList('present-list', present, 'Nikogo w pracy');
+  fillList('absent-list', absent, 'Wszyscy obecni');
+}
+
+/* ---------- Pogoda (Open-Meteo, bez klucza) ---------- */
+const WX = {0:'☀️',1:'🌤️',2:'⛅',3:'☁️',45:'🌫️',48:'🌫️',51:'🌦️',53:'🌦️',55:'🌦️',
+  56:'🌧️',57:'🌧️',61:'🌧️',63:'🌧️',65:'🌧️',66:'🌧️',67:'🌧️',71:'🌨️',73:'🌨️',75:'❄️',
+  77:'❄️',80:'🌦️',81:'🌧️',82:'⛈️',85:'🌨️',86:'🌨️',95:'⛈️',96:'⛈️',99:'⛈️'};
+function wxIcon(code) { return WX[code] || '🌡️'; }
+const WDAY = ['niedz.','pon.','wt.','śr.','czw.','pt.','sob.'];
+
+async function loadWeather() {
+  const box = document.getElementById('weather');
+  const city = await metaGet('city');
+  if (!city) { box.classList.add('hidden'); box.innerHTML = ''; return; }
+  if (!navigator.onLine) { if (!box.innerHTML) box.classList.add('hidden'); return; }
+  try {
+    let coords = await metaGet('coords');
+    if (!coords || coords.city !== city) {
+      const g = await fetch(`https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(city)}&count=1&language=pl&format=json`);
+      const gd = await g.json();
+      if (!gd.results || !gd.results.length) { box.classList.add('hidden'); return; }
+      coords = { city, lat: gd.results[0].latitude, lon: gd.results[0].longitude };
+      await metaSet('coords', coords);
+    }
+    const u = `https://api.open-meteo.com/v1/forecast?latitude=${coords.lat}&longitude=${coords.lon}`
+      + `&current=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min&timezone=auto&forecast_days=5`;
+    const d = await (await fetch(u)).json();
+    if (!d || !d.current || !d.daily) return;
+    let html = `<div class="wx-current"><div class="ic">${wxIcon(d.current.weather_code)}</div>`
+      + `<div class="t">${Math.round(d.current.temperature_2m)}°</div><div class="d">${city}</div></div>`;
+    for (let i = 0; i < d.daily.time.length; i++) {
+      const dt = new Date(d.daily.time[i] + 'T00:00');
+      html += `<div class="wx-day"><div class="d">${WDAY[dt.getDay()]}</div><div class="ic">${wxIcon(d.daily.weather_code[i])}</div>`
+        + `<div class="mm"><span class="mx">${Math.round(d.daily.temperature_2m_max[i])}°</span> `
+        + `<span class="mn">${Math.round(d.daily.temperature_2m_min[i])}°</span></div></div>`;
+    }
+    box.innerHTML = html;
+    box.classList.remove('hidden');
+  } catch (_) { if (!box.innerHTML) box.classList.add('hidden'); }
 }
 
 /* ---------- Ładowanie danych pracowników ---------- */
@@ -100,7 +153,7 @@ async function loadFromCache() {
   const vals = await idb('cards', 'readonly', s => s.getAll());
   cardToEmp = new Map((keys || []).map((k, i) => [String(k), vals[i]]));
   const ln = await metaGet('loc_name'); if (ln) place.name = ln;
-  renderPresent();
+  renderAttendance();
 }
 async function fetchEmployees() {
   const res = await fetch(`${API}/employees`, { headers: { 'X-Kiosk-Token': token } });
@@ -177,7 +230,7 @@ async function commitPunch() {
   await idb('pending', 'readwrite', s => s.add(punch));
   emp.state = action; emp.last_time = punch.device_time;
   await idb('employees', 'readwrite', s => s.put(emp));
-  renderPresent();
+  renderAttendance();
   await refreshToSync();
 
   feedbackOk();
@@ -255,14 +308,18 @@ function uuid() {
 
 /* ---------- Konfiguracja (pierwsze uruchomienie) ---------- */
 async function saveToken() {
-  const val = document.getElementById('token').value.trim();
-  const err = document.getElementById('setup-error');
+  const val  = document.getElementById('token').value.trim();
+  const city = document.getElementById('city').value.trim();
+  const err  = document.getElementById('setup-error');
   err.classList.add('hidden');
   if (!/^[0-9a-f]{16,}$/i.test(val)) { err.textContent = 'Nieprawidłowy token.'; err.classList.remove('hidden'); return; }
   token = val;
   try {
     await fetchEmployees();
     await metaSet('token', token);
+    await metaSet('city', city);
+    renderAttendance();
+    loadWeather();
     show('screen-idle');
   } catch (_) {
     token = null;
@@ -281,12 +338,20 @@ async function init() {
   document.getElementById('confirm-btn').addEventListener('click', commitPunch);
   document.getElementById('cancel-btn').addEventListener('click', () => { recogCtx = null; clearTimeout(recogTimer); show('screen-idle'); });
   document.getElementById('setup-save').addEventListener('click', saveToken);
+  document.getElementById('gear').addEventListener('click', async () => {
+    document.getElementById('token').value = token || '';
+    document.getElementById('city').value = (await metaGet('city')) || '';
+    document.getElementById('setup-error').classList.add('hidden');
+    show('screen-setup');
+  });
 
   const stored = await metaGet('token');
   if (stored) {
     token = stored;
     await loadFromCache();
     document.getElementById('loc-name').textContent = place.name;
+    renderAttendance();
+    loadWeather();
     show('screen-idle');
     syncNow();
   } else {
@@ -294,6 +359,7 @@ async function init() {
   }
   await refreshToSync();
   setInterval(syncNow, SYNC_EVERY);
+  setInterval(loadWeather, 30 * 60 * 1000); // odśwież pogodę co 30 min
 
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
 }

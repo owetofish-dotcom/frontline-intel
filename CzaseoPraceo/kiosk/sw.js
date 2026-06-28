@@ -2,12 +2,13 @@
    Odbicia i dane idą przez IndexedDB w app.js; API nie cache'ujemy. */
 'use strict';
 
-const CACHE = 'czaseo-kiosk-v1';
+const CACHE = 'czaseo-kiosk-v2';
 const SHELL = [
   './',
   './index.html',
   './style.css',
   './app.js',
+  './imieniny.js',
   './manifest.webmanifest',
   './icon.svg'
 ];
