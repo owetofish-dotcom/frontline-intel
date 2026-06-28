@@ -73,12 +73,14 @@ Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy
   (zapis lokalny, brak blokady pracownika).
 - [x] **T-5.8 Wskaźnik online/offline + licznik „do synchronizacji".**
 
-## E6 — Korekty i ustawienia firmy
-- [ ] **T-6.1 Korekty wpisów** (FR-6): oryginał niezmienny, korekta z autorem,
-  czasem, **powodem**. **UX:** oryginał obok korekty (ux §4).
-- [ ] **T-6.2 Ręczna decyzja o godzinach w dniu niejednoznacznym** (FR-7b).
-- [ ] **T-6.3 Ustawienia firmy** (FR-12): zaokrąglanie (domyślnie pełne
-  godziny), praca przez północ (domyślnie wył.), stawka godzinowa.
+## E6 — Korekty i ustawienia firmy  ✅ (zweryfikowane E2E)
+- [x] **T-6.1 Korekty wpisów** (FR-6): `admin/timesheet.php` — podgląd dnia,
+  wpis manualny (źródło `manual`), oryginał niezmienny, audyt z autorem/czasem/
+  powodem; `lib/Timesheet.php` (parowanie sesji, zaokrąglanie — testy jednostkowe).
+- [x] **T-6.2 Ręczna decyzja o godzinach** (FR-7b): nadpisanie godzin dnia z
+  powodem, używane w raporcie.
+- [x] **T-6.3 Ustawienia firmy** (FR-12): zaokrąglanie (domyślnie pełne godziny),
+  praca przez północ (domyślnie wył.), stawka godzinowa.
 
 ## E7 — Raporty
 - [ ] **T-7.1 Raport godzin** za okres/pracowników/zakład; domyślny okres =

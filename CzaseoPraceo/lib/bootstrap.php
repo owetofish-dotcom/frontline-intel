@@ -10,6 +10,7 @@ require __DIR__ . '/Database.php';
 require __DIR__ . '/Auth.php';
 require __DIR__ . '/Scope.php';
 require __DIR__ . '/Kiosk.php';
+require __DIR__ . '/Timesheet.php';
 
 // Wymuś HTTPS (wymagane dla PWA i RODO) — poza środowiskiem lokalnym.
 if (cfg('app.force_https', true) && !is_https()
