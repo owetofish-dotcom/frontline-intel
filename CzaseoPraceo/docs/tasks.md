@@ -82,12 +82,14 @@ Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy
 - [x] **T-6.3 Ustawienia firmy** (FR-12): zaokrąglanie (domyślnie pełne godziny),
   praca przez północ (domyślnie wył.), stawka godzinowa.
 
-## E7 — Raporty
-- [ ] **T-7.1 Raport godzin** za okres/pracowników/zakład; domyślny okres =
-  bieżący (heur. 7). Zaokrąglanie wg ustawień, **czas dokładny zawsze dostępny**.
-- [ ] **T-7.2 Eksport CSV** (`fputcsv`).
-- [ ] **T-7.3 Eksport PDF** (FPDF/mPDF jako `vendor/`).
-  **UX:** widoczne, co zawiera raport (okres, zakład, zaokrąglanie) (ux §4).
+## E7 — Raporty  ✅ (zweryfikowane E2E + render PDF)
+- [x] **T-7.1 Raport godzin** (`admin/reports.php` + `lib/Report.php`) za
+  okres/zakład; domyślny okres = bieżący miesiąc; zaokrąglanie wg ustawień,
+  czas dokładny zawsze widoczny; nadpisania dnia uwzględnione; kwota gdy stawka.
+- [x] **T-7.2 Eksport CSV** (`fputcsv`, `;`, BOM UTF-8, per dzień + RAZEM).
+- [x] **T-7.3 Eksport PDF** — **własny generator `lib/Pdf.php` bez zależności**
+  (Composer/FPDF niedostępne na home.pl); poprawny PDF 1.4 zweryfikowany
+  renderem; polskie znaki transliterowane w PDF, pełne UTF-8 w CSV.
 
 ## E8 — Cron (home.pl)
 - [ ] **T-8.1 Zadanie porządkowe/retry sync**; błędy synchronizacji widoczne
