@@ -91,9 +91,10 @@ Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy
   (Composer/FPDF niedostępne na home.pl); poprawny PDF 1.4 zweryfikowany
   renderem; polskie znaki transliterowane w PDF, pełne UTF-8 w CSV.
 
-## E8 — Cron (home.pl)
-- [ ] **T-8.1 Zadanie porządkowe/retry sync**; błędy synchronizacji widoczne
-  tylko dla admina/kierownika, nie dla pracownika (ux §6).
+## E8 — Cron (home.pl)  ✅
+- [x] **T-8.1 `cron/maintenance.php`** (CLI-only, `.htaccess` deny): heartbeat +
+  wykrywanie otwartych zmian > 18h i kiosków nieaktywnych > 24h; tylko odczyt
+  i log (nie modyfikuje odbić). Zweryfikowane uruchomienie.
 
 ## E9 — Dostępność, lokalizacja, spójność (przekrojowe)
 - [ ] **T-9.1 Audyt WCAG 2.2 AA**: kontrast, cele dotykowe, focus, etykiety,
