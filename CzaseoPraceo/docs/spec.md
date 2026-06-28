@@ -3,7 +3,7 @@
 > Faza Spec Kit: **Specify** (co i dlaczego — bez decyzji technologicznych).
 > Decyzje „jak" trafią do `plan.md`.
 
-Wersja: 0.3 (szkic) · Data: 2026-06-27
+Wersja: 0.4 (szkic) · Data: 2026-06-27
 
 ---
 
@@ -22,7 +22,8 @@ godzin gotowe do rozliczeń.
 | Rola | Gdzie | Co robi |
 |------|-------|---------|
 | **Super-admin SaaS** | panel web | zarządza firmami-najemcami, zakłada konta admina firmy, nadzoruje system |
-| **Admin firmy** | panel web | zarządza zakładami, pracownikami i kartami, koryguje wpisy, generuje raporty, ustawia stawki, konfiguruje kioski |
+| **Admin firmy** | panel web | zarządza **wszystkimi** zakładami firmy, pracownikami i kartami, koryguje wpisy, generuje raporty, ustawia stawki, konfiguruje kioski, zarządza kontami kierowników |
+| **Kierownik zakładu** | panel web | to samo co admin, ale **wyłącznie w obrębie przypisanego zakładu(-ów)** — nie widzi danych innych zakładów |
 | **Pracownik** | kiosk (tablet) | odbija kartę, potwierdza wejście/wyjście |
 
 ## 3. Historyjki użytkownika
@@ -108,6 +109,11 @@ godzin gotowe do rozliczeń.
   zakładu(-ów). Kiosk danego zakładu **rozpoznaje i pozwala odbić się wyłącznie
   pracownikom tego zakładu**; karta pracownika spoza zakładu jest odrzucana z
   czytelnym komunikatem. Lista obecnych na kiosku dotyczy tylko jego zakładu.
+- **FR-17 Role i zakres uprawnień.** System ma trzy poziomy kont panelu:
+  **super-admin SaaS** (ponad firmami), **admin firmy** (cała firma, wszystkie
+  zakłady, zarządza też kontami kierowników), **kierownik zakładu** (przypisany
+  do jednego lub kilku zakładów; widzi i działa **tylko** w ich obrębie —
+  pracownicy, karty, korekty, raporty ograniczone do swoich zakładów).
 
 ## 5. Wymagania niefunkcjonalne (NFR)
 - **NFR-1** Odbicie (rozpoznanie karty → potwierdzenie na ekranie) < 1 s przy
@@ -147,12 +153,14 @@ logowanie pracownika hasłem.
 
 ---
 
-## 9. Kwestie otwarte `[DO USTALENIA]`
-- **OQ-A** Zakres admina firmy: czy admin widzi/zarządza **wszystkimi
-  zakładami** firmy, czy chcesz też **adminów ograniczonych do jednego
-  zakładu** (np. kierownik fabryki widzi tylko swój zakład)?
+## 9. Rozstrzygnięte decyzje (cd.)
+- **D-7 Kierownik zakładu (OQ-A → B):** oprócz admina firmy istnieje rola
+  **kierownika** ograniczonego do przypisanego zakładu(-ów); cała jego praca
+  (dane, raporty) jest filtrowana do tych zakładów (FR-17).
 
 ## Historia zmian
+- 0.4 (2026-06-27) — dodano rolę kierownika zakładu (FR-17, D-7); admin firmy
+  zarządza kontami kierowników.
 - 0.3 (2026-06-27) — dodano zakłady/lokalizacje w obrębie firmy (FR-14…FR-16):
   kiosk przypisany do zakładu, pracownik do zakładu(-ów), kiosk obsługuje tylko
   pracowników swojego zakładu.

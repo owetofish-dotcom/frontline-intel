@@ -69,11 +69,19 @@ to nam nie przeszkadza. Wymóg: serwowanie po **HTTPS**.
   do jednego zakładu; jego widok pracowników i przyjmowane odbicia są
   ograniczone do `tenant_id` **oraz** `location_id`. Pracownicy „widoczni" dla
   kiosku to ci z `employee_locations` danego zakładu.
+- **Zakres ról panelu:** `super_admin` — ponad firmami (bez `tenant_id`);
+  `admin` — pełny dostęp w obrębie swojej firmy (wszystkie zakłady), zarządza
+  kontami kierowników; `location_manager` — dostęp filtrowany dodatkowo do
+  zakładów z `panel_user_locations`. Filtr po zakładzie dla kierownika
+  egzekwowany w tym samym, centralnym punkcie co `tenant_id`.
 
 ## 6. Szkic schematu bazy (do doprecyzowania w fazie Tasks)
 - `tenants` — firmy (nazwa, status, ustawienia: zaokrąglanie, praca_przez_polnoc, stawka)
 - `locations` — **zakłady/fabryki** (tenant_id, nazwa, status)
-- `panel_users` — konta panelu (rola: super_admin/admin, tenant_id, email, hash hasła)
+- `panel_users` — konta panelu (rola: **super_admin / admin / location_manager**,
+  tenant_id, email, hash hasła)
+- `panel_user_locations` — przypisanie kierownika ↔ zakład (panel_user_id,
+  location_id); używane tylko dla roli `location_manager`
 - `employees` — pracownicy (tenant_id, imię, nazwisko, status)
 - `employee_locations` — przypisanie pracownik ↔ zakład (tenant_id, employee_id,
   location_id) — relacja wiele-do-wielu (pracownik może być w kilku zakładach)
@@ -126,6 +134,9 @@ to nam nie przeszkadza. Wymóg: serwowanie po **HTTPS**.
 ---
 
 ## Historia zmian
+- 0.3 (2026-06-27) — rola kierownika zakładu: `location_manager` w
+  `panel_users` + tabela `panel_user_locations`; zakres dostępu kierownika
+  egzekwowany centralnie wraz z `tenant_id`.
 - 0.2 (2026-06-27) — dodano zakłady/lokalizacje: tabele `locations`,
   `employee_locations`, `location_id` w `kiosks` i `punches`; scoping API
   kiosku po `tenant_id` + `location_id`.
