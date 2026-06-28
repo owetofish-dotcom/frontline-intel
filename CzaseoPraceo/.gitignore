@@ -1,0 +1,12 @@
+# Sekrety i konfiguracja środowiska — nigdy do repo
+config.local.php
+
+# Zależności wgrywane przez FTP (FPDF/mPDF)
+/vendor/
+
+# Śmieci systemowe / edytory
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/

@@ -1,0 +1,3 @@
+# Katalog biblioteki — nie udostępniać bezpośrednio przez WWW.
+Require all denied
+Deny from all

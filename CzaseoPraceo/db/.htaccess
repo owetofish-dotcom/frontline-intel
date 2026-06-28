@@ -1,0 +1,3 @@
+# Katalog bazy (schema/seed) — nie udostępniać przez WWW.
+Require all denied
+Deny from all
