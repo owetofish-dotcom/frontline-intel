@@ -68,6 +68,29 @@ function is_https(): bool
         || (($_SERVER['SERVER_PORT'] ?? '') === '443');
 }
 
+/** Ustaw komunikat flash (wzorzec POST-Redirect-GET). $type: success|warning|error. */
+function flash_set(string $type, string $message): void
+{
+    $_SESSION['flash'][] = ['type' => $type, 'message' => $message];
+}
+
+/** Pobierz i wyczyść komunikaty flash. */
+function flash_get(): array
+{
+    $f = $_SESSION['flash'] ?? [];
+    unset($_SESSION['flash']);
+    return $f;
+}
+
+/** Render komunikatów flash (klasa alert wg typu). */
+function flash_render(): void
+{
+    foreach (flash_get() as $f) {
+        $cls = 'alert-' . ($f['type'] === 'success' ? 'success' : ($f['type'] === 'warning' ? 'warning' : 'error'));
+        echo '<div class="alert ' . $cls . '" role="status">' . h($f['message']) . '</div>';
+    }
+}
+
 /** Inicjały 3+3 dla listy obecnych na kiosku (FR-4b, RODO). */
 function initials_3_3(string $first, string $last): string
 {

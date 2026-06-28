@@ -101,6 +101,7 @@ function layout_header(string $title, string $active = 'index.php'): void
 <main class="wrap">
   <h1><?= h($title) ?></h1>
 <?php
+    flash_render();
 }
 
 function layout_footer(): void

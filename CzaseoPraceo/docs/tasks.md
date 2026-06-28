@@ -31,10 +31,11 @@ Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy
   `requireRole`; komunikat logowania bez enumeracji kont.
 - [x] **T-1.3 Wylogowanie** zawsze w nagłówku; timeout bezczynności sesji.
 
-## E2 — Super-admin (SaaS)
-- [ ] **T-2.1 CRUD firm** (najemców) + status (blokada/odblokowanie).
-- [ ] **T-2.2 Zakładanie konta admina firmy.**
-  **UX:** stany puste z podpowiedzią pierwszego kroku (ux §4).
+## E2 — Super-admin (SaaS)  ✅
+- [x] **T-2.1 Firmy** (dodawanie + blokada/odblokowanie) ze statystykami
+  (zakłady/pracownicy/admini).
+- [x] **T-2.2 Zakładanie konta admina firmy** (walidacja e-mail/hasła,
+  anty-duplikat); stany puste z podpowiedzią pierwszego kroku.
 
 ## E3 — Admin firmy
 - [ ] **T-3.1 Zakłady** (CRUD `locations`).

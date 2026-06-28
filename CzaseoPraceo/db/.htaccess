@@ -1,3 +1,7 @@
 # Katalog bazy (schema/seed) — nie udostępniać przez WWW.
-Require all denied
-Deny from all
+<IfModule mod_authz_core.c>
+    Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Deny from all
+</IfModule>
