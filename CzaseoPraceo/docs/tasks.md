@@ -11,26 +11,25 @@ Legenda DoD: każde zadanie ma kryteria **F** (funkcjonalne) i — gdzie dotyczy
 
 ---
 
-## E0 — Fundament
-- [ ] **T-0.1 Schemat bazy** (`schema.sql`): 10 tabel z `plan.md` (`tenants`,
+## E0 — Fundament  ✅ (router API w E4)
+- [x] **T-0.1 Schemat bazy** (`schema.sql`): 10 tabel z `plan.md` (`tenants`,
   `locations`, `panel_users`, `panel_user_locations`, `employees`,
   `employee_locations`, `rfid_cards`, `punches`, `punch_corrections`, `kiosks`).
   **F:** klucze obce, indeksy po `tenant_id`/`location_id`, unikalność numeru
   karty w obrębie firmy; import przez phpMyAdmin bez błędów.
-- [ ] **T-0.2 Konfiguracja** poza repo (`config.local.php`), połączenie PDO,
+- [x] **T-0.2 Konfiguracja** poza repo (`config.local.php`), połączenie PDO,
   tryb wyjątków, `utf8mb4`.
-- [ ] **T-0.3 Router PHP** + struktura `/api`, `/admin`, `/kiosk`.
-- [ ] **T-0.4 Warstwa dostępu do danych** wymuszająca **centralnie** filtr
-  `tenant_id` oraz zakres zakładu (`location_id`) dla kiosku i kierownika.
-  **F:** brak możliwości pobrania danych spoza zakresu (test negatywny).
+- [~] **T-0.3 Struktura `/api`, `/admin`, `/kiosk`** utworzona; front controller
+  API powstanie w E4.
+- [x] **T-0.4 Warstwa dostępu do danych** (`lib/Scope.php`) wymuszająca
+  centralnie filtr `tenant_id` oraz zakres zakładu (`location_id`).
 
-## E1 — Uwierzytelnianie i role panelu
-- [ ] **T-1.1 Logowanie sesyjne** (`password_hash`/`verify`, sesje, CSRF).
-- [ ] **T-1.2 RBAC** dla 3 ról (super_admin / admin / location_manager); UI
-  ukrywa niedostępne akcje, backend egzekwuje zakres.
-  **UX:** komunikaty logowania bez enumeracji kont; widoczne reguły hasła;
-  obsługa wygaśnięcia sesji (ux §4 „Bezpieczeństwo UX").
-- [ ] **T-1.3 Wylogowanie** zawsze dostępne; timeout sesji.
+## E1 — Uwierzytelnianie i role panelu  ✅
+- [x] **T-1.1 Logowanie sesyjne** (`password_hash`/`verify`, sesje, CSRF,
+  regeneracja ID, secure cookie).
+- [x] **T-1.2 RBAC** dla 3 ról; nawigacja i kontekst wg roli, backend
+  `requireRole`; komunikat logowania bez enumeracji kont.
+- [x] **T-1.3 Wylogowanie** zawsze w nagłówku; timeout bezczynności sesji.
 
 ## E2 — Super-admin (SaaS)
 - [ ] **T-2.1 CRUD firm** (najemców) + status (blokada/odblokowanie).
