@@ -1,3 +1,31 @@
+[2026-07-22] - [UA: FP-1/FP-2 nawodne drony UA SSO uderzają w 13 statków RU nocą — kontynuacja kampanii morskiej dezaktywacji floty RU w Morzu Azowskim i Czarnym] [@RALee85]
+URL: https://x.com/RALee85/status/2079955157530419355
+• @RALee85 (22 VII, ~09:00 UTC): Kolejne 13 statków trafionych nocą przez UA SSO (@usf_army). Wideo z 20 VII: FP-1/FP-2 uderza w 7 statków na Morzu Azowskim i Czarnym; seria kontynuowana z 13 trafieniami przez ostatnią noc.
+• Technologia i sprzęt: FP-1/FP-2 = UA nawodne drony bojowe (USV) klasy "morskiej amunicji krążącej" SSO; @usf_army = UA Siły Specjalne Operacyjne; 13 statków trafionych jednej nocy = wysoka intensywność UA kampanii morskiej; drony USV operują nocą, działają na Azowie i Czarnym jednocześnie; seria: 7 statków 20 VII + 13 statków noc 21/22 VII = co najmniej 20 jednostek w 2 dni; cele = statki komercyjne i logistyczne RU
+• Implikacja taktyczna: UA systematycznie dezaktywuje flotę i szlaki morskie RU przy użyciu USV bez użycia lotnictwa; 13 trafień w jedną noc = UA opanowała masową saturację morską; RU ponosi rosnące straty tonnage i zdolności logistycznych morskich; pętla: RU flota na Azowie/Czarnym → UA USV FP-1/FP-2 → dezaktywacja → logistyka morska RU coraz bardziej ograniczona; precedens: UA USV jako standard do zamykania morskich szlaków wroga
+
+
+[2026-07-22] - [UA: F-16 zestrzeliwuje RU Su-35 — pierwsze potwierdzone zestrzelenie powietrze-powietrze myśliwca RU przez UA F-16; kompleksowa zasadzka co najmniej 3 maszyn; potwierdzenie RU insider @Fighterbomber] [@NotWoofers via @RALee85]
+URL: https://x.com/NotWoofers/status/2079672131718193330
+• @NotWoofers (potwierdzone 22 VII, ~10:00 UTC, RT @RALee85): POTWIERDZONE: UA F-16 zestrzelił RU Su-35 — pierwsze zestrzelenie powietrzne rosyjskiego myśliwca przez F-16, jedno z niewielu UA zestrzelić odrzutowców w ogóle. Zasadzka kompleksowa: co najmniej 3 UA myśliwce (RU źródło @Fighterbomber = wiarygodne konto lotnicze).
+• Technologia i sprzęt: F-16 = zachodni wielozadaniowy myśliwiec 4 gen. w UA, wdrożony ~2024; Su-35 = RU myśliwiec 4++ gen., jeden z najnowocześniejszych RU; zestrzelenie = prawdopodobnie AIM-120 AMRAAM lub AIM-9X; UA nie ujawniła szczegółów technicznych; taktyka: 3+ F-16 w koordynowanej zasadzce zamiast walki 1v1 = wysoki poziom UA air combat doctrine; potwierdzenie przez RU insider: RU przyznaje straty, co jest rzadkie
+• Implikacja taktyczna: pierwsze UA F-16 zestrzelenie powietrze-powietrze zmienia dynamikę lotniczą nad UA; Su-35 nie jest już bezpieczny od UA F-16 = wpływ na RU planowanie operacji lotniczych; taktyka zasadzki 3+ F-16 = UA koordynuje wielomaszynowe przechwycenie zamiast 1v1; RU musi zmienić taktykę eskortowania Su-35 i procedury ostrzegawcze; pętla: RU Su-35 operuje → UA 3+ F-16 w zasadzce → zestrzelenie → RU zmienia deployment i tactics; precedens: UA F-16 jako realna zdolność bojowa
+
+
+[2026-07-22] - [UA/Pentagon: UA podpisała umowę z Pentagonem na eksport UA dronów do USA — wojskowe testy; "zapieczętowana z obu stron"; 2 źródła RFERL; formalne uznanie UA jako producenta technologii bojowej] [@ralexdc via @RALee85]
+URL: https://x.com/ralexdc/status/2079691971707154575
+• @ralexdc (22 VII, ~11:00 UTC, RT @RALee85): SCOOP: UA zawarła umowę z Pentagonem na eksport UA dronów do USA do testów wojskowych. Dwa niezależne źródła RFERL potwierdzają. "Umowa zapieczętowana", "podpisana przez obie strony".
+• Technologia i sprzęt: eksport UA dronów — typy nieujawnione (prawdopodobnie FPV, nocne bombowce UAS lub USV); Pentagon jako testujący = formalna ocena UA technologii dronowej w warunkach US Army; UA zyskuje legitymizację eksportową + możliwość skalowania produkcji poza granicami; prawna podstawa: prawdopodobnie wyjątek ITAR lub specjalny protokół partnerski
+• Implikacja taktyczna: Pentagon uznaje UA drony za warte testowania = formalne potwierdzenie UA jako producenta technologii obronnej klasy bojowej; eksport do USA = opcja skalowania produkcji UA dronów poza granicami kraju; USA może adoptować UA rozwiązania UAS do własnych doktryn (FPV, loitering munitions, USV); Ukraina staje się eksporterem innowacji wojskowej do największego sojusznika — precedens geopolityczny; pętla: UA battlefield R&D → walidacja w walce → umowa Pentagon → US Army adopcja → wpływ na globalne standardy UAS
+
+
+[2026-07-22] - [UA: skoordynowany wielopunktowy atak dronami głęboko w Rosji i Krymie — Wildberries Kuban + Newinnomyssk (Stawropol) + skład paliw Armawir (800 m²) + transformator Jałta (blackout); 4 jednoczesne cele] [@sternenko]
+URL: https://x.com/sternenko/status/2079791958046679208
+• @sternenko (22 VII, ~07:00 UTC): (1) centra logistyczne Wildberries płoną w Kubanie, (2) Wildberries w Newinnomyssk, Kraj Stawropolski, (3) drony zaatakowały skład paliw w Armawirze (Kuban) — pożar 800 m², (4) stacja "Massandra" 110/10 kV w Jałcie (Krym) zaatakowana — część miasta bez prądu. Eksplozje też w Doniecku.
+• Technologia i sprzęt: 4 jednoczesne geograficznie rozdzielone cele = UA drony długodystansowe własnej produkcji; Armawir (Kuban) ~300 km od granicy UA; Newinnomyssk ~350 km od granicy UA = głęboki strike; stacja 110/10 kV = precyzyjne uderzenie w infrastrukturę elektryczną wysokiego napięcia; Wildberries = RU największa platforma logistyczno-e-commerce (dual-use wojskowy); 800 m² pożar składu paliw = duże straty materialne
+• Implikacja taktyczna: UA demonstracja jednoczesnych uderzeń na 4 geograficznie rozdzielone cele głęboko w Rosji i Krymie = wysoki poziom koordynacji i liczby platform; uderzenie w Wildberries = nowy typ celu (dual-use cywilno-wojskowy); blackout Jałty = UA może destabilizować infrastrukturę krytyczną Krymu; pętla: UA drony dalekie zasięgi → 4 cele jednocześnie → dezorganizacja logistyczna + energetyczna → presja na tyłach RU; ewolucja UA targetingu ku dual-use infrastrukturze RU
+
+
 [2026-07-22] - [RU: Orion/Inochodets UCAV uzbrojony w rakietę S8000 "Banderol" — nowa platforma stand-off strike; zasięg ~500 km, prędkość 520–650 km/h; zagrożenie saturacją mieszanych nalotów] [@DarmolinskiT + @RALee85]
 URL: https://x.com/DarmolinskiT/status/2079419202146848873
 URL2: https://x.com/RALee85/status/2079706340629565459
