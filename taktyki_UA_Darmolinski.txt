@@ -1,3 +1,18 @@
+[2026-07-23] - [UA: nocna kampania deep-strike na RU petro-infrastrukturę — rafineria NS-Oil (Ulianowsk) + węzeł Transneft LVDN "Subhankulovo" (Baszkiria, ~1300 km) + eksplozje Woroneż i Ługańsk + energetyka Jałty; rekordowa głębokość uderzeń] [@sternenko]
+URL: https://x.com/sternenko/status/2080152632262332764
+URL2: https://x.com/sternenko/status/2080156349623627814
+• @sternenko (23 VII, ~05:00 UTC): Siły Obronne uderzyły w rafinerię "NS-Oil" w obwodzie ulianowskim (do 600 tys. t/rok); serie eksplozji w Woroneżu i okupowanym Ługańsku; w okupowanej Jałcie zaatakowana infrastruktura energetyczna. Osobno: trafiony LVDN "Subhankulovo" w Baszkirii — jeden z najważniejszych węzłów transportu ropy systemu Transneft na Uralu (tłoczenie ropy z pól Syberii Zachodniej i Baszkirii do rafinerii i magistral eksportowych).
+• Technologia i sprzęt: Baszkiria = ~1300+ km od granicy UA — jeden z najgłębszych strike'ów kampanii = UA drony dalekiego zasięgu własnej produkcji >1300 km; NS-Oil = mała rafineria (600 tys. t/rok) — UA schodzi poziom niżej w łańcuchu przerobu RU; LVDN = węzeł pompowo-dyspozytorski rurociągów — cel precyzyjny o dużym efekcie systemowym; 4-5 geograficznie rozdzielonych celów jednej nocy = kontynuacja saturacyjnego modelu z 22 VII (Wildberries/Armawir/Jałta)
+• Implikacja taktyczna: przejście od pojedynczych rafinerii do węzłów Transneft = UA atakuje system dystrybucji, nie tylko przerób — uderzenie w hub pompowy zakłóca dostawy do wielu rafinerii jednocześnie (efekt mnożnikowy); regularność nocnych kampanii wielopunktowych = RU OPL musi bronić celów od Krymu po Ural; pętla: UA zwiększa zasięg → RU rozciąga OPL w głąb → osłabienie OPL frontu → łatwiejsze kolejne strike'i; druga noc z rzędu z celem energetycznym w Jałcie = systematyczna destabilizacja Krymu
+
+
+[2026-07-22] - [RU: Geran-4 "Seeker" — wideo uderzeń w infrastrukturę energetyczną, magazyn logistyczny i statek; jet-wariant OWA-UAV z głowicą naprowadzającą używany przeciw celom punktowym i morskim] [@RALee85]
+URL: https://x.com/RALee85/status/2080040076222796075
+• @RALee85 (22 VII, ~21:20 UTC): Wideo (kanały RU MO) uderzeń Geran-4 Seeker w infrastrukturę energetyczną, deklarowany magazyn logistyczny i statek.
+• Technologia i sprzęt: Geran-4 = jet-powered wariant rodziny Geran (szybszy, wyższy pułap od tłokowego Geran-2); wersja "Seeker" = głowica naprowadzająca (terminal guidance) zamiast czysto współrzędnościowego GNSS/INS = zdolność rażenia celów punktowych i ruchomych (statek); publikacja przez kanały RU MO = oficjalna promocja wariantu; trzy typy celów w jednej serii (energetyka + logistyka + jednostka pływająca)
+• Implikacja taktyczna: OWA-UAV z seekerem uderzający w statek = RU rozszerza Gerany z celów stacjonarnych na morskie/ruchome — lustrzana odpowiedź na UA USV; UA obrona morska i konwoje portowe muszą liczyć się z tanim masowym UAV przeciwokrętowym; seeker = odporność na spoofing GNSS w fazie terminalnej; pętla: UA EW zakłóca GNSS → RU dodaje seeker → UA musi wrócić do kinetycznego C-UAS i maskowania sygnatur; kontynuacja dywersyfikacji rodziny Geran (2/3/4/Gerbera) komplikującej UA C-UAS
+
+
 [2026-07-22] - [UA: FP-1/FP-2 nawodne drony UA SSO uderzają w 13 statków RU nocą — kontynuacja kampanii morskiej dezaktywacji floty RU w Morzu Azowskim i Czarnym] [@RALee85]
 URL: https://x.com/RALee85/status/2079955157530419355
 • @RALee85 (22 VII, ~09:00 UTC): Kolejne 13 statków trafionych nocą przez UA SSO (@usf_army). Wideo z 20 VII: FP-1/FP-2 uderza w 7 statków na Morzu Azowskim i Czarnym; seria kontynuowana z 13 trafieniami przez ostatnią noc.
