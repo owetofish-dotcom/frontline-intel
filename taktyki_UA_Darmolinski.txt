@@ -1,3 +1,18 @@
+[2026-07-23] - [RU: FPV uderza w UA UGV z 38 BrMP (kompania dronow strike) bez detonacji - potwierdzenie survivability opancerzonych bezzalogowych pojazdow ladowych UA; nowy wektor bojowy na froncie] [@RALee85]
+URL: https://x.com/RALee85/status/2080370167297495467
+• @RALee85 (23 VII, ~21:11 UTC): Wideo rosyjskiego FPV uderzajacego w UGV (bezzalogowy pojazd ladowy) z 38 Brygady Piechoty Morskiej UA, 1 Batalion, kompania dronow strike — pomimo bezposredniego trafienia brak detonacji glowicy FPV.
+• Technologia i sprzet: UGV = Unmanned Ground Vehicle UA; @38obrmp = 38 Brygada Piechoty Morskiej UA z kompania dronow strike; brak detonacji po trafieniu = albo opancerzenie UGV absorbuje impakt i niszczy zapalnik FPV, albo defekt glowicy przy trafieniu ukosnym; UA dokumentuje zdarzenie = potwierdzenie survivability; UGV w roli strike = ewolucja doktryny UAS z domeny powietrznej na naziemna
+• Implikacja taktyczna: RU FPV niewystarczajacy do niszczenia opancerzonych UGV → RU musi eskalowac kaliber lub zmienic metode ataku (ciezszy FPV, kumulacyjna glowica, atak z gory); 38 BrMP uzywa UGV jako platforme strike = nowa klasa bojowa na froncie; petla: UA wdraza UGV → RU FPV bez efektu → UA kontynuuje deployment → RU musi rozwinac skuteczne C-UGV; precedens: opancerzone UGV jako odpowiedz na saturacje FPV na polu walki
+
+
+[2026-07-23] - [RU: Su-57 zestrzelony przez wlasne OPL BARS-Moskwa nad rejonem odintsowskim — awaria IFF lub blad operatora; pilot katapultowal sie i przeyl; najdrozszy RU mysliwiec ofiara wlasnej obrony] [@sternenko]
+URL: https://x.com/sternenko/status/2080238595302903833
+URL2: https://x.com/sternenko/status/2080242459196391491
+• @sternenko (23 VII, ~12:28-12:43 UTC): Wojskowy samolot rozbil sie w obwodzie moskiewskim (rejon odintsowski). RU kanaly propagandowe potwierdzaja: Su-57 VKS Rosji zestrzelony przez wlasne OPL BARS-Moskwa; pilot katapultowal sie i przeyl; "szereg pytan do obliczenia PVO BARS-Moskwa".
+• Technologia i sprzet: Su-57 = rosyjski mysliwiec 5. generacji (stealth, AFAR, supermanewrowalnosc) — najnowoczesniejszy w RU VKS; BARS-Moskwa = naziemny system OPL stolicy; IFF = system identyfikacji swoj-obcy; zestrzelenie wlasnego Su-57 = awaria IFF lub blad operatora pod presja UA dronow; RU ma ok. 20-30 Su-57 — kazda strata kosztowna strategicznie
+• Implikacja taktyczna: utrata Su-57 przez wlasne OPL = powazny incydent RU; wskazuje na napiecie w systemach C2/IFF przy masowych UA atakach dronowych; petla: UA drony saturuja OPL → RU OPL pod presja → wzrost ryzyka bledow IFF → friendly fire; implikacja dla UA: kampania saturacyjna generuje koszty systemowe (RU niszczy wlasny sprzet); RU musi przejrzec procedury dekonfliktacji przestrzeni powietrznej
+
+
 [2026-07-23] - [UA: nocna kampania deep-strike na RU petro-infrastrukturę — rafineria NS-Oil (Ulianowsk) + węzeł Transneft LVDN "Subhankulovo" (Baszkiria, ~1300 km) + eksplozje Woroneż i Ługańsk + energetyka Jałty; rekordowa głębokość uderzeń] [@sternenko]
 URL: https://x.com/sternenko/status/2080152632262332764
 URL2: https://x.com/sternenko/status/2080156349623627814
