@@ -1,3 +1,10 @@
+[2026-07-26] - [RU: Geran i Gerbera Seeker rozszerzają katalog celów — stacje elektroenergetyczne, stacje benzynowe, pociągi, magazyny logistyczne, statki; uderzenia z kanałów Brigada VARYAG + RU MO] [@RALee85]
+URL: https://x.com/RALee85/status/2081472223236313574
+• @RALee85 (26 VII, ~22:10 UTC): Wideo uderzeń rosyjskich Geranów i Gerbery Seeker w stacje elektroenergetyczne (podstacje), stacje benzynowe, pociągi, deklarowane magazyny logistyczne i statki. Źródła: kanał Telegram "Brigada VARYAG" (jednostka RU) + oficjalny kanał Ministerstwa Obrony Rosji (cztery osobne nagrania BDA).
+• Technologia i sprzęt: Geran (tłokowy) + Gerbera Seeker (jet-powered, terminal guidance) = rodzina używana jednocześnie w jednej kampanii; stacje benzynowe + pociągi = nowe kategorie celów poza dotychczasową infrastrukturą energetyczną i magazynową (cf. wpis 22 VII); statki = potwierdzenie zdolności morskiej Gerbery; Brigada VARYAG = rosyjska jednostka udostępniająca nagrania → lokalizacja geograficzna uderzeń powiązana z jej odcinkiem; RU MO publikuje 4 osobne klipy BDA = systemowa promocja kampanii
+• Implikacja taktyczna: rozszerzenie targeting Geran/Gerbera z energetyki na paliwa (stacje benzynowe → presja na logistykę pojazdów) i transport (pociągi → arterie zaopatrzenia wojskowego UA); statki = kontynuacja presji na żeglugę; pętla: RU poszerza katalog celów Geran/Gerbera → UA musi objąć ochroną OPL większy zakres obiektów → rozciągnięcie zasobów; ewolucja od 22 VII (Geran-4 Seeker: energetyka+magazyn+statek) do 26 VII (Geran+Gerbera: energetyka+paliwa+transport+magazyn+statek) = systematyczna dywersyfikacja targetingu w kolejne sektory infrastruktury
+
+
 [2026-07-25] - [RU: szturm na Szachowe z pakietem zakłócania UAS — Gerbera+Lancet blokują przestrzeń powietrzną UA + zagłuszacze Starlink; pierwsza dokumentacja kombinowanego "drone denial" przed szturmem pancernym] [@RALee85]
 URL: https://x.com/RALee85/status/2081029824982782436
 URL2: https://x.com/RALee85/status/2081070523929485395
