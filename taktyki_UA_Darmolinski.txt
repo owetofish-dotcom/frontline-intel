@@ -1,3 +1,30 @@
+[2026-07-27] - [UA: An-28 jako latająca platforma anty-Geran — załoga niszczy drony M134 Minigun i interceptorami P1-Sun] [@RALee85]
+URL: https://x.com/RALee85/status/2081768457880682847
+• @RALee85 (27 VII, ~11h UTC): Wideo ukraińskiej załogi An-28 niszczącej drony Geran przy użyciu karabinów maszynowych M134 Minigun i interceptorów P1-Sun (źródła: instagram.com/p/DaFG6Q0BXRm/ + instagram.com/aero.tim/).
+• Technologia i sprzęt: An-28 = lekki turbośmigłowy samolot transportowy UA zaadaptowany do roli platformy anty-dronowej; M134 Minigun = 6-lufowy karabin elektryczny 7.62 mm, cykliczna 2000–6000 strz./min = gęsty ogień anty-dronowy; P1-Sun = ukraiński interceptor C-UAS; kombinacja: manned aircraft jako latająca platforma C-UAS; wideo z aktywnej misji = potwierdzone operacyjnie
+• Implikacja taktyczna: UA testuje manned aircraft jako mobilne C-UAS; An-28 z M134 = wyższa prędkość i zasięg niż naziemne grupy mobilne, ale wyższy koszt operacyjny i ryzyko dla załogi; pętla: Gerany poza zasięgiem MANPADS → UA używa An-28+M134+P1-Sun → RU może odpowiedzieć escortą Geranów przez Gerbery lub podniesieniem pułapu; UA buduje wielowarstwowe C-UAS: naziemne interceptory + lotnicze platformy; An-28 jako platforma anty-dronowa = nowa klasa C-UAS
+
+
+[2026-07-27] - [UA: Zestrzelenie RU Forpost-R — ciężki UAV ISR/strike zdolny do KAB-20 — nad Kurskiem (27 VII 2026)] [@414magyarbirds via @RALee85]
+URL: https://x.com/414magyarbirds/status/2081752567172722881
+• @414magyarbirds RT @RALee85 (27 VII, ~12h UTC): Rosyjski Forpost-R zestrzelony nad obwodem kurskim. Platforma ISR + strike zdolna do przenoszenia naprowadzanych laserowo bomb KAB-20. Wykryty i zniszczony 27 VII 2026.
+• Technologia i sprzęt: Forpost-R = rosyjski UAV klasy MALE oparty na izraelskim IAI Searcher; zdolny do przenoszenia KAB-20 = bomba lotnicza z naprowadzaniem laserowym; Forpost-R pełni rolę ISR i strike na dużej głębokości; zestrzelenie = strata wysokowartościowego systemu RU; lokalizacja: Kursk = obszar aktywnych działań UA i RU
+• Implikacja taktyczna: Forpost-R to cenny zasób ISR RU — strata ogranicza zdolności rozpoznawcze nad Kurskiem; zdolność KAB-20 = ryzyko precyzyjnego rażenia celów UA na głębokości operacyjnej; UA C-UAS/OPL zdolne do zestrzelenia MALE UAV głęboko za linią frontu = nowe możliwości; pętla: RU używa Forpost-R do ISR+strike → UA zestrzelona → RU musi zastąpić kosztownym systemem lub intensywniej używać mniejszych platform
+
+
+[2026-07-27] - [RU: Geran-4 Brygady GROM Kaskad z portu dronów Nawija (Briańsk) — nowa architektura organizacyjna sił dronowych; GROM Kaskad ≠ 50. Brygada Wariag] [@RALee85]
+URL: https://x.com/RALee85/status/2081753146141835315
+• @RALee85 (27 VII, ~12h UTC): Wg GUR, uderzenie Geranem-4 w supermarket ATB w Czernihowie (2 zabitych) przeprowadziła Brygada GROM Kaskad VKS. Dron wystrzelono z portu dronów Nawija (obwód briański). GROM Kaskad i 50. Brygada Wariag Systemów Bezzałogowych = nadal osobne jednostki. Źródło: gur.gov.ua
+• Technologia i sprzęt: Geran-4 = zaawansowany wariant Shahed-136 z poprawioną precyzją; port dronów Nawija (Briańsk) = dedykowana baza startowa UAS głęboko w Rosji; GROM Kaskad = odrębna brygada VKS operująca Geranami (nie tożsama z 50. Brygadą Wariag); GUR zidentyfikował jednostkę i port startowy = UA posiada OSINT/HUMINT o architekturze sił Geran
+• Implikacja taktyczna: identyfikacja portu dronów Nawija przez GUR = UA może targetować infrastrukturę startową Geranów; GROM Kaskad jako odrębna brygada od 50. Wariag = RU buduje zduplikowane, niezależne łańcuchy dowodzenia UAS (redundancja organizacyjna → utrudnienie dezorganizacji jednym uderzeniem); pętla: UA identyfikuje port startowy → możliwa kampania deep-strike w bazy dronów; Geran-4 w roli terrorystycznej (supermarket cywilny) = potwierdzenie celowego targetowania infrastruktury cywilnej
+
+
+[2026-07-27] - [UA: Karabin maszynowy Degtyarow DP (wz. 1928) jako improwizowana platforma anty-dronowa — taktyka "strzelca dronowego" z historycznym sprzętem] [@RALee85]
+URL: https://x.com/RALee85/status/2081782771928695179
+• @RALee85 (27 VII, ~10h UTC), cytując @B-AREV: Ukraiński żołnierz używa DP (Degtyarow Piechoty, wzór 1928) jako dedykowanej broni anty-dronowej (czerwiec 2026). RALee85: "Zaprojektowany 100 lat temu i teraz używany do zestrzelania dronów."
+• Technologia i sprzęt: DP = sowiecki lkm z 1928 r., kaliber 7.62×54R, talerzowy magazynek 47 naboi, ~600 strz./min; jako C-UAS: tania i powszechnie dostępna platforma z dużą pojemnością magazynka; "strzelec dronowy" = dedykowana rola operatora C-UAS z historycznym sprzętem; zastosowanie historycznego sprzętu = wskaźnik pragmatyzmu operacyjnego lub ograniczeń zaopatrzeniowych
+• Implikacja taktyczna: UA adaptuje każdą dostępną broń strzelecką do C-UAS przy niskim-średnim pułapie i prędkości (FPV, Mavic, małe Gerany); pętla: nasycenie dronem → UA tworzy pozycje "strzelca dronowego" z historycznym sprzętem → RU musi eskalować pułap lub prędkość platform; ekonomia obrony: DP vs FPV = asymetryczna odpowiedź; precedens adaptacji sprzętu ZSRR do walki XXI wieku; komplementarny do dedykowanych systemów EW i interceptorów
+
 [2026-07-26] - [RU: Geran i Gerbera Seeker rozszerzają katalog celów — stacje elektroenergetyczne, stacje benzynowe, pociągi, magazyny logistyczne, statki; uderzenia z kanałów Brigada VARYAG + RU MO] [@RALee85]
 URL: https://x.com/RALee85/status/2081472223236313574
 • @RALee85 (26 VII, ~22:10 UTC): Wideo uderzeń rosyjskich Geranów i Gerbery Seeker w stacje elektroenergetyczne (podstacje), stacje benzynowe, pociągi, deklarowane magazyny logistyczne i statki. Źródła: kanał Telegram "Brigada VARYAG" (jednostka RU) + oficjalny kanał Ministerstwa Obrony Rosji (cztery osobne nagrania BDA).
