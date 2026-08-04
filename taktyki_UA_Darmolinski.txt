@@ -1,3 +1,24 @@
+[2026-08-03] - [UA: Oddział Artan GUR szturmuje z MaxxPro MRAP i Strykerami w Stepnohirsku — żołnierz neutralizuje FPV strzelbiną jako nowa taktyka C-FPV (3 VIII 2026)] [@RALee85]
+URL: https://x.com/RALee85/status/2084302930761433593
+• @RALee85 (3 VIII, ~11h UTC): Video from GUR's Artan unit of an assault conducted with a MaxxPro MRAP and Stryker vehicles in the Stepnohirsk area earlier in 2026. The vehicles face mines and FPVs, and a soldier engaging FPVs with a shotgun. Źródło: instagram.com/p/Dbkd1wLN7y7/
+• Technologia i sprzęt: MaxxPro MRAP + Stryker = UA kombinacja opancerzenia MRAP+IFV w szturmie; miny i FPV = dwa wektory zagrożenia jednocześnie dla pojazdów; strzelba jako C-FPV = niskotechnologiczna odpowiedź na drony w ograniczonych przestrzeniach; oddział Artan = jednostka GUR (wywiad wojskowy) z własną zdolnością szturmową; Stepnohirsk = oś zachodnia Zaporoże
+• Implikacja taktyczna: strzelba jako C-FPV w szturmie = potwierdzenie że śrut/shotgun skutecznie neutralizuje FPV z bliska; MaxxPro MRAP w roli wozu szturmowego = UA adaptuje zachodnie pojazdy do walki miejskiej; pętla: FPV blokuje szturm → żołnierze ze strzelbami zwalczają FPV → otwierają drogę dla pojazdów; implikacja: każda drużyna szturmowa UA powinna standardowo nosić strzelbę jako C-FPV tool; szturm MRAP+Stryker+shotgun = ewolucja UA taktyki szturmowej 2026
+
+
+[2026-08-03] - [RU: Rosja produkuje ~66 rakiet 9M723 Iskander-M i 10 Cyrkonów miesięcznie — nowe dane o tempie produkcji rakiet balistycznych i hipersonicznych (3 VIII 2026)] [@RALee85]
+URL: https://x.com/RALee85/status/2084243243839934861
+• @RALee85 (3 VIII, ~15h UTC): According to RBK-Ukraine's sources, Russia is currently producing approximately 66 9M723 ballistic missiles for the Iskander-M and 10 Tsirkon missiles per month. Źródło: rbc.ua/rus/news/balis...
+• Technologia i sprzęt: 9M723 = pocisk balistyczny do kompleksu Iskander-M; produkcja: ~66 szt./miesiąc = ok. 792 szt./rok; Cyrkon (Tsirkon) = rosyjski hipersoniczny pocisk manewrujący morski (Mach 8+); produkcja Cyrkon: ~10 szt./miesiąc = 120 szt./rok; RBK-Ukraina jako źródło = ukraiński wywiad lub przeciek z RU przemysłu; dane produkcyjne = kluczowe dla oceny zdolności RU strike
+• Implikacja taktyczna: 66 Iskander-M/miesiąc = RU utrzymuje wolumen uderzeń balistycznych mimo sankcji; 10 Cyrkonów/miesiąc = ograniczona ale ciągła produkcja hipersoniczna; pętla: wyższe tempo produkcji → RU eskaluje tempo uderzeń precyzyjnych; UA OPL (Patriot) musi neutralizować rosnącą liczbę Iskander-M; 120 Cyrkonów/rok = znaczące zapasy hipersoniczne do selektywnego stosowania; implikacja: UA potrzebuje intercept-zdolności minimum 66 Iskander-M/miesiąc
+
+
+[2026-08-03] - [RU: Rosja rozszerza zasięg bomb kierowanych szybowcowych do 150 km — FA-B/UMPK uderza w Pawłohrad 80 km od frontu (3 VIII 2026)] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2084165706145206746
+• @DarmolinskiT (3 VIII, ~20h UTC): "Eye on the Enemy: Russia Expands Range of Guided Bombs to 150 km. Russia is increasingly using guided aerial bombs to attack targets deep behind the front line. Strikes on Pavlohrad, located about 80 km from the combat zone, may indicate the use of the powered glide bomb variant."
+• Technologia i sprzęt: FA-B/UMPK (Unified Planning-Correction Module) = rosyjski zestaw zamiany bomb FAB-500/FAB-1500 w kierowane szybowce; zasięg do 150 km = dramatyczne rozszerzenie vs poprzednie ~70 km; Pawłohrad = cel 80 km od frontu = potwierdzenie głębokości zasięgu; "powered variant" = UMPK z silniczkiem rakietowym (motorized glide bomb); Su-34/Su-35 startuje daleko za linią RU = bomba leci 150 km do celu
+• Implikacja taktyczna: zasięg 150 km = RU Su-34 nie wchodzi w strefę UA OPL dalekiego zasięgu; Pawłohrad = ważny węzeł logistyczny UA (drogi, koleje) teraz w zasięgu FA-B; pętla: UA wysuwa Patriot bliżej frontu → RU wydłuża zasięg FA-B → UA musi cofnąć Patriot → luka w OPL; UA infrastruktura w głębokości 150 km od frontu dostępna dla tanich bomb kierowanych; FA-B/UMPK powered = nowa klasa broni łącząca zasięg rakiety z kosztem bomby konwencjonalnej
+
+
 [2026-08-02] - [UA: Straż Graniczna przechwytuje rosyjski Z-20 na wysokości 6.858 m interceptorem Sting od WilendHornets — nowy rekord C-UAS i nowy system przechwytywania wysokościowego (2 VIII 2026)] [@RALee85]
 URL: https://x.com/RALee85/status/2083967386307186875
 • @RALee85 (2 VIII, ~19h UTC): Ukrainian Border Guards intercepted a Russian Z-20 UAS at an altitude of 6,858 meters with a Sting interceptor from @wilendhornets. Źródło: t.me/DPSUkr/34340
