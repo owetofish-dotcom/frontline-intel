@@ -1,3 +1,10 @@
+[2026-08-05] - [UA: Dron Morrigan (zasięg 200 km) Brygady Nemesis uderza w rosyjskie ciężarówki — nowy UA system długodystansowy w kampanii "logistics lockdown" (5 VIII 2026)] [@RALee85]
+URL: https://x.com/RALee85/status/2085082112764313971
+• @RALee85 (5 VIII, ~21:14 UTC): "Video of Morrigan UAS strikes on Russian trucks by Ukraine's Nemesis Brigade as part of the 'logistics lockdown' campaign." Materiał towarzyszący: "MORRIGAN: 200 km — НЕ ВІДСТАНЬ" (200 km nie jest odległością). Źródło: t.me/nemesis_412/1684
+• Technologia i sprzęt: Morrigan = nowy UA UAS o zasięgu 200 km = klasa długodystansowa (luka między FPV ~40 km a Horntem/Anubis ~100 km a dronem dalekiego zasięgu); Brygada Nemesis = ukraińska jednostka specjalizująca się w głębokich uderzeniach (wcześniej: interceptor UAS z drona morskiego, kwiecień 2026); "logistics lockdown" = oficjalna UA kampania blokowania logistyki kołowej RU; cel: ciężarówki RU = targetowanie transportu logistycznego daleko za linią; zasięg 200 km = uderzenia w obiekty logistyczne na terytorium RU poza zasięgiem większości UA systemów lądowych i przenośnych OPL
+• Implikacja taktyczna: Morrigan 200 km wypełnia lukę w UA łańcuchu strike: FPV (~5-40 km) → Hornet/Anubis (~100 km) → Morrigan (~200 km) → drony dalekiego zasięgu (>1000 km); Nemesis Brigade jako wyspecjalizowana jednostka "logistics lockdown" = UA buduje dedykowaną strukturę do systematycznego paraliżu logistyki kołowej RU; pętla: RU wysuwa bazy logistyczne za 100-150 km od frontu → UA Morrigan osiąga tam → RU musi cofać logistykę na 200+ km → wydłużenie łańcucha dostaw RU i spowolnienie tempa uderzeń; implikacja: UA systematycznie zamyka kolejne strefy logistyczne RU nowymi klasami zasięgu platform strike
+
+
 [2026-08-05] - [RU: 8.385 bomb lotniczych zrzuconych w lipcu 2026 — avg 270/dobę, wzrost 1% MoM; FA-B/UMPK dominuje bombardowanie taktyczne (5 VIII 2026)] [@RALee85]
 URL: https://x.com/RALee85/status/2084737494239543353
 • @RALee85 (5 VIII, ~9h UTC): "According to the Ukrainian General Staff's statistics, Russia dropped 8,385 aviation bombs in July for an average of 270 per day." Źródło: t.me/oko_gora/20174
