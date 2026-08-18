@@ -1,3 +1,15 @@
+[2026-08-17] - [UA: deep-strike — Wildberries centrum logistyczne w Kolegino (obwód moskiewski, ~900 km od granicy UA); 250 000 m² zniszczone; kontynuacja kampanii UA vs rosyjskiej logistyki dual-use] [@sternenko]
+URL: https://x.com/sternenko/status/2089324716079054940
+• @sternenko (17 VIII, ~14h UTC): "This is what the Wildberries logistics center in Kolegino, Moscow Oblast, looks like after the drone attack." Kontekst (16 VIII): "In Koledino, Wildberries has its largest logistics hub, with an area of 250,000 m². It was."
+• Technologia i sprzęt: Wildberries Kolegino (obwód moskiewski) = cel UA drona dalekiego zasięgu ~900 km od granicy UA; 250 000 m² = największe centrum dystrybucyjne Wildberries w Rosji; zniszczenie potwierdzone BDA (zdjęcie z powietrza); Wildberries = rosyjska platforma logistyczno-e-commerce dual-use; kampania: UA atakuje Wildberries od 22 VII (Kuban) → 25 VII (Jekaterynburg ~1800 km) → 17 VIII (Kolegino/obwód moskiewski ~900 km)
+• Implikacja taktyczna: Kolegino, obwód moskiewski = UA drony docierają w okolice Moskwy; 250 000 m² = cel korporacyjny, efekt logistyczny i psychologiczny; kampania Wildberries: UA targetuje sieć dual-use wymuszając RU wzmocnienie OPL na całym terytorium; pętla: kolejne centrum zniszczone → presja na cywilno-wojskową logistykę RU; implikacja: UA deep-strike drone operuje w pobliżu Moskwy — RU musi wzmacniać OPL stolicy
+
+[2026-08-17] - [UA/RU: balon jako nosiciel drona uderzeniowego — nowa metoda dostarczenia UAS bez sygnału RF przed zrzutem; identyfikacja taktyki przez @RALee85 (17 VIII 2026)] [@RALee85]
+URL: https://x.com/RALee85/status/2089414500743094662
+• @RALee85 (17 VIII, ~20h UTC): "Depending on the range, the drone might have been dropped by a balloon." Kontekst: komentarz do nagrania zniszczenia rosyjskiej logistyki na terytoriach UA okupowanych przez Rosję (Exilenova+, 17 VIII).
+• Technologia i sprzęt: balon jako platforma dostarczenia UAS = pasywny, cichy, trudny do wykrycia nosiciel drona; metoda: balon niesiony prądem powietrznym → zrzut drona kamikaze nad celem; kluczowa zaleta: brak sygnału RF nosiciela podczas przelotu → OPL nie wykrywa aktywnego drona przed zrzutem; brak potrzeby bazy startowej bliskiej frontu → odporność na kontratak w miejscu startu
+• Implikacja taktyczna: NOWA TAKTYKA: balon-nosiciel UAS = rozwiązanie problemu zasięgu i wykrycia startu; pętla: balon startuje daleko od celu → zero emisji RF → OPL bez czasu reakcji; kontrmiary: wymagałoby wdrożenia aerostat detection (radar, optyka, akustyka) — odmiennego od klasycznych C-UAS RF; implikacja: jeśli taktyka potwierdzona na skalę → RU OPL musi rozbudować zdolności detekcji balonów i zrzutów w strefach tyłowych
+
 [2026-08-15] - [RU: BM-35 — nowy rosyjski turboodrzutowy dron uderzeniowy: ładunek 10 kg, zasięg >200 km, relacja rosyjska telewizja (15 VIII 2026)] [@RALee85]
 URL: https://x.com/RALee85
 • @RALee85 (15 VIII, ~14h UTC): "Video report of the Russian BM-35 jet-powered strike drone with claimed payload of 10 kg and range of more than 200km." Źródło: rutube.ru/video/0a5ff87e…
