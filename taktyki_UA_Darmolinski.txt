@@ -1,3 +1,21 @@
+[2026-10-20] - [DarmolinskiT: SPRZĘT RU — Lancet jako pełny system rozpoznawczo-uderzeniowy, nie sam dron (20 X 2026)] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2112275195926860043
+• @DarmolinskiT (20 X, tłum. z pol.): wpis (ucięty w widoku) zatytułowany „Oko na wroga. Lancet, czyli nie tylko dron, ale cały system rozpoznawczo-uderzeniowy”.
+• Technologia i sprzęt: Lancet traktowany jako element większego łańcucha: rozpoznanie + rażenie w jednym systemie; szczegóły techniczne ucięte w widoku, do weryfikacji po pełnym tekście.
+• Implikacja taktyczna: Przechodzenie od pojedynczej platformy do zintegrowanego łańcucha ISR + uderzenie; obrona musi wykrywać i zakłócać cały łańcuch (czujnik → operator → uderzenie), a nie tylko samą platformę.
+
+[2026-10-19] - [RALee85: SPRZĘT RU — Pierwsze nagranie uderzenia Geran-4 (Seeker) wg Rubicon (19 X 2026)] [@RALee85]
+URL: https://x.com/RALee85/status/2111972596002783495
+• @RALee85 (19 X, tłum. z ang.): „Notable. This is the first video of a Geran strike (Geran-4 Seeker) by Russia's Rubicon Center.” Nagranie 21 s, źródło: kanał Telegram Rubicon.
+• Technologia i sprzęt: Geran-4 w wariancie z głowicą poszukującą (Seeker): pierwsze publiczne wideo uderzenia tym wariantem; kontekst: wpis z 13 X o autonomicznej nawigacji Geran-4.
+• Implikacja taktyczna: Potwierdzenie użycia wariantu z naprowadzaniem terminalnym w praktyce; założenia dot. zakłócania i przechwytywania trzeba zweryfikować wobec tego wariantu.
+
+[2026-10-19] - [RALee85: TAKTYKA UA — Ewakuacja rannego żołnierza 30. Brygady Zmechanizowanej dronem ciężkiego udźwigu (19 X 2026)] [@RALee85]
+URL: https://x.com/RALee85/status/2112152238772916425
+• @RALee85 (tłum. z ang.): rannego żołnierza 30. Brygady Zmechanizowanej ewakuowano dronem ciężkiego udźwigu z udziałem HUR (Gur); nagranie 2:34 min.
+• Technologia i sprzęt: Bezzałogowiec ciężkiego udźwigu w roli MEDEVAC/transportu, nie rażenia; sprzęt i konfiguracja niepodane w wpisie.
+• Implikacja taktyczna: Drony transportowe skracają czas ewakuacji z obszarów pod ostrzałem FPV/artylerii; kolejny przykład przenoszenia UAS z roli bojowej do logistyki.
+
 [2026-10-13] - [DarmolinskiT: SENSOR/TECH — Rosyjska nawigacja: 32-elementowa antena CRPA (anti-jamming, prawdopodobnie Ałabuga) + optyczna nawigacja autonomiczna w Geran-4/5 (korelacja obrazu, magnetometr PNI5GA, NVIDIA Jetson Orin w V2U); RU rozwija jamming-resistance i autonomię równolegle (13 X 2026)] [@DarmolinskiT]
 URL: https://x.com/DarmolinskiT/status/2109844570187915675
 • @DarmolinskiT (13 X, tłum. z pol.): „Najnowsze znalezisko to 32-elementowa CRPA (Controlled Reception Pattern Antenna), podczas gdy wcześniejsze konstrukcje miały 4, 8 i 16 elementów. Antena wykorzystuje adaptacyjne kształtowanie wzorca odbioru (beamforming/null steering), ograniczając wpływ sygnałów zakłócających. Oznaczenie ALB znalezione na obudowie nowej anteny sugeruje montaż w Ałabudze. Konstrukcja przypomina rozwiązania chińskiego Harxon, choć producent nie został jednoznacznie potwierdzony. Drugim kierunkiem jest nawigacja optyczna. W odrzutowym Geranie-4 zidentyfikowano rosyjski autonomiczny system nawigacji optoelektronicznej wykorzystujący korelację obrazu z kamery z zapisanymi referencyjnymi zdjęciami terenu, co pozwala na korektę pozycji bez ciągłego polegania na GNSS. Podobne rozwiązanie występuje w Geranie-5 K5. Geran-4 wykorzystuje też moduł MOCh z magnetometrem PNI5GA, współpracujący z inercyjnym systemem SADRA w celu ograniczenia dryfu nawigacyjnego. Podobne rozwiązania oparte na analizie obrazu pojawiają się w V2U, Łancecie i Mołnii. W V2U potwierdzono komputer Leetop A203 oparty na NVIDIA Jetson Orin, a nawigacja wizualna została wskazana jako prawdopodobna.” [4 odpowiedzi, 12 reposts, 58 polubień, 2,9K wyświetleń; 13 X 2026]
