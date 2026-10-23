@@ -1,3 +1,33 @@
+[2026-10-22] - [RALee85: SPRZĘT RU — GUR: szczegóły rakiety Filin i plan wzrostu produkcji w 2027 (22 X 2026)] [@RALee85]
+URL: https://war-sanctions.gur.gov.ua/en/page-filin
+• @RALee85 (22 X, tłum. z ang.): GUR opublikował szczegóły rakiety Filin; Rosja rozwija kilka innych tanich wariantów cruise missile i planuje znacząco zwiększyć produkcję w 2027 r.
+• Technologia i sprzęt: Filin — odrzutowy strike UAS/cruise missile (wcześniej opisany 22 VIII: zasięg 1200 km, 800 km/h, ładunki 50/100 kg); nowe dane z publikacji GUR (źródło pierwotne: GUR, t.me/DIUkraine/9775).
+• Implikacja taktyczna: wejście Filina w skalę produkcyjną w 2027 = kolejna szybka klasa OWA ponad Geran-4/5; wymusza przygotowanie high-speed interceptorów przed zimą 2026/2027.
+
+[2026-10-21] - [RALee85: SPRZĘT RU — GUR: tempo produkcji i zapasy rakiet oraz dronów OWA (21 X 2026)] [@RALee85]
+URL: https://x.com/RALee85/status/2112683735258734950
+• @RALee85 (21 X, 1:13 AM, tłum. z ang.): wg GUR — produkcja/zapasy: Iskander-M 65/mies. (115), Kh-101 80/mies., Kalibr 29/mies. (450), RM-48U 40/mies. (do 400), Oniks 55 w 7 mies. 2026 (600), Cyrkon 30 w 2026 (120); OWA 10 000/mies. (zapas 6200): Geran-2 do 2000/mies., Geran-4/5 do 4000/mies., Gerbera setki/mies.
+• Technologia i sprzęt: Geran-4/5 (odrzutowe) = główny przyrost wolumenu OWA; modernizowany Iskander-M (prawdopodobnie 9M723) z zasięgiem 550–700 km; dane wg GUR cytowane przez RALee85 (źródło: NV, Pravda) — niezweryfikowane niezależnie.
+• Implikacja taktyczna: skala ~10 000 OWA/mies. wymusza ciągłą saturację C-UAS; wzrost udziału odrzutowych Geranów zmniejsza opłacalność przechwytów tanimi interceptorami napędzanymi śmigłowo.
+
+[2026-10-20] - [sternenko: SPRZĘT UA — SIGNUM: mid-range strike drony trafiły rosyjski okręt w Berdiańsku; uderzenia w głęboki tył (20 X 2026)] [@sternenko]
+URL: https://x.com/sternenko/status/2112513107599806687
+• @sternenko (20 X, tłum. z ukr.): żołnierze z jednostki SIGNUM uderzyli dronami mid-range w rosyjski okręt w okupowanym Berdiańsku; systematyczne cele w głębokim tyle: mobilne grupy ogniowe, ciężarówki, pojazdy osobowe i cargo. Wpis zawiera apel zbiórkowy (interceptory odrzutowych Szahedów) — treść o sprzęcie traktowana jako deklaracja autora.
+• Technologia i sprzęt: mid-range strike drone (zasięg 150+ km, klasa wcześniej opisywana w bazie) użyty przeciw celom morskim i logistycznym — rozszerzenie zastosowań poza cele lądowe.
+• Implikacja taktyczna: pokrycie celów morskich i logistyki w głębi przez drony średniego zasięgu = presja na tyły RU bez użycia rakiet; wymaga weryfikacji trafienia okrętu niezależnym źródłem.
+
+[2026-10-20] - [RALee85: TAKTYKA — Ćwiczenia US Army w Niemczech: ukraińscy piloci dronów jako wróg zadali 70% strat brygadzie pancernej w 3 dni (20 X 2026)] [@RALee85]
+URL: https://x.com/RALee85/status/2112543011280245026
+• @RALee85 (20 X, tłum. z ang.), cytuje Defence Blog: w grze wojennej US Army w Niemczech ukraińscy operatorzy dronów (strona przeciwna) spowodowali ok. 70% strat amerykańskiej brygady pancernej w pierwszych 3 dniach; po kolejnych 3 dniach udział spadł poniżej 30%.
+• Technologia i sprzęt: FPV/drony rozpoznawczo-uderzeniowe jako siła przeciwna w ćwiczeniu; RALee85 zaznacza, że podobne doświadczenia są z ćwiczeń NATO z ukraińskimi zespołami dronowymi. Liczby pochodzą z relacji medialnej — brak danych źródłowych.
+• Implikacja taktyczna: pierwsze 72 h to okno krytycznych strat; szybka adaptacja NATO po pierwszym szoku — wniosek dla szkolenia C-UAS i planowania dni 1–3 operacji.
+
+[2026-10-20] - [DarmolinskiT: SENSOR/TECH — Oprogramowanie kontrolerów lotu w dronach RU: własne firmware (TBF, G13, INAV) z funkcjami anty-spoof i optyczną nawigacją (20 X 2026)] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2112643267754184853
+• @DarmolinskiT (20 X, tłum. z pol.): analiza 10 000+ wpisów i komentarzy z 107 kanałów/grup technicznych Telegram (sty–paź 2026, źródła głównie RU i UA dot. elektroniki UAV): rozwój własnych wariantów firmware FC — TBF 8.2.3, G13, zmodyfikowane INAV zamiast standardowego Betaflight.
+• Technologia i sprzęt: obsługa dwóch niezależnych kanałów CRSF; funkcje anty-spoof, filtrowanie nieprawidłowych sygnałów, zmienione zachowanie w stanach awaryjnych; integracja nawigacji optycznej, LIDAR i estymacji pozycji ograniczającej zależność od GNSS; architektury z FC współpracującym z komputerem pokładowym (H743). Część funkcji niezweryfikowana, część eksperymentalna.
+• Implikacja taktyczna: przewaga platformy coraz częściej w oprogramowaniu FC, nie w samym sprzęcie; zakłócanie GNSS traci skuteczność wobec dronów z optycznym fallbackiem; UA/NATO potrzebują własnej ekspertyzy firmware, algorytmów sterowania i architektury awioniki.
+
 [2026-10-20] - [DarmolinskiT: SPRZĘT RU — Lancet jako pełny system rozpoznawczo-uderzeniowy, nie sam dron (20 X 2026)] [@DarmolinskiT]
 URL: https://x.com/DarmolinskiT/status/2112275195926860043
 • @DarmolinskiT (20 X, tłum. z pol.): wpis (ucięty w widoku) zatytułowany „Oko na wroga. Lancet, czyli nie tylko dron, ale cały system rozpoznawczo-uderzeniowy”.
