@@ -1,3 +1,39 @@
+[2026-10-29] - [sternenko: SPRZĘT UA — Neptun-D: uderzenie na lotnisko Marinowka (obw. wołgogradzki): dwa Su-34 zniszczone (29 X 2026)] [@sternenko]
+URL: https://x.com/sternenko/status/2115858037969682695
+• @sternenko (29 X, 18:27, tłum. z ukr.): ukraińskie pociski Neptun-D uderzyły na lotnisku Marinowka w obwodzie wołgogradzkim; wg autora zniszczono dwa Su-34, a potwierdzenie podała Marynarka Wojenna UA. Wstępnie: dwóch zabitych i dwóch rannych z 11. mieszanego pułku lotniczego. Autor podaje zasięg Neptuna 500+ km.
+• Technologia i sprzęt: Neptun-D w głębokim uderzeniu na lotnisko frontowe; zasięg 500+ km wg autora, bez danych technicznych o modyfikacji pocisku.
+• Implikacja taktyczna: rażenie samolotów taktycznych na lotnisku ponad 500 km w głębi RU — rozszerzenie zasięgu pocisków Neptun poza strefę przybrzeżną; wymaga niezależnego potwierdzenia strat.
+
+[2026-10-29] - [DarmolinskiT: TECHNOLOGIA / SPRZĘT RU — Lancet i system IRRA (ZALA): naprowadzanie na pokładzie i odporność na WRE (29 X 2026)] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2115839578485489817
+• @DarmolinskiT (29 X, tłum. z pol.): analiza materiału ZALA Aero z 7 IV 2026 o systemie IRRA — pokładowym rozpoznawaniu, śledzeniu i naprowadzaniu Lancetów: detekcja z kamer dziennej i termowizyjnej, korekta naprowadzania algorytmami wizyjnymi po zatwierdzeniu ataku przez operatora, kontynuacja naprowadzania po utracie łącza nawet przy aktywnym WRE. ZALA deklarowała ok. 500 udanych ataków na ruchome cele (czerwiec 2026), bez podania liczby prób i metodologii; CSIS opisuje funkcję „Ira”, ukraińscy specjaliści zgłaszają zastrzeżenia co do faktycznej autonomii.
+• Technologia i sprzęt: naprowadzanie wizyjne w końcowej fazie lotu Lancet, odporne na GNSS jamming; skuteczność zależy od sensorów, kontrastu termicznego i algorytmów.
+• Implikacja taktyczna: przeniesienie przetwarzania obrazu i śledzenia na pokład oznacza, że samo zerwanie kanału sterowania nie zawsze zatrzymuje atak; nie oznacza to odporności na każdą formę WRE, więc rośnie znaczenie kontrmiar wizyjnych i ochrony w fazie końcowej.
+
+[2026-10-27] - [DarmolinskiT: TECHNOLOGIA — Starlink na wojnie: jak UA wymusiła ewolucję łączności satelitarnej, Starlink PNT i ograniczenia operatora (27 X 2026)] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2114945871271899481
+• @DarmolinskiT (27 X, wątek 1/2 i 2/2, tłum. z pol.): Starlink trafił na front w 2022 r. jako łączność awaryjna, stał się narzędziem dowodzenia (HQ, stanowiska dowodzenia, platformy UAV/UGV/USV). Rosja zagłuszała pasmo Ku i GNSS w terminalu (spoofing). Ukraińscy inżynierowie od 2023 r. modyfikowali terminale: zewnętrzne aktywne anteny GNSS, CRPA, dodatkowa elektronika; test Kutkova: standard bez fixu przez 30 min, zmodyfikowany łapie 13 satelitów w 2 min.
+• Technologia i sprzęt: Starlink PNT — pozycjonowanie, nawigacja i synchronizacja czasu z własnej konstelacji LEO (czas propagacji sygnału, orbity, dane inercyjne); dokładność ok. 100 m kilka lat temu, ok. 20 m w 2026 wg prof. Humphreysa (UT Austin), w eksperymentach ok. 10 m z referencyjnymi stacjami. Wątek 2/2: od lutego 2026 whitelisty autoryzowanych terminali (po użyciu Starlinków przez RU na UAV); w połowie X UA zgłaszała limit prędkości ok. 160 km/h (dotyczy szybkich UAV i interceptorów); 24 X MON UA potwierdziło stabilne połączenie przy >400 km/h, bez ujawnienia zmian w konfiguracji.
+• Implikacja taktyczna: operator satelitarny może nie tylko dostarczać łączność, ale też weryfikować pozycję terminala, kontrolować mobilność i decydować o dostępie do usługi — to ryzyko dla każdego państwa budującego systemy UAV/UGV na cudzej infrastrukturze; odporność na EW wymaga niezależnego PNT, ale dokładność alternatywnego pozycjonowania pozostaje niższa niż precyzyjnego GNSS, a zagłuszanie samego kanału nadal rozłącza połączenie.
+
+[2026-10-23] - [sternenko: SPRZĘT UA — Proton (Oryol): uderzenie rakietowe w zakład produkujący komponenty elektroniczne do Iskander-M, Pancyr-S1 i czołgów (23 X 2026)] [@sternenko]
+URL: https://x.com/sternenko/status/2113642402703409619
+• @sternenko (23 X, 16:43, tłum. z ukr.): Siły Obrony uderzyły rakietami w zakład „Proton” w Orle; wg autora zakład produkuje komponenty elektroniczne wykorzystywane w rakietach Iskander-M, zestawach Pancyr-S1 i czołgach. Wpis zawiera 3 zdjęcia; skutków nie potwierdzono niezależnie.
+• Technologia i sprzęt: rażenie łańcucha dostaw elektroniki dla systemów rakietowych, OPL i pancerza — cel przemysłowy zamiast jednostek frontowych.
+• Implikacja taktyczna: jeśli skutki się potwierdzą, presja na produkcję elektroniki RU dla Iskanderów i Pancyrów; wymaga weryfikacji zdjęciami satelitarnymi i kolejnymi źródłami.
+
+[2026-10-23] - [RALee85: TAKTYKA UA — SSO: małe zespoły szturmowe z FPV na światłowodzie i DJI Avata 2 (23 X 2026)] [@RALee85]
+URL: https://x.com/RALee85/status/2113647101632475347
+• @RALee85 (23 X, 12h, tłum. z ang.): wpis o operacji jednego z innowacyjnych batalionów SSO, który jako pierwszy użył DJI Avata 2 i 5-calowych FPV na światłowodzie w szturmach; małe zespoły mogą pokonać większe siły przy planowaniu i efektywnym użyciu UAS przy niewielkich stratach. Cytuje nagranie SOF UA (Nowosielówka, kierunek Łyman: 25+ zabitych i 13 wziętych do niewoli w ciągu dwóch miesięcy, materiał archiwalny).
+• Technologia i sprzęt: DJI Avata 2 oraz 5-calowe FPV na światłowodzie w roli szturmowej; brak danych o skali użycia poza wpisem.
+• Implikacja taktyczna: FPV na światłowodzie są odporne na zakłócanie GNSS/radiowe, więc model szturmu wspierany dronami wymaga przeciwdziałania na poziomie zespołu i pododdziału, nie tylko sprzętowego; treść to przekaz autora.
+
+[2026-10-23] - [DarmolinskiT: TAKTYKA / SPRZĘT — Jemen: heksakopter Rujum zrzuca amunicję na czołg M1A2S Abrams (23 X 2026)] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2113489515755037019
+• @DarmolinskiT (23 X, 22h, tłum. z pol.): Houthi publikują nagrania ataków na siły wspierane przez Arabię Saudyjską; jedno z nich pokazuje trafienie amerykańskiego M1A2S Abrams amunicją zrzuconą z drona Rujum, eksplozję i pożar w tylnej części wieży. Uszkodzenia niepotwierdzone niezależnie.
+• Technologia i sprzęt: Rujum to ciężki heksakopter (klasa cywilnych konstrukcji) do obserwacji i zrzutu amunicji, pokazany przez Houthi w marcu 2021; w kolejnych nagraniach ataki na pancerz, pozycje i formacje, z rozpoznaniem dronowym w pętli.
+• Implikacja taktyczna: tani multirotor z rozpoznaniem i zrzutem amunicji zdolny trafić czołg; wg nagrań ani EW, ani OPL saudyjskie nie zapobiegły uderzeniom — wymusza ochronę pancerza przed atakami z góry.
+
 [2026-10-26] - [RALee85: TAKTYKA UA — Code 9.2: dwie misje CASEVAC dronem StarGate w ciągu tygodnia (ok. 26 X 2026)] [@RALee85]
 URL: https://x.com/RALee85/status/2114754007784710479
 • @RALee85 (ok. 26 X, 11h przed zrzutem, tłum. z ang.): jednostka Code 9.2 wykonała dwie powietrzne misje CASEVAC w ciągu tygodnia dronem StarGate; wpis zawiera nagranie 4:57 min (Instagram).
