@@ -1,3 +1,27 @@
+[2026-11-05] - [sternenko: SPRZĘT / TAKTYKA UA — Drony dalekiego zasięgu niszczą skład uzbrojenia rakietowo-artyleryjskiego i bazę remontową na okupowanych terenach (5 XI 2026)] [@sternenko]
+URL: https://x.com/sternenko/status/2118321215404216791
+• @sternenko (5 XI, tłum. z ukr.): Siły Obrony UA dronami, które przeleciały duży dystans od linii frontu, zniszczyły skład uzbrojenia rakietowo-artyleryjskiego i bazę remontową z kilkoma okupantami na tymczasowo okupowanych terenach.
+• Technologia i sprzęt: głębokie uderzenia dronami dalekiego zasięgu; typ drona nieujawniony w źródle.
+• Implikacja taktyczna: przesunięcie rażenia na tyły okupanta, w tym zaplecze remontowe i składy amunicji rakietowo-artyleryjskiej — skala i wynik wymagają niezależnego potwierdzenia; wpis zawiera apel o zbiórkę funduszy.
+
+[2026-11-05] - [RALee85: SPRZĘT RU — Rosja zgodziła się dostarczyć Iranowi 90 wyrzutni do zaawansowanych pocisków kierowanych (5 XI 2026)] [@RALee85]
+URL: https://x.com/RALee85/status/2118286382632460744
+• @RALee85 (5 XI, tłum. z ang.): cytowany przekaz — Rosja zgodziła się dostarczyć Iranowi 90 wyrzutni do zaawansowanych pocisków kierowanych; fragment wpisu ucięty w widoku, pełny tekst niedostępny.
+• Technologia i sprzęt: wyrzutnie do zaawansowanych pocisków kierowanych; konkretny typ systemu nieopisany w dostępnym fragmencie.
+• Implikacja taktyczna: transfer sprzętu rakietowego z Rosji do Iranu może wpływać na dostępność uzbrojenia precyzyjnego w regionie — brak niezależnego potwierdzenia skali.
+
+[2026-11-04] - [DarmolinskiT: TECHNOLOGIA — Przewaga technologiczna się wyczerpuje: Hornety, Starshield i odrzutowe Geran (4 XI 2026)] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2118049506763624544
+• @DarmolinskiT (4 XI, tłum. z ang.): autor pisze, że entuzjazm wokół amerykańskich Hornetów na Ukrainie wygasł, bo Rosjanie dostosowali obronę i opracowali środki przechwytywania; problemy ze Starshield pokazały ryzyko polegania na jednym systemie łączności. Analogiczny zachwyt budzą odrzutowe Geran, rozwijane o nawigację, autonomię i mesh networking.
+• Technologia i sprzęt: odrzutowe Geran z zaawansowaną nawigacją, autonomią i siecią mesh; Starshield jako pojedyncze źródło łączności; autor wskazuje zaniedbanie domeny łączności na Ukrainie i zakupy systemów w ramach SAFE w Polsce.
+• Implikacja taktyczna: przewaga technologiczna jest krótkotrwała; odporność łączności (wielotorowość, niezależne PNT) i szybka adaptacja środków przechwytywania stają się głównym czynnikiem skuteczności — ocena autora, bez niezależnego potwierdzenia skali.
+
+[2026-11-04] - [RALee85: TAKTYKA UA — Pancerny pojazd jako buldożer usuwa wraki UGV i pojazdów z dróg (4 XI 2026)] [@RALee85]
+URL: https://x.com/RALee85/status/2117939857230086457
+• @RALee85 (4 XI, tłum. z ang.): wideo z 100. brygady zmechanizowanej UA — pojazd opancerzony przystosowany do roli buldożera czyści drogi z wraków UGV i pojazdów.
+• Technologia i sprzęt: adaptacja pojazdu opancerzonego do zadań inżynieryjnych; szczegóły modyfikacji nieopisane w źródle.
+• Implikacja taktyczna: wraki blokujące drogi wymuszają wolniejszy ruch w strefie rażenia rosyjskich FPV; usuwanie przeszkód pojazdem pancernym ogranicza ekspozycję piechoty — skala i skuteczność wymagają niezależnego potwierdzenia.
+
 [2026-11-03] - [RALee85: TAKTYKA UA — Jak-52 strzelają do dronów OWA i ISR: zestrzeliwanie z samolotów śmigłowych (3 XI 2026)] [@RALee85]
 URL: https://x.com/RALee85/status/2117596518362530085
 • @RALee85 (3 XI, tłum. z ang.): żołnierze 11. brygady lotnictwa armijnego UA zestrzeliwali drony OWA i ISR z samolotów Jak-52; wpis zawiera wyłącznie link do nagrania Instagram.
