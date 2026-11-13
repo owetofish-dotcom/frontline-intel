@@ -1,3 +1,21 @@
+[2026-11-12] - [RALee85: TAKTYKA RU/UA — Rosja tworzy brygadę interceptorów; 800 załóg w AO grupowania Azow, Ukraina musi innowować (12 XI 2026)] [@RALee85]
+URL: https://x.com/RALee85/status/2120811932395647456
+• @RALee85 (12 XI, tłum. z ang.): w odpowiedzi na kampanię middle strike Rosja adaptuje się — Grupa Sił Centrum utworzyła brygadę interceptorów, a w AO grupowania Azow działa 800 załóg interceptorów; ograniczenie prędkości ma ograniczyć możliwości Ukrainy (wpis ucięty w widoku).
+• Technologia i sprzęt: interceptory (drony przechwytujące) jako warstwa obrony przed dronami middle strike; ograniczenia prędkości w strefie działania.
+• Implikacja taktyczna: przewaga kampanii middle strike się kurczy — Ukraina musi stale wprowadzać zmiany, bo większa gęstość interceptorów wymusza nowe profile lotu i tempo uderzeń; ocena autora, bez niezależnego potwierdzenia skali.
+
+[2026-11-12] - [RALee85: TECHNOLOGIA / SPRZĘT UA — Ograniczenie prędkości Starshield do 160 km/h na okupowanych terenach utrudnia drony middle strike (12 XI 2026)] [@RALee85]
+URL: https://x.com/RALee85/status/2120808689573724456
+• @RALee85 (12 XI, tłum. z ang.): relacja z jednostki (rozmowa w poniedziałek) potwierdza limit 160 km/h dla Starshield, szczególnie na terenach okupowanych; wpływa to na drony middle strike, ułatwiając ich przechwycenie. Post cytuje też wpis Zełenskiego o zakłóceniach działania Starshield na terytorium Ukrainy.
+• Technologia i sprzęt: Starshield jako łączność/nawigacja dronów; ograniczenie prędkości w strefie okupowanej; typ drona middle strike bez szczegółów platformy.
+• Implikacja taktyczna: limit prędkości zwiększa podatność dronów middle strike na przechwycenie i obniża ich zasięg operacyjny; ryzyko zależności od jednego systemu łączności; skala nieopisana, bez danych ilościowych.
+
+[2026-11-12] - [DarmolinskiT: TECHNOLOGIA / SPRZĘT — Bundeswehra wycofuje chińskie drony szkoleniowe; problem to suwerenność technologiczna, nie samo DJI (12 XI 2026)] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2120769786632138869
+• @DarmolinskiT (12 XI, tłum. z pol.): Ministerstwo Obrony Niemiec potwierdziło wycofanie chińskich komercyjnych dronów używanych do szkolenia żołnierzy; zastąpią je konstrukcje niemieckie i europejskie. Powód: ryzyko bezpieczeństwa informacji (niekontrolowany zbiór i transmisja danych o infrastrukturze, ćwiczeniach i uzbrojeniu).
+• Technologia i sprzęt: architektura transmisji danych, telemetria, usługi chmurowe, aktualizacje oprogramowania i możliwość audytu firmware; sama europejska etykieta nie oznacza kontroli nad technologią (elektronika, oprogramowanie, łączność, łańcuch dostaw).
+• Implikacja taktyczna: przy ocenie BSP liczy się niezależność oprogramowania i łączności, nie kraj montażu; wpis cytuje Der Spiegel i Reuters (10–11 XI 2026).
+
 [2026-11-11] - [DarmolinskiT: TAKTYKA RU — Restrukturyzacja rosyjskich sił bezzałogowych: z jednostek elitarnych do etatowych brygad i masowego modelu (11 XI 2026)] [@DarmolinskiT]
 URL: https://x.com/DarmolinskiT/status/2120323554226966913
 • @DarmolinskiT (11 XI, tłum. z pol.): Siły Zbrojne FR przechodzą kolejny etap transformacji — model wyspecjalizowanych jednostek zastępowany stałymi strukturami zintegrowanymi z systemem dowodzenia armii; powstają brygady systemów bezzałogowych i rozbudowa pułków/batalionów.
