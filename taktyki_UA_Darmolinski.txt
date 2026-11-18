@@ -1,3 +1,15 @@
+[2026-11-17] - [DarmolinskiT: TECHNOLOGIA / SPRZĘT — Kontrola elektroniki UAV: kontroler STM32F722 przedstawiany jako przełom to krytyka claimów; branża przechodzi na H743/H745/H755 (17 XI 2026)] [@DarmolinskiT]
+URL: https://x.com/DarmolinskiT/status/2122556767750050238
+• @DarmolinskiT (17 XI, tłum. z pol.): komentarz do wpisu @korzonek (Quantum Quest, testy IWBSU); autor krytykuje prezentację kontrolera opartego na STM32F722 (216 MHz, 512 KB Flash) jako osiągnięcia technologicznego roku 2026; wskazuje, że Betaflight zaleca H743 dla nowszych konstrukcji, a rozwijane są architektury dwurdzeniowe H745/H755; wspomina ekosystem polskiego AeroThink (kontrolery F405/F722/H743, ESC 60A/120A, elektronika wideo).
+• Technologia i sprzęt: różnica między zdolnościami MCU (F7 vs H7, liczba rdzeni, pamięć) jako parametr konkurencyjności elektroniki dronów; wpis dotyczy kontrolerów lotu, nie podaje danych o skali wdrożeń.
+• Implikacja taktyczna: przy ocenie polskiej elektroniki BSP znaczenie ma poziom zaawansowania MCU i ekosystemu, a nie sam fakt krajowej produkcji; ocena autora, bez niezależnego potwierdzenia.
+
+[2026-11-13] - [sternenko: SPRZĘT UA — Ponad 300 000 dronów FPV zakupionych dla sił zbrojnych; wpis zapowiada kontynuację (13 XI 2026)] [@sternenko]
+URL: https://x.com/sternenko/status/2121254601445818729
+• @sternenko (13 XI, tłum. z ukr.): zbiórka/zakup ponad 300 000 dronów FPV dla wojska; wpis z 12 XI (kontynuacja tego samego wątku) podaje szacunek ponad 100 000 uderzeń i zapowiada dalsze wpisy („THERE'S MORE TO COME").
+• Technologia i sprzęt: masowe wdrożenie FPV jako podstawowego sprzętu uderzeniowego; wpis nie podaje modeli, specyfikacji ani źródeł dostaw.
+• Implikacja taktyczna: skala zakupów wskazuje na przejście do modelu masowego użycia dronów; szacunek strat wroga i liczby uderzeń to ocena autora, bez niezależnego potwierdzenia.
+
 [2026-11-12] - [RALee85: TAKTYKA RU/UA — Rosja tworzy brygadę interceptorów; 800 załóg w AO grupowania Azow, Ukraina musi innowować (12 XI 2026)] [@RALee85]
 URL: https://x.com/RALee85/status/2120811932395647456
 • @RALee85 (12 XI, tłum. z ang.): w odpowiedzi na kampanię middle strike Rosja adaptuje się — Grupa Sił Centrum utworzyła brygadę interceptorów, a w AO grupowania Azow działa 800 załóg interceptorów; ograniczenie prędkości ma ograniczyć możliwości Ukrainy (wpis ucięty w widoku).
